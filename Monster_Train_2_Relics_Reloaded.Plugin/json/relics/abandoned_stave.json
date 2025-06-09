@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "AbandonedStave",
+      "type": "collectable",
+      "names": {
+        "english": "Abandoned Stave"
+      },
+      "descriptions": {
+        "english": "+1[ember] per turn for every [effect0.power] [blight] cards in your deck."
+      },
+      "lore_tooltips": [
+        {
+          "english": "After Seraph invaded Hell, Fel left me to support his cause much more eagerly than I'd expected. Before she left, Fel gave me this stave to assist in the fights ahead. I never saw her again."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@AbandonedStaveEffect"
+        }
+      ],
+      "icon": "@AbandonedStaveIcon",
+      "icon_small": "@AbandonedStaveIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "rare"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "AbandonedStaveIcon",
+      "path": "textures/BSG_AbandonedStave.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "AbandonedStaveEffect",
+      "name": "RelicEffectModifyEnergyScaling",
+      "param_int": 2,
+      "param_bool": true,
+      "param_card_type": "blight"
+    }
+  ]
+}

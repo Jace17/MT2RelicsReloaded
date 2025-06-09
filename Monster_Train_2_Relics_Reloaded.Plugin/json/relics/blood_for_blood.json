@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "BloodForBlood",
+      "type": "collectable",
+      "names": {
+        "english": "Blood for Blood"
+      },
+      "descriptions": {
+        "english": "When your Pyre kills a unit, restore [effect0.power] Pyre health."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Prior to the Covenant, the creation of these Pyre artifacts was commonplace, but dangerous. This led to widespread chaos and the eventual creation of the Covenant."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@BloodForBloodEffect"
+        }
+      ],
+      "icon": "@BloodForBloodIcon",
+      "icon_small": "@BloodForBloodIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "BloodForBloodIcon",
+      "path": "textures/BSG_BloodForBlood.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "BloodForBloodEffect",
+      "name": "RelicEffectHealTrainOnPyreKill",
+      "source_team": "monsters",
+      "param_int": 5
+    }
+  ]
+}

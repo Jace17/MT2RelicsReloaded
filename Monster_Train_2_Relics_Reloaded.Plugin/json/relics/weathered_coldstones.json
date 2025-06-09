@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "WeatheredColdstones",
+      "type": "collectable",
+      "names": {
+        "english": "Weathered Coldstones"
+      },
+      "descriptions": {
+        "english": "When you play a [blight] card, restore [effect0.power] Pyre health."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Of the same ilk as the Pyre, these coldstones have been transformed by the freezing of Hell. They now emanate icy frost instead of Hellish heat."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@WeatheredColdstonesEffect"
+        }
+      ],
+      "icon": "@WeatheredColdstonesIcon",
+      "icon_small": "@WeatheredColdstonesIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "WeatheredColdstonesIcon",
+      "path": "textures/BSG_WeatheredColdstone.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "WeatheredColdstonesEffect",
+      "name": "RelicEffectTrainHealOnCardPlay",
+      "param_int": 5,
+      "param_card_type": "blight"
+    }
+  ]
+}

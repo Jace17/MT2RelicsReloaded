@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "RailforgersHammer",
+      "type": "collectable",
+      "names": {
+        "english": "Railforger's Hammer"
+      },
+      "descriptions": {
+        "english": "+[effect0.power][capacity] on each floor."
+      },
+      "lore_tooltips": [
+        {
+          "english": "My time has come to an end. Hell fades into the cold as the Covenant and Rail are no longer intact. The Boneshaker is ready to take Hell and its Champions through the wasteland and succeed where I have failed. May this hammer serve as a reminder of the peace that could exist and the promise that can be forged again."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@RailforgersHammerEffect"
+        }
+      ],
+      "icon": "@RailforgersHammerIcon",
+      "icon_small": "@RailforgersHammerIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "champion"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "RailforgersHammerIcon",
+      "path": "textures/BSG_Hammer.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "RailforgersHammerEffect",
+      "name": "RelicEffectChangeFloorCapacity",
+      "param_int": 1
+    }
+  ]
+}

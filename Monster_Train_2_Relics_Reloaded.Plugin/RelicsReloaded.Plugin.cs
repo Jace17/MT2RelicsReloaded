@@ -25,6 +25,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
                     c.AddMergedJsonFile(
                         "json/plugin.json",
                         "json/global.json",
+                        // Clanless Artifacts 
                         "json/relics/advanced_prototype.json",
                         "json/relics/boon_of_the_blacksmith.json",
                         "json/relics/cheaters_hand.json",
@@ -47,7 +48,23 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
                         "json/relics/the_first_hellpact.json",
                         "json/relics/vapor_funnel.json",
                         "json/relics/winged_indulgence.json",
-                        "json/relics/worn_grindstone.json"
+                        "json/relics/worn_grindstone.json",
+                        // Event Artifacts
+                        "json/relics/abandoned_stave.json",
+                        "json/relics/blood_for_blood.json",
+                        "json/relics/cracked_helmet.json",
+                        "json/relics/dantes_cloak.json",
+                        "json/relics/ember_stasis.json",
+                        "json/relics/frozen_nostalgia.json",
+                        "json/relics/heavens_gold.json",
+                        "json/relics/history_of_the_world.json",
+                        "json/relics/immortality_potion.json",
+                        "json/relics/penitent_remains.json",
+                        "json/relics/petrified_heart.json",
+                        "json/relics/railforgers_hammer.json",
+                        "json/relics/shard_of_divinity.json",
+                        "json/relics/vial_of_tears.json",
+                        "json/relics/weathered_coldstones.json"
                     );
                 }
             );

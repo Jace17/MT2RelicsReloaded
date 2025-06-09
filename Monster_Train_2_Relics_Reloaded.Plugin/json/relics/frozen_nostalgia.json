@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "FrozenNostalgia",
+      "type": "collectable",
+      "names": {
+        "english": "Frozen Nostalgia"
+      },
+      "descriptions": {
+        "english": "[effect0.power][capacity] on each floor. +[effect1.power] [magicpower]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "My heart and my life. I only hope that you can learn from an old man’s mistakes."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@FrozenNostalgiaEffectChangeFloorCapacity"
+        },
+        {
+          "id": "@FrozenNostalgiaEffectModifyCardMagicalPower"
+        }
+      ],
+      "icon": "@FrozenNostalgiaIcon",
+      "icon_small": "@FrozenNostalgiaIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "FrozenNostalgiaIcon",
+      "path": "textures/BSG_FrozenNostalgia.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "FrozenNostalgiaEffectChangeFloorCapacity",
+      "name": "RelicEffectChangeFloorCapacity",
+      "param_int": -1
+    },
+    {
+      "id": "FrozenNostalgiaEffectModifyCardMagicalPower",
+      "name": "RelicEffectModifyCardMagicalPower",
+      "param_int": 15
+    }
+  ]
+}

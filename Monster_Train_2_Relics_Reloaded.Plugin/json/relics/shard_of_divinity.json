@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "ShardOfDivinity",
+      "type": "collectable",
+      "names": {
+        "english": "Shard of Divinity"
+      },
+      "descriptions": {
+        "english": "Your Pyre starts each battle with [armor] [effect0.status0.power]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "When the Divinities come back, and they will, you must accept the Pact they put forth. It will make things harder. It may make time act...strange. But each Shard given out of their gratitude is a piece of Divinity itself and will offer some protection. This will buy you time, and that’s all it seems I am fit to provide anymore. But, perhaps, that will be enough."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@ShardOfDivinityEffect"
+        }
+      ],
+      "icon": "@ShardOfDivinityIcon",
+      "icon_small": "@ShardOfDivinityIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "champion"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "ShardOfDivinityIcon",
+      "path": "textures/BSG_ShardsofDivinity.png"
+    } 
+  ],
+  "relic_effects": [
+    {
+      "id": "ShardOfDivinityEffect",
+      "name": "RelicEffectAddStatusEffectOnSpawn",
+      "source_team": "monsters",
+      "param_subtype": "SubtypesData_Pyre",
+      "param_trigger": "on_spawn",
+      "param_status_effects": [
+        {
+          "status": "armor",
+          "count": 100
+        }
+      ]
+    }
+  ]
+}

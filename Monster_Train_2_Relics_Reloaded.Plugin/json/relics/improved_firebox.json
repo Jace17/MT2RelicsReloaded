@@ -21,6 +21,7 @@
           "id": "@ImprovedFireboxEffect"
         }
       ],
+      "disallow_in_deployment": true,
       "icon": "@ImprovedFireboxIcon",
       "icon_small": "@ImprovedFireboxIcon",
       "extensions": [

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "PenitentRemains",
+      "type": "collectable",
+      "names": {
+        "english": "Penitent Remains"
+      },
+      "descriptions": {
+        "english": "When summoned, friendly units get +[effect0.power][attack] for every [blight] card in your deck."
+      },
+      "lore_tooltips": [
+        {
+          "english": "I have yet to hear of a sinner from Hell released from the confines of Penance. It seems that the Winged have a skewed sense of morality when it comes to those outside their kind."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@PenitentRemainsEffect"
+        }
+      ],
+      "icon": "@PenitentRemainsIcon",
+      "icon_small": "@PenitentRemainsIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "PenitentRemainsIcon",
+      "path": "textures/BSG_PenitentRemains.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "PenitentRemainsEffect",
+      "name": "RelicEffectModifyCharacterAttackDamage",
+      "source_team": "monsters",
+      "param_int": 2,
+      "param_bool": true,
+      "param_trigger": "on_spawn",
+      "param_card_type": "blight"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "HeavensGold",
+      "type": "collectable",
+      "names": {
+        "english": "Heaven's Gold"
+      },
+      "descriptions": {
+        "english": "Your Pyre gets +1[attack] for every [effect0.power][coin] you have."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Their coin has no value here. What better use is there than to pelt the Winged with it?"
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@HeavensGoldEffect"
+        }
+      ],
+      "icon": "@HeavensGoldIcon",
+      "icon_small": "@HeavensGoldIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "HeavensGoldIcon",
+      "path": "textures/BSG_HeavensGold.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "HeavensGoldEffect",
+      "name": "RelicEffectTowerDamageDealtGoldScaling",
+      "param_int": 10
+    }
+  ]
+}

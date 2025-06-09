@@ -1,0 +1,101 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "PetrifiedHeart",
+      "type": "collectable",
+      "names": {
+        "english": "Petrified Heart"
+      },
+      "descriptions": {
+        "english": "Friendly units get +[effect0.power][health] and [heal_immune]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "An ancient heart, petrified in the woods of the Wildwood. It still beats coldly. Endlessly."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@PetrifiedHeartEffectHealth"
+        },
+        {
+          "id": "@PetrifiedHeartEffectMaxHealth"
+        },
+        {
+          "id": "@PetrifiedHeartEffectAddStatusEffect"
+        },
+        {
+          "id": "@PetrifiedHeartEffectAddTempUpgrade"
+        }
+      ],
+      "icon": "@PetrifiedHeartIcon",
+      "icon_small": "@PetrifiedHeartIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "PetrifiedHeartIcon",
+      "path": "textures/BSG_HeartOfStone.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "PetrifiedHeartEffectHealth",
+      "name": "RelicEffectModifyCardHealth",
+      "source_team": "monsters",
+      "param_int": 10,
+      "param_trigger": "on_spawn",
+      "param_card_type": "monster"
+    },
+    {
+      "id": "PetrifiedHeartEffectMaxHealth",
+      "name": "RelicEffectModifyCharacterMaxHealth",
+      "source_team": "monsters",
+      "param_int": 10,
+      "param_trigger": "on_spawn_not_from_card"
+    },
+    {
+      "id": "PetrifiedHeartEffectAddStatusEffect",
+      "name": "RelicEffectAddStatusEffectOnSpawn",
+      "source_team": "monsters",
+      "param_string": "NoCard",
+      "param_status_effects": [
+        {
+          "status": "heal immunity",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "PetrifiedHeartEffectAddTempUpgrade",
+      "name": "RelicEffectAddTempUpgrade",
+      "source_team": "monsters",
+      "param_upgrade": "@PetrifiedHeartUpgrade"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "PetrifiedHeartUpgrade",
+      "status_effect_upgrades": [
+        {
+          "status": "heal immunity",
+          "count": 1
+        }
+      ],
+      "filters": [
+        "OnlyUnit"
+      ]
+    }
+  ]
+}

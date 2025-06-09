@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "VialOfTears",
+      "type": "collectable",
+      "names": {
+        "english": "Vial of Tears"
+      },
+      "descriptions": {
+        "english": "At end of turn, restore [effect0.power] health to friendly units."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Herzal, my first friend. I can never forgive myself for what they did to you, nor for allowing it to happen. With all my remaining strength, I will never let harm fall upon Heph. I promise this to you, Herzal."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@VialOfTearsEffect"
+        }
+      ],
+      "icon": "@VialOfTearsIcon",
+      "icon_small": "@VialOfTearsIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "VialOfTearsIcon",
+      "path": "textures/BSG_VialOfTears.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "VialOfTearsEffect",
+      "name": "RelicEffectDamageOrHealUnitsEndOfTurn",
+      "source_team": "monsters",
+      "param_int": 5,
+      "param_bool": true
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "ImmortalityPotion",
+      "type": "collectable",
+      "names": {
+        "english": "Immortality Potion"
+      },
+      "descriptions": {
+        "english": "Friendly non-Morsel units get [endless]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Picture this scenario: You die, go to the Afterlife, and live forevermore. Fantastic! Except now I’ve made it so you can die again. What even happens if you die twice? I have yet to die once!"
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@ImmortalityPotionEffect"
+        }
+      ],
+      "icon": "@ImmortalityPotionIcon",
+      "icon_small": "@ImmortalityPotionIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "ImmortalityPotionIcon",
+      "path": "textures/BSG_ImmortalityPotion.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "ImmortalityPotionEffect",
+      "name": "RelicEffectAddTempUpgrade",
+      "source_team": "monsters",
+      "param_int": -1,
+      "param_status_effects": [
+        {
+          "status": "endless",
+          "count": 1
+        }
+      ],
+      "param_upgrade": "@ImmortalityPotionUpgrade"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "ImmortalityPotionUpgrade",
+      "status_effect_upgrades": [
+        {
+          "status": "endless",
+          "count": 1
+        }
+      ],
+      "filters": [
+        "OnlyUnit",
+        "@ImmortalityPotionFilter"
+      ]
+    }
+  ],
+  "upgrade_masks": [
+    {
+      "id": "ImmortalityPotionFilter",
+      "card_type": "monster",
+      "excluded_subtypes": [
+        "SubtypesData_Snack"
+      ]
+    }
+  ]
+}
