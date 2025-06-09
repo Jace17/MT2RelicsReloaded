@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@ConcussiveCoalsIcon",
-      "icon_small": "@ConcussiveCoalsIcon",
+      "icon_small": "@ConcussiveCoalsIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "ConcussiveCoalsIcon",
       "path": "textures/BSG_ConcussiveCoals.png"
+    },
+    {
+      "id": "ConcussiveCoalsIconHUD",
+      "path": "textures/HUD/BSG_ConcussiveCoals.png"
     }
   ],
   "relic_effects": [

@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@TemperedTalismanIcon",
-      "icon_small": "@TemperedTalismanIcon",
+      "icon_small": "@TemperedTalismanIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,13 +38,17 @@
     {
       "id": "TemperedTalismanIcon",
       "path": "textures/BSG_TemperedTalisman.png"
+    },
+    {
+      "id": "TemperedTalismanIconHUD",
+      "path": "textures/HUD/BSG_TemperedTalisman.png"
     }
   ],
   "relic_effects": [
     {
       "id": "TemperedTalismanEffect",
       "name": "RelicEffectModifyCardMagicalPower",
-      "param_int": 3
+      "param_int": 10
     }
   ]
 }

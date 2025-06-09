@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@BoonOfTheBlacksmithIcon",
-      "icon_small": "@BoonOfTheBlacksmithIcon",
+      "icon_small": "@BoonOfTheBlacksmithIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "BoonOfTheBlacksmithIcon",
       "path": "textures/BSG_BoonOfTheBlacksmith.png"
+    },
+    {
+      "id": "BoonOfTheBlacksmithIconHUD",
+      "path": "textures/HUD/BSG_BoonOfTheBlacksmith.png"
     }
   ],
   "relic_effects": [

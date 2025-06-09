@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@AbandonedStaveIcon",
-      "icon_small": "@AbandonedStaveIcon",
+      "icon_small": "@AbandonedStaveIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "AbandonedStaveIcon",
       "path": "textures/BSG_AbandonedStave.png"
+    },
+    {
+      "id": "AbandonedStaveIconHUD",
+      "path": "textures/HUD/BSG_AbandonedStave.png"
     }
   ],
   "relic_effects": [

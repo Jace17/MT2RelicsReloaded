@@ -31,7 +31,7 @@
         }
       ],
       "icon": "@PetrifiedHeartIcon",
-      "icon_small": "@PetrifiedHeartIcon",
+      "icon_small": "@PetrifiedHeartIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -47,6 +47,10 @@
     {
       "id": "PetrifiedHeartIcon",
       "path": "textures/BSG_HeartOfStone.png"
+    },
+    {
+      "id": "PetrifiedHeartIconHUD",
+      "path": "textures/HUD/BSG_HeartOfStone.png"
     }
   ],
   "relic_effects": [

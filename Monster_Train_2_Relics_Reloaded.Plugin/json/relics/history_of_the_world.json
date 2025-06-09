@@ -25,7 +25,7 @@
         }
       ],
       "icon": "@HistoryOfTheWorldIcon",
-      "icon_small": "@HistoryOfTheWorldIcon",
+      "icon_small": "@HistoryOfTheWorldIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -41,6 +41,10 @@
     {
       "id": "HistoryOfTheWorldIcon",
       "path": "textures/BSG_HistoryOfTheWorld.png"
+    },
+    {
+      "id": "HistoryOfTheWorldIconHUD",
+      "path": "textures/HUD/BSG_HistoryOfTheWorld.png"
     }
   ],
   "relic_effects": [

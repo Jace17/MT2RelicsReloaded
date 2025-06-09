@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@EmberStasisIcon",
-      "icon_small": "@EmberStasisIcon",
+      "icon_small": "@EmberStasisIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,15 +38,20 @@
     {
       "id": "EmberStasisIcon",
       "path": "textures/BSG_EmberStasis.png"
+    },
+    {
+      "id": "EmberStasisIconHUD",
+      "path": "textures/HUD/BSG_EmberStasis.png"
     }
   ],
   "relic_effects": [
     {
       "id": "EmberStasisEffect",
-      "name": "RelicEffectDamageOnCardPlayed", 
+      "name": "RelicEffectDamageOnCardPlayed",
       "source_team": "heroes",
       "param_int": 120,
-      "param_card_type": "blight"
+      "param_card_type": "blight",
+      "target_mode": "front_in_room"
     }
   ]
 }

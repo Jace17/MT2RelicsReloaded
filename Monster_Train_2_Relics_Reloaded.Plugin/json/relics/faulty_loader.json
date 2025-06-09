@@ -24,8 +24,9 @@
           "id": "@FaultyLoaderEffectMeleeWeakness"
         }
       ],
+      "disallow_in_deployment": true,
       "icon": "@FaultyLoaderIcon",
-      "icon_small": "@FaultyLoaderIcon",
+      "icon_small": "@FaultyLoaderIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -41,6 +42,10 @@
     {
       "id": "FaultyLoaderIcon",
       "path": "textures/BSG_FaultyLoader.png"
+    },
+    {
+      "id": "FaultyLoaderIconHUD",
+      "path": "textures/HUD/BSG_FaultyLoader.png"
     }
   ],
   "relic_effects": [

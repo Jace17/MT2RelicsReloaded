@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@IronDropcageIcon",
-      "icon_small": "@IronDropcageIcon",
+      "icon_small": "@IronDropcageIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "IronDropcageIcon",
       "path": "textures/BSG_IronDropcage.png"
+    },
+    {
+      "id": "IronDropcageIconHUD",
+      "path": "textures/HUD/BSG_IronDropcage.png"
     }
   ],
   "relic_effects": [

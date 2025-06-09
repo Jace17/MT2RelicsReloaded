@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@WornGrindstoneIcon",
-      "icon_small": "@WornGrindstoneIcon",
+      "icon_small": "@WornGrindstoneIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "WornGrindstoneIcon",
       "path": "textures/BSG_GrindingStone.png"
+    },
+    {
+      "id": "WornGrindstoneIconHUD",
+      "path": "textures/HUD/BSG_GrindingStone.png"
     }
   ],
   "relic_effects": [

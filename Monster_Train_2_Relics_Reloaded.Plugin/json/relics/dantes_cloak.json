@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@DantesCloakIcon",
-      "icon_small": "@DantesCloakIcon",
+      "icon_small": "@DantesCloakIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "DantesCloakIcon",
       "path": "textures/BSG_DantesCloak.png"
+    },
+    {
+      "id": "DantesCloakIconHUD",
+      "path": "textures/HUD/BSG_DantesCloak.png"
     }
   ],
   "relic_effects": [

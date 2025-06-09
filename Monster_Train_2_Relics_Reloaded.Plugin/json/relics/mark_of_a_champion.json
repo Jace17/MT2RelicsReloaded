@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@MarkOfAChampionIcon",
-      "icon_small": "@MarkOfAChampionIcon",
+      "icon_small": "@MarkOfAChampionIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "MarkOfAChampionIcon",
       "path": "textures/BSG_MarkOfAChampion.png"
+    },
+    {
+      "id": "MarkOfAChampionIconHUD",
+      "path": "textures/HUD/BSG_MarkOfAChampion.png"
     }
   ],
   "relic_effects": [

@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@ImmortalityPotionIcon",
-      "icon_small": "@ImmortalityPotionIcon",
+      "icon_small": "@ImmortalityPotionIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "ImmortalityPotionIcon",
       "path": "textures/BSG_ImmortalityPotion.png"
+    },
+    {
+      "id": "ImmortalityPotionIconHUD",
+      "path": "textures/HUD/BSG_ImmortalityPotion.png"
     }
   ],
   "relic_effects": [

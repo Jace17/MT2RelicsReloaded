@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@RailforgersHammerIcon",
-      "icon_small": "@RailforgersHammerIcon",
+      "icon_small": "@RailforgersHammerIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "RailforgersHammerIcon",
       "path": "textures/BSG_Hammer.png"
+    },
+    {
+      "id": "RailforgersHammerIconHUD",
+      "path": "textures/HUD/BSG_Hammer.png"
     }
   ],
   "relic_effects": [

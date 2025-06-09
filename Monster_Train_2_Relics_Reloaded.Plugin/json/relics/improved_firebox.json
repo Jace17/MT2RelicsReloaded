@@ -23,7 +23,7 @@
       ],
       "disallow_in_deployment": true,
       "icon": "@ImprovedFireboxIcon",
-      "icon_small": "@ImprovedFireboxIcon",
+      "icon_small": "@ImprovedFireboxIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -39,6 +39,10 @@
     {
       "id": "ImprovedFireboxIcon",
       "path": "textures/BSG_FurnaceAddition.png"
+    },
+    {
+      "id": "ImprovedFireboxIconHUD",
+      "path": "textures/HUD/BSG_FurnaceAddition.png"
     }
   ],
   "relic_effects": [

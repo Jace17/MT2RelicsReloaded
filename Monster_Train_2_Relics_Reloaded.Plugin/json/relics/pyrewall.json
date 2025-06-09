@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@PyrewallIcon",
-      "icon_small": "@PyrewallIcon",
+      "icon_small": "@PyrewallIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "PyrewallIcon",
       "path": "textures/BSG_Pyrewall.png"
+    },
+    {
+      "id": "PyrewallIconHUD",
+      "path": "textures/HUD/BSG_Pyrewall.png"
     } 
   ],
   "relic_effects": [

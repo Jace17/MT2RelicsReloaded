@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@PreciousPlatingIcon",
-      "icon_small": "@PreciousPlatingIcon",
+      "icon_small": "@PreciousPlatingIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "PreciousPlatingIcon",
       "path": "textures/BSG_PreciousPlating.png"
+    },
+    {
+      "id": "PreciousPlatingIconHUD",
+      "path": "textures/HUD/BSG_PreciousPlating.png"
     }
   ],
   "relic_effects": [

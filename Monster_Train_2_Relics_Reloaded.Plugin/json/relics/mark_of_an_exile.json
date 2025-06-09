@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@MarkOfAnExileIcon",
-      "icon_small": "@MarkOfAnExileIcon",
+      "icon_small": "@MarkOfAnExileIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "MarkOfAnExileIcon",
       "path": "textures/BSG_MarkOfAnExile.png"
+    },
+    {
+      "id": "MarkOfAnExileIconHUD",
+      "path": "textures/HUD/BSG_MarkOfAnExile.png"
     }
   ],
   "relic_effects": [

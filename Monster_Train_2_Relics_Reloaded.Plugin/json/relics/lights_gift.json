@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@LightsGiftIcon",
-      "icon_small": "@LightsGiftIcon",
+      "icon_small": "@LightsGiftIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "LightsGiftIcon",
       "path": "textures/BSG_GiftFromLight.png"
+    },
+    {
+      "id": "LightsGiftIconHUD",
+      "path": "textures/HUD/BSG_GiftFromLight.png"
     }
   ],
   "relic_effects": [

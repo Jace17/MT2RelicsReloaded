@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@PenitentRemainsIcon",
-      "icon_small": "@PenitentRemainsIcon",
+      "icon_small": "@PenitentRemainsIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "PenitentRemainsIcon",
       "path": "textures/BSG_PenitentRemains.png"
+    },
+    {
+      "id": "PenitentRemainsIconHUD",
+      "path": "textures/HUD/BSG_PenitentRemains.png"
     }
   ],
   "relic_effects": [

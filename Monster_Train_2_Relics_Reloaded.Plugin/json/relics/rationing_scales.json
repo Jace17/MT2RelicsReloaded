@@ -25,7 +25,7 @@
         }
       ],
       "icon": "@RationingScalesIcon",
-      "icon_small": "@RationingScalesIcon",
+      "icon_small": "@RationingScalesIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -41,6 +41,10 @@
     {
       "id": "RationingScalesIcon",
       "path": "textures/BSG_RationingScales.png"
+    },
+    {
+      "id": "RationingScalesIconHUD",
+      "path": "textures/HUD/BSG_RationingScales.png"
     }
   ],
   "relic_effects": [

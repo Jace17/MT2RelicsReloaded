@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@TheFirstHellpactIcon",
-      "icon_small": "@TheFirstHellpactIcon",
+      "icon_small": "@TheFirstHellpactIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "TheFirstHellpactIcon",
       "path": "textures/BSG_Hellpact.png"
+    },
+    {
+      "id": "TheFirstHellpactIconHUD",
+      "path": "textures/HUD/BSG_Hellpact.png"
     }
   ],
   "relic_effects": [

@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@WingedIndulgenceIcon",
-      "icon_small": "@WingedIndulgenceIcon",
+      "icon_small": "@WingedIndulgenceIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "WingedIndulgenceIcon",
       "path": "textures/BSG_WingedIndulgence.png"
+    },
+    {
+      "id": "WingedIndulgenceIconHUD",
+      "path": "textures/HUD/BSG_WingedIndulgence.png"
     }
   ],
   "relic_effects": [

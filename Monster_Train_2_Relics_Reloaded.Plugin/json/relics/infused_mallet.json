@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@InfusedMalletIcon",
-      "icon_small": "@InfusedMalletIcon",
+      "icon_small": "@InfusedMalletIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,13 +38,17 @@
     {
       "id": "InfusedMalletIcon",
       "path": "textures/BSG_InfusedMallet.png"
+    },
+    {
+      "id": "InfusedMalletIconHUD",
+      "path": "textures/HUD/BSG_InfusedMallet.png"
     }
   ],
   "relic_effects": [
     {
       "id": "InfusedMalletEffect",
       "name": "RelicEffectChanceAddEffectOnSpawn",
-      "param_int": 25,
+      "param_int": 50,
       "source_team": "heroes",
       "param_effects": [
         "@InfusedMalletEffectDamage"

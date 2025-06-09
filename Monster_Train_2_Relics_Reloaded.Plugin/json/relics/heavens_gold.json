@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@HeavensGoldIcon",
-      "icon_small": "@HeavensGoldIcon",
+      "icon_small": "@HeavensGoldIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "HeavensGoldIcon",
       "path": "textures/BSG_HeavensGold.png"
+    },
+    {
+      "id": "HeavensGoldIconHUD",
+      "path": "textures/HUD/BSG_HeavensGold.png"
     }
   ],
   "relic_effects": [

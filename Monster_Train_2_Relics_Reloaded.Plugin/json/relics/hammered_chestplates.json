@@ -25,7 +25,7 @@
         }
       ],
       "icon": "@HammeredChestplatesIcon",
-      "icon_small": "@HammeredChestplatesIcon",
+      "icon_small": "@HammeredChestplatesIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -41,6 +41,10 @@
     {
       "id": "HammeredChestplatesIcon",
       "path": "textures/BSG_HammeredChestplate.png"
+    },
+    {
+      "id": "HammeredChestplatesIconHUD",
+      "path": "textures/HUD/BSG_HammeredChestplate.png"
     }
   ],
   "relic_effects": [

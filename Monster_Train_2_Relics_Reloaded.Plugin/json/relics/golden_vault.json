@@ -25,7 +25,7 @@
         }
       ],
       "icon": "@GoldenVaultIcon",
-      "icon_small": "@GoldenVaultIcon",
+      "icon_small": "@GoldenVaultIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -41,6 +41,10 @@
     {
       "id": "GoldenVaultIcon",
       "path": "textures/BSG_GoldenVault.png"
+    },
+    {
+      "id": "GoldenVaultIconHUD",
+      "path": "textures/HUD/BSG_GoldenVault.png"
     }
   ],
   "relic_effects": [

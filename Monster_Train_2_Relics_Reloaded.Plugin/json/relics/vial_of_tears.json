@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@VialOfTearsIcon",
-      "icon_small": "@VialOfTearsIcon",
+      "icon_small": "@VialOfTearsIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "VialOfTearsIcon",
       "path": "textures/BSG_VialOfTears.png"
+    },
+    {
+      "id": "VialOfTearsIconHUD",
+      "path": "textures/HUD/BSG_VialOfTears.png"
     }
   ],
   "relic_effects": [

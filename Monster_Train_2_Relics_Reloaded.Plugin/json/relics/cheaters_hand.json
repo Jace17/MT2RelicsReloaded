@@ -24,8 +24,9 @@
           "id": "@CheatersHandFromHandToDeck"
         }
       ],
+      "disallow_in_deployment": true,
       "icon": "@CheatersHandIcon",
-      "icon_small": "@CheatersHandIcon",
+      "icon_small": "@CheatersHandIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -41,6 +42,10 @@
     {
       "id": "CheatersHandIcon",
       "path": "textures/BSG_CheatersHand.png"
+    },
+    {
+      "id": "CheatersHandIconHUD",
+      "path": "textures/HUD/BSG_CheatersHand.png"
     }
   ],
   "relic_effects": [

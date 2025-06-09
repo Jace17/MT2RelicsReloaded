@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@RefractingLensesIcon",
-      "icon_small": "@RefractingLensesIcon",
+      "icon_small": "@RefractingLensesIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "RefractingLensesIcon",
       "path": "textures/BSG_RefractingLenses.png"
+    },
+    {
+      "id": "RefractingLensesIconHUD",
+      "path": "textures/HUD/BSG_RefractingLenses.png"
     }
   ],
   "relic_effects": [

@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@ForeverFlameIcon",
-      "icon_small": "@ForeverFlameIcon",
+      "icon_small": "@ForeverFlameIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "ForeverFlameIcon",
       "path": "textures/BSG_ForeverFlame.png"
+    },
+    {
+      "id": "ForeverFlameIconHUD",
+      "path": "textures/HUD/BSG_ForeverFlame.png"
     }
   ],
   "relic_effects": [

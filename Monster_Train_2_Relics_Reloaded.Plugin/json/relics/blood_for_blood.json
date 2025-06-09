@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@BloodForBloodIcon",
-      "icon_small": "@BloodForBloodIcon",
+      "icon_small": "@BloodForBloodIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "BloodForBloodIcon",
       "path": "textures/BSG_BloodForBlood.png"
+    },
+    {
+      "id": "BloodForBloodIconHUD",
+      "path": "textures/HUD/BSG_BloodForBlood.png"
     }
   ],
   "relic_effects": [

@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@AdvancedPrototypeIcon",
-      "icon_small": "@AdvancedPrototypeIcon",
+      "icon_small": "@AdvancedPrototypeIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "AdvancedPrototypeIcon",
       "path": "textures/BSG_AdvancedPrototype.png"
+    },
+    {
+      "id": "AdvancedPrototypeIconHUD",
+      "path": "textures/HUD/BSG_AdvancedPrototype.png"
     }
   ],
   "relic_effects": [

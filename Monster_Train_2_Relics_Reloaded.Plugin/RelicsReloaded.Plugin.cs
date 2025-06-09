@@ -32,8 +32,8 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
                         "json/relics/concussive_coals.json",
                         "json/relics/faulty_loader.json",
                         "json/relics/forver_flame.json",
-                        "json/relics/golden_vault.json", 
-                        "json/relics/hammered_chestplates.json", 
+                        "json/relics/golden_vault.json",
+                        "json/relics/hammered_chestplates.json",
                         "json/relics/improved_firebox.json",
                         "json/relics/infused_mallet.json",
                         "json/relics/iron_dropcage.json",
@@ -70,7 +70,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
             );
 
             Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
-            
+
             // Uncomment if you need harmony patches, if you are writing your own custom effects.
             //var harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
             //harmony.PatchAll();

@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@WeatheredColdstonesIcon",
-      "icon_small": "@WeatheredColdstonesIcon",
+      "icon_small": "@WeatheredColdstonesIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "WeatheredColdstonesIcon",
       "path": "textures/BSG_WeatheredColdstone.png"
+    },
+    {
+      "id": "WeatheredColdstonesIconHUD",
+      "path": "textures/HUD/BSG_WeatheredColdstone.png"
     }
   ],
   "relic_effects": [

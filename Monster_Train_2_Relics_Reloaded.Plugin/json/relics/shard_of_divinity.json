@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@ShardOfDivinityIcon",
-      "icon_small": "@ShardOfDivinityIcon",
+      "icon_small": "@ShardOfDivinityIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,7 +38,11 @@
     {
       "id": "ShardOfDivinityIcon",
       "path": "textures/BSG_ShardsofDivinity.png"
-    } 
+    },
+    {
+      "id": "ShardOfDivinityIconHUD",
+      "path": "textures/HUD/BSG_ShardsofDivinity.png"
+    }  
   ],
   "relic_effects": [
     {

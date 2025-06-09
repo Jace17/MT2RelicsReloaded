@@ -22,7 +22,7 @@
         }
       ],
       "icon": "@BCrackedHelmetIcon",
-      "icon_small": "@CrackedHelmetIcon",
+      "icon_small": "@CrackedHelmetIconHUD",
       "extensions": [
         {
           "collectable": {
@@ -38,6 +38,10 @@
     {
       "id": "CrackedHelmetIcon",
       "path": "textures/BSG_CrackedHelmet.png"
+    },
+    {
+      "id": "CrackedHelmetIconHUD",
+      "path": "textures/HUD/BSG_CrackedHelmet.png"
     }
   ],
   "relic_effects": [
