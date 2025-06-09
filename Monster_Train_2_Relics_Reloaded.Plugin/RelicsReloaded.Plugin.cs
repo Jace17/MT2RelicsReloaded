@@ -1,26 +1,7 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
-using HarmonyLib;
-using I2.Loc;
-using Microsoft.Extensions.Configuration;
-using ShinyShoe.Logging;
-using SimpleInjector;
-using TrainworksReloaded.Base;
-using TrainworksReloaded.Base.Card;
-using TrainworksReloaded.Base.CardUpgrade;
-using TrainworksReloaded.Base.Character;
-using TrainworksReloaded.Base.Class;
-using TrainworksReloaded.Base.Effect;
-using TrainworksReloaded.Base.Localization;
-using TrainworksReloaded.Base.Prefab;
-using TrainworksReloaded.Base.Trait;
-using TrainworksReloaded.Base.Trigger;
 using TrainworksReloaded.Core;
-using TrainworksReloaded.Core.Impl;
-using TrainworksReloaded.Core.Interfaces; 
 using TrainworksReloaded.Core.Extensions;
-using UnityEngine;
-using UnityEngine.AddressableAssets;
 
 namespace Monster_Train_2_Relics_Reloaded.Plugin
 {
@@ -45,7 +26,28 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
                         "json/plugin.json",
                         "json/global.json",
                         "json/relics/advanced_prototype.json",
-                        "json/relics/boon_of_the_blacksmith.json"  
+                        "json/relics/boon_of_the_blacksmith.json",
+                        "json/relics/cheaters_hand.json",
+                        "json/relics/concussive_coals.json",
+                        "json/relics/faulty_loader.json",
+                        "json/relics/forver_flame.json",
+                        "json/relics/golden_vault.json", 
+                        "json/relics/hammered_chestplates.json", 
+                        "json/relics/improved_firebox.json",
+                        "json/relics/infused_mallet.json",
+                        "json/relics/iron_dropcage.json",
+                        "json/relics/lights_gift.json",
+                        "json/relics/mark_of_a_champion.json",
+                        "json/relics/mark_of_an_exile.json",
+                        "json/relics/precious_plating.json",
+                        "json/relics/pyrewall.json",
+                        "json/relics/rationing_scales.json",
+                        "json/relics/refracting_lenses.json",
+                        "json/relics/tempered_talisman.json",
+                        "json/relics/the_first_hellpact.json",
+                        "json/relics/vapor_funnel.json",
+                        "json/relics/winged_indulgence.json",
+                        "json/relics/worn_grindstone.json"
                     );
                 }
             );

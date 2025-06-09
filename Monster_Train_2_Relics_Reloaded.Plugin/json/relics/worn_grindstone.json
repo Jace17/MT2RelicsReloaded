@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "WornGrindstone",
+      "type": "collectable",
+      "names": {
+        "english": "Worn Grindstone"
+      },
+      "descriptions": {
+        "english": "Friendly units get +[effect0.power][attack]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "As much as it pained me to see the tools of my trade used for such barbaric purposes, the war effort for Hell was in dire need of support. The forges quickly devolved into needless bickering between clans, each one claiming to be the best. Like children, I had to separate them for their own safety and my sanity."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@WornGrindstoneEffect"
+        }
+      ],
+      "icon": "@WornGrindstoneIcon",
+      "icon_small": "@WornGrindstoneIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "WornGrindstoneIcon",
+      "path": "textures/BSG_GrindingStone.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "WornGrindstoneEffect",
+      "name": "RelicEffectModifyCardAttack",
+      "source_team": "monsters",
+      "param_int": 5,
+      "param_card_type": "monster"
+    }
+  ]
+}

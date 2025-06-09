@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "TheFirstHellpact",
+      "type": "collectable",
+      "names": {
+        "english": "The First Hellpact"
+      },
+      "descriptions": {
+        "english": "<b>X Cost</b> cards get +[effect0.power] to their X value when played."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Uniting the Rings of Hell to construct the Rail was no easy task, but after years of work I was finally able to achieve what was once thought impossible by having the clans from each Ring all agree to this pact."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@TheFirstHellpactEffect"
+        }
+      ],
+      "icon": "@TheFirstHellpactIcon",
+      "icon_small": "@TheFirstHellpactIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "TheFirstHellpactIcon",
+      "path": "textures/BSG_Hellpact.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "TheFirstHellpactEffect",
+      "name": "RelicEffectModifyCardPlayedCostStat",
+      "param_int": 3
+    }
+  ]
+}

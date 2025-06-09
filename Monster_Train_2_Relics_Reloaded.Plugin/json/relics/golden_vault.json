@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "GoldenVault",
+      "type": "collectable",
+      "names": {
+        "english": "Golden Vault"
+      },
+      "descriptions": {
+        "english": "As long as you have at least [effect0.power][coin], lose [effect0.power][coin] when you take Pyre damage in combat instead of taking damage."
+      },
+      "relic_activated_texts": {
+        "english": "-[effect0.power][coin]"
+      },
+      "lore_tooltips": [
+        {
+          "english": "We amassed what small gold we had over time, all of it plundered from the rarely-defeated Heavenly forces in hopes of stifling their war funding. Given the great wealth of Heaven, however, I don’t imagine they even noticed. It’s funny how quickly the afraid will empty their pockets in the off chance of retaining some control of their sanity."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@GoldenVaultEffect"
+        }
+      ],
+      "icon": "@GoldenVaultIcon",
+      "icon_small": "@GoldenVaultIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "GoldenVaultIcon",
+      "path": "textures/BSG_GoldenVault.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "GoldenVaultEffect",
+      "name": "RelicEffectCurrencyForPyreDamage",
+      "param_int": 25
+    }
+  ]
+}

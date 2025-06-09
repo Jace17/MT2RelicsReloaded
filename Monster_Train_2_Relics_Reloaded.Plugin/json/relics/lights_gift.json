@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "LightsGift",
+      "type": "collectable",
+      "names": {
+        "english": "Light's Gift"
+      },
+      "descriptions": {
+        "english": "Apply [dazed] [effect0.status0.power] to enemy units when they enter the floor below the Pyre Room."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Our time together was brief, but our bond was unbreakable. However, when the Covenant was broken, my hope for what was unbreakable was shattered as well. I keep her gift close to my heart to remember what we had and what was lost."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@LightsGiftEffect"
+        }
+      ],
+      "icon": "@LightsGiftIcon",
+      "icon_small": "@LightsGiftIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "LightsGiftIcon",
+      "path": "textures/BSG_GiftFromLight.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "LightsGiftEffect",
+      "name": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "source_team": "heroes",
+      "param_int": 2,
+      "param_status_effects": [
+        {
+          "status": "dazed",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

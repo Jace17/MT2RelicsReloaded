@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "WingedIndulgence",
+      "type": "collectable",
+      "names": {
+        "english": "Winged Indulgence"
+      },
+      "descriptions": {
+        "english": "Enemy units get [effect0.power][attack]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Their time in Hell has dulled the Winged’s ability to exert moderation in their consumption. They frequently binge on the bounty they’ve conquered, which is good for us, as it often leads to lethargy in battle."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@WingedIndulgenceEffect"
+        }
+      ],
+      "icon": "@WingedIndulgenceIcon",
+      "icon_small": "@WingedIndulgenceIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "WingedIndulgenceIcon",
+      "path": "textures/BSG_WingedIndulgence.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "WingedIndulgenceEffect",
+      "name": "RelicEffectModifyCharacterAttackDamage",
+      "source_team": "heroes",
+      "param_int": -1,
+      "param_trigger": "on_spawn",
+      "param_card_type": "invalid"
+    }
+  ]
+}

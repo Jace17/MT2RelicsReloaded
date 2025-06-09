@@ -45,8 +45,7 @@
       "id": "AdvancedPrototypeEffect",
       "name": "RelicEffectAddTempUpgrade",
       "param_upgrade": "@AdvancedPrototypeUpgrade",
-      "source_team": "monsters",
-      "param_card_type": "spell"
+      "source_team": "monsters"
     }
   ],
   "upgrades": [

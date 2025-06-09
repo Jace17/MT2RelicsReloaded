@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "PreciousPlating",
+      "type": "collectable",
+      "names": {
+        "english": "Precious Plating"
+      },
+      "descriptions": {
+        "english": "Your Pyre gets +[effect0.power][pyrehealth]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "I can use this alloy to fortify the Pyre brace in the Boneshaker and make it stronger. But I need to remember to use this material economically, as it is hard to come by."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@PreciousPlatingEffect"
+        }
+      ],
+      "icon": "@PreciousPlatingIcon",
+      "icon_small": "@PreciousPlatingIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "PreciousPlatingIcon",
+      "path": "textures/BSG_PreciousPlating.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "PreciousPlatingEffect",
+      "name": "RelicEffectModifyTowerMaxHealth",
+      "param_int": 40,
+      "param_bool": true
+    }
+  ]
+}

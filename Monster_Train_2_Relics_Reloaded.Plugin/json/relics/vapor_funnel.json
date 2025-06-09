@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "VaporFunnel",
+      "type": "collectable",
+      "names": {
+        "english": "Vapor Funnel"
+      },
+      "descriptions": {
+        "english": "Apply [dazed] [effect0.status0.power] to enemy units when they enter the Pyre Room. Your Pyre gets [effect1.power][attack]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "While trying to improve the efficiency of energy transfer from the Pyre to the Boneshaker, I inadvertently created a way to convert the energy directly into steam. At the time it seemed like a failure, but it may well prove useful in these harsh times."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@VaporFunnelEffectAddStatusEffect"
+        },
+        {
+          "id": "@VaporFunnelEffectTowerDamageDealt"
+        }
+      ],
+      "icon": "@VaporFunnelIcon",
+      "icon_small": "@VaporFunnelIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "VaporFunnelIcon",
+      "path": "textures/BSG_VaporFunnel.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "VaporFunnelEffectAddStatusEffect",
+      "name": "RelicEffectAddStatusEffectOnEnterPyreRoom",
+      "param_status_effects": [
+        {
+          "status": "dazed",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "VaporFunnelEffectTowerDamageDealt",
+      "name": "RelicEffectTowerDamageDealtModified",
+      "param_int": -5
+    }
+  ]
+}

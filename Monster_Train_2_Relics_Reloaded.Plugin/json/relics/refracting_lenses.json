@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "RefractingLenses",
+      "type": "collectable",
+      "names": {
+        "english": "Refracting Lenses"
+      },
+      "descriptions": {
+        "english": "When a card with [consume] is played, restore [effect0.power] Pyre health."
+      },
+      "lore_tooltips": [
+        {
+          "english": "My failed attempt at refocusing the light of the Pyre to better fuel the Boneshaker. It wasn’t entirely a waste of time though, as the lens was able to refract that energy back onto the Pyre itself."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@RefractingLensesEffect"
+        }
+      ],
+      "icon": "@RefractingLensesIcon",
+      "icon_small": "@RefractingLensesIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "RefractingLensesIcon",
+      "path": "textures/BSG_RefractingLenses.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "RefractingLensesEffect",
+      "name": "RelicEffectHealthChangeOnExhaus",
+      "source_team": "monsters",
+      "param_int": 5
+    }
+  ]
+}
