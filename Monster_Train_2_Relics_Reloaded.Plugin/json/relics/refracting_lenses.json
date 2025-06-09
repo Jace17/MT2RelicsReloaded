@@ -47,7 +47,7 @@
   "relic_effects": [
     {
       "id": "RefractingLensesEffect",
-      "name": "RelicEffectHealthChangeOnExhaus",
+      "name": "RelicEffectHealthChangeOnExhaust",
       "source_team": "monsters",
       "param_int": 5
     }

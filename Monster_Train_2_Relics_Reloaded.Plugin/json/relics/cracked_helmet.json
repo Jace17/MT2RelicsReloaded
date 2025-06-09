@@ -21,7 +21,7 @@
           "id": "@CrackedHelmetEffect"
         }
       ],
-      "icon": "@BCrackedHelmetIcon",
+      "icon": "@CrackedHelmetIcon",
       "icon_small": "@CrackedHelmetIconHUD",
       "extensions": [
         {
