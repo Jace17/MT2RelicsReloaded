@@ -16,6 +16,8 @@ Install via Thunderstore or manually: copy the mod contents to the 'BepInEx/plug
 
 This is a non-cosmetic mod that changes the game mechanics. Do not use it while playing any online mode as it may cause you to be banned.
 
+Since the pool of artifacts will be highly diluted because of this mod, I suggest installing other mods to increase the number of relics you can encounter in the game to make sure you get an artifact that is crucial for your run.
+
 # Full List of Artifacts
 
 ## Clanless Artifacts
