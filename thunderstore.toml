@@ -3,8 +3,8 @@ schemaVersion = "0.0.1"
 
 [package]
 namespace = "GravitonGamer"
-name = "Monster Train 2 Relics Reloaded"
-versionNumber = "0.0.1"
+name = "Monster_Train_2_Relics_Reloaded"
+versionNumber = "1.0.0"
 description = "Brings back several of the relics from the original Monster Train to Monster Train 2."
 websiteUrl = "https://thunderstore.io"
 containsNsfwContent = false
