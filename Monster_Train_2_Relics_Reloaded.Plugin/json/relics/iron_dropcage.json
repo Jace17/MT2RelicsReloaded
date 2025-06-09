@@ -1,0 +1,56 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "IronDropcage",
+      "type": "collectable",
+      "names": {
+        "english": "Iron Dropcage"
+      },
+      "descriptions": {
+        "english": "Whenever you play a spell that would [ascend] or [descend] an enemy unit, also apply [dazed] [effect0.status0.power]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "As invasions of the Boneshaker have become more frequent, I’ve devised a number of traps and devices to subdue any unwanted guests. These cages should hold them back temporarily when they board the train."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@IronDropcageEffect"
+        }
+      ],
+      "icon": "@IronDropcageIcon",
+      "icon_small": "@IronDropcageIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "IronDropcageIcon",
+      "path": "textures/BSG_IronDropcage.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "IronDropcageEffect",
+      "name": "RelicEffectAddStatusEffectOnUnitMoved",
+      "source_team": "heroes",
+      "param_status_effects": [
+        {
+          "status": "dazed",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

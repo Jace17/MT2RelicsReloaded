@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "DantesCloak",
+      "type": "collectable",
+      "names": {
+        "english": "Dante's Cloak"
+      },
+      "descriptions": {
+        "english": "+[effect0.power] [magicpower] for every [blight] card in your deck."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Truly an unusual fellow, this Dante, but he’s proven useful on so many occasions that his allegiance can hardly be questioned."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@DantesCloakEffect"
+        }
+      ],
+      "icon": "@DantesCloakIcon",
+      "icon_small": "@DantesCloakIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "rare"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "DantesCloakIcon",
+      "path": "textures/BSG_DantesCloak.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "DantesCloakEffect",
+      "name": "RelicEffectModifyCardMagicalPowerScaling",
+      "param_int": 2,
+      "param_card_type": "blight"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "AdvancedPrototype",
+      "type": "collectable",
+      "names": {
+        "english": "Advanced Prototype"
+      },
+      "descriptions": {
+        "english": "Steward units get +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power], and [multistrike] [effect0.upgrade.status1.power]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Just before the Freeze, I was working on an upgraded version of the Train Stewards. The invasion of the Winged interrupted my research and prevented me from rolling out the upgrade to each Steward on the Boneshaker, but I’ve kept the prototype around in the hopes of eventually finishing what I started."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@AdvancedPrototypeEffect"
+        }
+      ],
+      "icon": "@AdvancedPrototypeIcon",
+      "icon_small": "@AdvancedPrototypeIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "AdvancedPrototypeIcon",
+      "path": "textures/BSG_AdvancedPrototype.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "AdvancedPrototypeEffect",
+      "name": "RelicEffectAddTempUpgrade",
+      "param_upgrade": "@AdvancedPrototypeUpgrade",
+      "source_team": "monsters"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "AdvancedPrototypeUpgrade",
+      "status_effect_upgrades": [
+        {
+          "status": "damage shield",
+          "count": 2
+        },
+        {
+          "status": "multistrike",
+          "count": 1
+        }
+      ],
+      "bonus_damage": 5,
+      "bonus_hp": 5,
+      "filters": [
+        "@AdvancedPrototypeFilter"
+      ]
+    }
+  ],
+  "upgrade_masks": [
+    {
+      "id": "AdvancedPrototypeFilter",
+      "card_type": "monster",
+      "required_subtypes": [
+        "SubtypesData_TrainSteward"
+      ]
+    }
+  ]
+}

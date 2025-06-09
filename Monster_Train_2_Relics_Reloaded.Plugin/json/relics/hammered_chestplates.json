@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "HammeredChestplates",
+      "type": "collectable",
+      "names": {
+        "english": "Hammered Chestplates"
+      },
+      "descriptions": {
+        "english": "Friendly units get +[effect0.power][health]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Before the Covenant, Hell had become so dangerous that I made my living creating armor for its unlucky residents. Seraph and I pursued the Covenant to quell the unrest and the armor persisted across centuries. It has proven useful in this last fight."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@HammeredChestplatesEffectHealth"
+        },
+        {
+          "id": "@HammeredChestplatesEffectMaxHealth"
+        }
+      ],
+      "icon": "@HammeredChestplatesIcon",
+      "icon_small": "@HammeredChestplatesIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "HammeredChestplatesIcon",
+      "path": "textures/BSG_HammeredChestplate.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "HammeredChestplatesEffectHealth",
+      "name": "RelicEffectModifyCardHealth",
+      "source_team": "monsters",
+      "param_int": 5,
+      "param_card_type": "monster"
+    },
+    {
+      "id": "HammeredChestplatesEffectMaxHealth",
+      "name": "RelicEffectModifyCharacterMaxHealth",
+      "source_team": "monsters",
+      "param_int": 5,
+      "param_card_type": "monster"
+    }
+  ]
+}

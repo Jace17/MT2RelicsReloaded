@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "RationingScales",
+      "type": "collectable",
+      "names": {
+        "english": "Rationing Scales"
+      },
+      "descriptions": {
+        "english": "Before each battle, set Pyre health to [effect1.power]. If this reduces Pyre health, gain 3[coin] for each health lost."
+      },
+      "lore_tooltips": [
+        {
+          "english": "By the time you read this, I hope that Hell, or what remains of it, remains a united front against their invaders. But this was not always the case. The destruction of Divinities had left souls to wander endlessly and the absence of Judgement meant that all realms felt the effects of overcrowding and resource shortages. In some ways, this time before the war was even more trying than the ensuing violence."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@RationingScalesEffectGoldForPyreHealth"
+        },
+        {
+          "id": "@RationingScalesEffectSetPyreHealth"
+        }
+      ],
+      "icon": "@RationingScalesIcon",
+      "icon_small": "@RationingScalesIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "RationingScalesIcon",
+      "path": "textures/BSG_RationingScales.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "RationingScalesEffectGoldForPyreHealth",
+      "name": "RelicEffectGoldForPyreHealthOnDeparture",
+      "param_int": 50
+    },
+    {
+      "id": "RationingScalesEffectSetPyreHealth",
+      "name": "RelicEffectSetPyreHealthOnDeparture",
+      "param_int": 50
+    }
+  ]
+}

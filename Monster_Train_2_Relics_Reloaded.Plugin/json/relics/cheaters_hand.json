@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "CheatersHand",
+      "type": "collectable",
+      "names": {
+        "english": "Cheater's Hand"
+      },
+      "descriptions": {
+        "english": "Draw +[effect0.power] each turn, then return 1 card to the top of your draw pile."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Rumblings of Seraph’s moral absolutism had become frequent in the time before Heaven’s invasion. Transgressions were rarely tolerated and often met with swift physical punishment. I can see now that his invasion of Hell was largely driven by some personal vendetta against me and my failings."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@CheatersHandStartingHandSize"
+        },
+        {
+          "id": "@CheatersHandFromHandToDeck"
+        }
+      ],
+      "icon": "@CheatersHandIcon",
+      "icon_small": "@CheatersHandIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "CheatersHandIcon",
+      "path": "textures/BSG_CheatersHand.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "CheatersHandStartingHandSize",
+      "name": "RelicEffectChangeStartingHandSize",
+      "param_int": 1
+    },
+    {
+      "id": "CheatersHandFromHandToDeck",
+      "name": "RelicEffectCardsFromHandToDeck"
+    }
+  ]
+}

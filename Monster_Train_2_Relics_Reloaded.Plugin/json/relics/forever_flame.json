@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "ForeverFlame",
+      "type": "collectable",
+      "names": {
+        "english": "Forever Flame"
+      },
+      "descriptions": {
+        "english": "Units cost [effect0.paramint][ember]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "I can no longer remember the specifics of when I first came to Hell or called it my home. The centuries have deteriorated my mind's ability to remember. Though, through the haze, I can still feel the complete and consuming warmth of the Pyre."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@ForeverFlameEffect"
+        }
+      ],
+      "icon": "@ForeverFlameIcon",
+      "icon_small": "@ForeverFlameIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "ForeverFlameIcon",
+      "path": "textures/BSG_ForeverFlame.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "ForeverFlameEffect",
+      "name": "RelicEffectModifyCardTypeCost",
+      "source_team": "monsters",
+      "param_int": -2,
+      "param_card_type": "monster"
+    }
+  ]
+}

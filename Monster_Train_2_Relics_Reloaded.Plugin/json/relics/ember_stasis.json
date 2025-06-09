@@ -1,0 +1,52 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "EmberStasis",
+      "type": "collectable",
+      "names": {
+        "english": "Ember Stasis"
+      },
+      "descriptions": {
+        "english": "Playing a [blight] card deals [effect0.power] damage to the front enemy unit."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Ember is rarely observed in between states of living and dying, making it challenging to learn what destroys its lifeforce. The fragments are volatile things, guided entirely by how much they like their owner."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@EmberStasisEffect"
+        }
+      ],
+      "icon": "@EmberStasisIcon",
+      "icon_small": "@EmberStasisIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "EmberStasisIcon",
+      "path": "textures/BSG_EmberStasis.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "EmberStasisEffect",
+      "name": "RelicEffectDamageOnCardPlayed", 
+      "source_team": "heroes",
+      "param_int": 120,
+      "param_card_type": "blight"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "BoonOfTheBlacksmith",
+      "type": "collectable",
+      "names": {
+        "english": "Boon of the Blacksmith"
+      },
+      "descriptions": {
+        "english": "Your Pyre gets +[effect0.power][attack]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "These Pyre circlets were gifted by the Winged to commemorate the binding of the Covenant. Now that the Covenant has broken, it is only fair that I pass them on to the Champions of Hell."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@BoonOfTheBlacksmithEffect"
+        }
+      ],
+      "icon": "@BoonOfTheBlacksmithIcon",
+      "icon_small": "@BoonOfTheBlacksmithIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "BoonOfTheBlacksmithIcon",
+      "path": "textures/BSG_BoonOfTheBlacksmith.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "BoonOfTheBlacksmithEffect",
+      "name": "RelicEffectTowerDamageDealtModified",
+      "param_int": 15
+    }
+  ]
+}

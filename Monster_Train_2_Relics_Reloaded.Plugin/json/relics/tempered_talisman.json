@@ -1,0 +1,50 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "TemperedTalisman",
+      "type": "collectable",
+      "names": {
+        "english": "Tempered Talisman"
+      },
+      "descriptions": {
+        "english": "+[effect0.power] [magicpower]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Never before have the nine Rings of Hell collaborated on something as monumental as the Rail of the Covenant. As a token of thanks, I created these amulets through my time in Hell, imbuing them with some basic power, and I gave them to each clan."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@TemperedTalismanEffect"
+        }
+      ],
+      "icon": "@TemperedTalismanIcon",
+      "icon_small": "@TemperedTalismanIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "TemperedTalismanIcon",
+      "path": "textures/BSG_TemperedTalisman.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "TemperedTalismanEffect",
+      "name": "RelicEffectModifyCardMagicalPower",
+      "param_int": 3
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "Pyrewall",
+      "type": "collectable",
+      "names": {
+        "english": "Pyrewall"
+      },
+      "descriptions": {
+        "english": "Your Pyre starts each battle with [armor] [effect0.status0.power]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "As the Winged offensive grew more aggressive and building materials grew more scarce, I had to develop some protection with the tools at hand. These walls won’t withstand more than a couple blows, but that can still mean the difference between life and death."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@PyrewallEffect"
+        }
+      ],
+      "icon": "@PyrewallIcon",
+      "icon_small": "@PyrewallIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "PyrewallIcon",
+      "path": "textures/BSG_Pyrewall.png"
+    } 
+  ],
+  "relic_effects": [
+    {
+      "id": "PyrewallEffect",
+      "name": "RelicEffectAddStatusEffectOnSpawn",
+      "source_team": "monsters",
+      "param_subtype": "SubtypesData_Pyre",
+      "param_trigger": "on_spawn",
+      "param_status_effects": [
+        {
+          "status": "armor",
+          "count": 15
+        }
+      ]
+    }
+  ]
+}

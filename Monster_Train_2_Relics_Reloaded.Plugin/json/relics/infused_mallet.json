@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "InfusedMallet",
+      "type": "collectable",
+      "names": {
+        "english": "Infused Mallet"
+      },
+      "descriptions": {
+        "english": "[effect0.power]% chance to deal [effect0.effect0.power] damage when an enemy unit enters your train."
+      },
+      "lore_tooltips": [
+        {
+          "english": "The first to hammer the Rail of the Covenant. It served me well, but the time it spent with the Pyre filled it with an energy that is too powerful to contain."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@InfusedMalletEffect"
+        }
+      ],
+      "icon": "@InfusedMalletIcon",
+      "icon_small": "@InfusedMalletIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "InfusedMalletIcon",
+      "path": "textures/BSG_InfusedMallet.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "InfusedMalletEffect",
+      "name": "RelicEffectChanceAddEffectOnSpawn",
+      "param_int": 25,
+      "source_team": "heroes",
+      "param_effects": [
+        "@InfusedMalletEffectDamage"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "id": "InfusedMalletEffectDamage",
+      "name": "CardEffectDamage",
+      "target_mode": "self",
+      "target_team": "heroes",
+      "param_int": 5
+    }
+  ]
+}

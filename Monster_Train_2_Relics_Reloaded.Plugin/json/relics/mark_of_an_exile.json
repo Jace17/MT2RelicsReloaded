@@ -1,0 +1,54 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "MarkOfAnExile",
+      "type": "collectable",
+      "names": {
+        "english": "Mark of an Exile"
+      },
+      "descriptions": {
+        "english": "When played, your Champion gains +[effect0.power]% max health."
+      },
+      "lore_tooltips": [
+        {
+          "english": "Despite the failings of the Roles of Champions, there was some small peace to be found in the knowledge that the Exiles had made an almost identical decision when defending themselves against greater powers. Though, their failing has only amplified ours."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@MarkOfAnExileEffect"
+        }
+      ],
+      "icon": "@MarkOfAnExileIcon",
+      "icon_small": "@MarkOfAnExileIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "MarkOfAnExileIcon",
+      "path": "textures/BSG_MarkOfAnExile.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "MarkOfAnExileEffect",
+      "name": "RelicEffectModifyCharacterAttackOrHealthPercentage",
+      "source_team": "monsters",
+      "param_int": 50,
+      "param_subtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
+      "param_bool": true,
+      "param_card_type": "monster"
+    }
+  ]
+}

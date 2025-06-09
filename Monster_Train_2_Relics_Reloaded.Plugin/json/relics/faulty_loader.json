@@ -1,0 +1,72 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "FaultyLoader",
+      "type": "collectable",
+      "names": {
+        "english": "Faulty Loader"
+      },
+      "descriptions": {
+        "english": "Apply [dazed] [effect0.status0.power] and [meleeweakness] [effect1.status0.power] to enemy units on the bottom floor in the first wave of combat."
+      },
+      "lore_tooltips": [
+        {
+          "english": "The armies of Heaven were able to board our train today... while it was moving! I’d be astonished at the concept if I weren’t preoccupied with the implications of this feat. Our end may be nearing faster than I’d hoped."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@FaultyLoaderEffectDazed"
+        },
+        {
+          "id": "@FaultyLoaderEffectMeleeWeakness"
+        }
+      ],
+      "icon": "@FaultyLoaderIcon",
+      "icon_small": "@FaultyLoaderIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "FaultyLoaderIcon",
+      "path": "textures/BSG_FaultyLoader.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "FaultyLoaderEffectDazed",
+      "name": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "param_bool": true,
+      "source_team": "heroes",
+      "param_status_effects": [
+        {
+          "status": "dazed",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "FaultyLoaderEffectMeleeWeakness",
+      "name": "RelicEffectAddStatusEffectOnEnterRoomIndex",
+      "param_bool": true,
+      "source_team": "heroes",
+      "param_status_effects": [
+        {
+          "status": "melee weakness",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

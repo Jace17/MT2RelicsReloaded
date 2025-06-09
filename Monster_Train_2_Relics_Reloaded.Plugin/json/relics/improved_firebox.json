@@ -1,0 +1,51 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "ImprovedFirebox",
+      "type": "collectable",
+      "names": {
+        "english": "Improved Firebox"
+      },
+      "descriptions": {
+        "english": "On the turn after [deployphase], gain [effect0.power][ember]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "I constructed the train with what I had at the time, with hopes to expand later on with what I’d scavenge on the way. To make sure the creatures of Hell would all fit, I had to sacrifice the size of the furnaces. No more!"
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@ImprovedFireboxEffect"
+        }
+      ],
+      "disallow_in_deployment": true,
+      "icon": "@ImprovedFireboxIcon",
+      "icon_small": "@ImprovedFireboxIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "ImprovedFireboxIcon",
+      "path": "textures/BSG_FurnaceAddition.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "ImprovedFireboxEffect",
+      "name": "RelicEffectModifyEnergyStartOfCombat",
+      "param_int": 7
+    }
+  ]
+}

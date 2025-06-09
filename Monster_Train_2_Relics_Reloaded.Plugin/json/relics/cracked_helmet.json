@@ -1,0 +1,83 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "CrackedHelmet",
+      "type": "collectable",
+      "names": {
+        "english": "Cracked Helmet"
+      },
+      "descriptions": {
+        "english": "Damage spells get [piercing]."
+      },
+      "lore_tooltips": [
+        {
+          "english": "I once asked Herzal to craft me some invincible armor. After three months of nonstop work, he presented me with the most beautiful helmet I had ever seen. I then immediately broke it. So much for invincibility!"
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@CrackedHelmetEffect"
+        }
+      ],
+      "icon": "@BCrackedHelmetIcon",
+      "icon_small": "@CrackedHelmetIcon",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "rare"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "CrackedHelmetIcon",
+      "path": "textures/BSG_CrackedHelmet.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "CrackedHelmetEffect",
+      "name": "RelicEffectUpgradeCardOnGain",
+      "param_card_type": "spell",
+      "param_upgrade": "@CrackedHelmetUpgrade"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "CrackedHelmetUpgrade",
+      "trait_upgrades": [
+        {
+          "id": "@PiercingTrait"
+        }
+      ],
+      "filters": [
+        "OnlySpells",
+        "@AttackSpellsOnly"
+      ]
+    }
+  ],
+  "upgrade_masks": [
+    {
+      "id": "AttackSpellsOnly",
+      "required_effects_operator": "or",
+      "required_effects": [
+        "CardEffectDamage",
+        "CardEffectHealAndDamageRelative",
+        "CardEffectDamagePerSourceAttack",
+        "CardEffectDamagePerHp"
+      ]
+    }
+  ],
+  "traits": [
+    {
+      "id": "PiercingTrait",
+      "name": "CardTraitIgnoreArmor"
+    }
+  ]
+}
