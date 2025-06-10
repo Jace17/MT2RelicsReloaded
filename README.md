@@ -20,6 +20,8 @@ This is a non-cosmetic mod that changes the game mechanics. Do not use it while 
 
 [Additional Relic Drafts](https://thunderstore.io/c/monster-train-2/p/GravitonGamer/MT2AdditionalRelicDrafts/) - More relics to make up for the diluted relic pool
 
+If you loved this or any of my other mods, feel free to [tip me a coffee.](https://ko-fi.com/gravitongamer)
+
 # Full List of Artifacts
 
 ## Clanless Artifacts
