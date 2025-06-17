@@ -1,0 +1,134 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "ConscriptionNotice",
+      "type": "collectable",
+      "names": {
+        "english": "Conscription Notice"
+      },
+      "descriptions": {
+        "english": "When you first summon your Champion, gain a random unit card with +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], -[effect0.upgrade.costreduction][ember], and [effect0.upgrade.bonussize][size]."
+      },
+      "relic_activated_texts": {
+        "english": "Conscription Notice"
+      },
+      "lore_tooltips": [
+        {
+          "english": "Our initial calls for support were a little… wordy: “We, the 9 Rings of Hell and the residents therein, declare our sovereignty from the Heavenly invaders of our lands. As fellow Hellborne, we implore you to consider supporting our shared cause and ensure our survival lest we cease to exist entirely.” It is comforting to know that I've matured from needless description and flourish to a paragon of simplicity."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@ConscriptionNoticeEffect"
+        }
+      ],
+      "icon": "@ConscriptionNoticeIcon",
+      "icon_small": "@ConscriptionNoticeIconHUD",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "uncommon"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "ConscriptionNoticeIcon",
+      "path": "textures/BSG_ConscriptionNotice.png"
+    },
+    {
+      "id": "ConscriptionNoticeIconHUD",
+      "path": "textures/HUD/BSG_ConscriptionNotice.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "ConscriptionNoticeEffect",
+      "name": "RelicEffectAddBattleCardToHandOnUnitTrigger",
+      "source_team": "monsters",
+      "param_int": 1,
+      "param_subtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34",
+      "param_trigger": "on_spawn",
+      "param_card_pool": "@ConscriptionNoticeCardPool",
+      "conditions": [
+        "@ConscriptionNoticeEffectCondition"
+      ],
+      "param_upgrade": "@ConscriptionNoticeUpgrade",
+      "param_card_type": "spell"
+    }
+  ],
+  "card_pools": [
+    {
+      "id": "ConscriptionNoticeCardPool",
+      "cards": [
+        "BrandedWarrior",
+        "HornedWarrior",
+        "Steelworker",
+        "Railbeater",
+        "AnimusOfWill",
+        "AnimusOfSpeed",
+        "ShatteredShell",
+        "HuskHermit",
+        "RuneboundGuardian",
+        "RuneboundProtector",
+        "CombativeSiren",
+        "EnlightenedSiren",
+        "ColdstingSiren",
+        "ColdstrikeSiren",
+        "ParrafinThug",
+        "WicklessBaron",
+        "WicklessTycoon",
+        "LadyOfTheHouse",
+        "BattleDancer",
+        "HeroInTraining",
+        "SteadfastCrusader",
+        "Swordmaiden",
+        "Sycophant",
+        "Miser",
+        "SilentSentinel",
+        "AmorousEnoki",
+        "MorelMistress",
+        "PricklyPuffball",
+        "MakeshiftGolem",
+        "Meathook"
+      ]
+    }
+  ],
+  "relic_effect_conditions": [
+    {
+      "id": "ConscriptionNoticeEffectCondition",
+      "param_tracked_value": "subtype_in_deck",
+      "param_card_type": "any",
+      "param_track_trigger_count": true,
+      "param_entry_duration": "this_battle",
+      "param_comparator": "equal",
+      "param_int": 1,
+      "allow_multiple_triggers_per_duration": false,
+      "param_subtype": "SubtypesData_Champion_83f21cbe-9d9b-4566-a2c3-ca559ab8ff34"
+    }
+  ],
+  "upgrades": [
+    {
+      "id": "ConscriptionNoticeUpgrade",
+      "bonus_damage": 10,
+      "bonus_hp": 10,
+      "cost_reduction": 1,
+      "bonus_size": -1,
+      "filters": [
+        "@ConscriptionNoticeUpgradeFilter"
+      ]
+    }
+  ],
+  "upgrade_masks": [
+    {
+      "id": "ConscriptionNoticeUpgradeFilter",
+      "card_type": "monster"
+    }
+  ]
+}
