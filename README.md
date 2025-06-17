@@ -25,31 +25,33 @@ If you loved this or any of my other mods, feel free to [tip me a coffee.](https
 # Full List of Artifacts
 
 ## Clanless Artifacts
-| Artifact               | Description                                                                                                    |
-| ---------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Advanced Prototype     | Steward units cards get +5Attack, +5Health, Damage Shield 2 and Multistrike 1.                                 |
-| Boon of the Blacksmith | Your Pyre gets +15Attack.                                                                                      |
-| Cheater's Hand         | Draw +1 each turn, then return 1 card to the top of your draw pile.                                            |
-| Concussive Coals       | 50% chance to apply Dazed when an enemy unit enters your train.                                                |
-| Faulty Loader          | Apply Dazed 3 and Melee Weakness 1 to enemy units on the bottom floor in the first wave of combat.             |
-| Forever Flame          | Units cost -2Ember.                                                                                            |
-| Golden Vault           | As long as you have at least 25Gold, lose 25Gold when you take Pyre damage in combat instead of taking damage. |
-| Hammered Chestplates   | Friendly units get +5Health.                                                                                   |
-| Improved Firebox       | Gain 7Ember on the first turn of battle.                                                                       |
-| Infused Mallet         | 25% chance to deal 5 damage when an enemy unit enters your train.                                              |
-| Iron Dropcage          | Whenever you play a spell that would Ascend or Descend an enemy unit, also apply Dazed 2.                      |
-| Light's Gift           | Apply Dazed to enemy units when they enter the floor below the Pyre Room.                                      |
-| Mark of a Champion     | When played, your Champion gains +50% attack.                                                                  |
-| Mark of an Exile       | When played, your Champion gains +50% max health.                                                              |
-| Precious Plating       | Your Pyre gets +40Pyre Health.                                                                                 |
-| Pyrewall               | Your Pyre starts each battle with Armor 15.                                                                    |
-| Rationing Scales       | Before each battle, set Pyre health to 50. If this reduces Pyre health, gain 3Gold for each health lost.       |
-| Refracting Lenses      | When a card with Consume is played, restore 5 Pyre health.                                                     |
-| Tempered Talisman      | +3 Magic Power.                                                                                                |
-| The First Hellpact     | X Cost cards get +3 to their X value when played.                                                              |
-| Vapor Funnel           | Apply Dazed to enemy units when they enter the Pyre Room. Your Pyre gets -5Attack.                             |
-| Winged Indulgence      | Enemies get -1Attack.                                                                                          |
-| Worn Grindstone        | Friendly units get +5Attack.                                                                                   |
+| Artifact               | Original Description                                                                                             |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Advanced Prototype     | Steward units cards get +5Attack, +5Health, Damage Shield 2 and Multistrike 1.                                   |
+| Boon of the Blacksmith | Your Pyre gets +15Attack.                                                                                        |
+| Cheater's Hand         | Draw +1 each turn, then return 1 card to the top of your draw pile.                                              |
+| Concussive Coals       | 50% chance to apply Dazed when an enemy unit enters your train.                                                  |
+| Conscription Notice    | When you first summon your Champion, gain a random unit card with +10Attack, +10Health, -1Ember, and -1Capacity. |
+| Faulty Loader          | Apply Dazed 3 and Melee Weakness 1 to enemy units on the bottom floor in the first wave of combat.               |
+| Forever Flame          | Units cost -2Ember.                                                                                              |
+| Golden Vault           | As long as you have at least 25Gold, lose 25Gold when you take Pyre damage in combat instead of taking damage.   |
+| Hammered Chestplates   | Friendly units get +5Health.                                                                                     |
+| Hell's Banners         | When you summon the second unit during a turn, gain 3Ember.                                                      |
+| Improved Firebox       | Gain 7Ember on the first turn of battle.                                                                         |
+| Infused Mallet         | 25% chance to deal 5 damage when an enemy unit enters your train.                                                |
+| Iron Dropcage          | Whenever you play a spell that would Ascend or Descend an enemy unit, also apply Dazed 2.                        |
+| Light's Gift           | Apply Dazed to enemy units when they enter the floor below the Pyre Room.                                        |
+| Mark of a Champion     | When played, your Champion gains +50% attack.                                                                    |
+| Mark of an Exile       | When played, your Champion gains +50% max health.                                                                |
+| Precious Plating       | Your Pyre gets +40Pyre Health.                                                                                   |
+| Pyrewall               | Your Pyre starts each battle with Armor 15.                                                                      |
+| Rationing Scales       | Before each battle, set Pyre health to 50. If this reduces Pyre health, gain 3Gold for each health lost.         |
+| Refracting Lenses      | When a card with Consume is played, restore 5 Pyre health.                                                       |
+| Tempered Talisman      | +3 Magic Power.                                                                                                  |
+| The First Hellpact     | X Cost cards get +3 to their X value when played.                                                                |
+| Vapor Funnel           | Apply Dazed to enemy units when they enter the Pyre Room. Your Pyre gets -5Attack.                               |
+| Winged Indulgence      | Enemies get -1Attack.                                                                                            |
+| Worn Grindstone        | Friendly units get +5Attack.                                                                                     |
 
 ## Event Reward Artifacts
 | Artifact             | Description                                                                   |
