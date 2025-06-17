@@ -4,9 +4,8 @@ Brings back several of the artifacts from the original Monster Train to Monster 
 
 # Features
 
-- Brings back 38 artifacts which were in the original Monster Train to Monster Train 2 (See the full list below)
-- Their stats remain the same, but they will be updated in the future to match the stats on the newer relics
-- The two missing artifacts will be implemented once they are supported by the Trainworks framework
+- Brings back 40 artifacts which were in the original Monster Train to Monster Train 2 (See the full list below)
+- Their stats remain the same, but some will be updated to keep in line with the new relics from Monster Train 2
 
 # Installation
 
@@ -38,7 +37,7 @@ If you loved this or any of my other mods, feel free to [tip me a coffee.](https
 | Hammered Chestplates   | Friendly units get +5Health.                                                                                     |
 | Hell's Banners         | When you summon the second unit during a turn, gain 3Ember.                                                      |
 | Improved Firebox       | Gain 7Ember on the first turn of battle.                                                                         |
-| Infused Mallet         | 25% chance to deal 5 damage when an enemy unit enters your train.                                                |
+| Infused Mallet         | 50% chance to deal 5 damage when an enemy unit enters your train.                                                |
 | Iron Dropcage          | Whenever you play a spell that would Ascend or Descend an enemy unit, also apply Dazed 2.                        |
 | Light's Gift           | Apply Dazed to enemy units when they enter the floor below the Pyre Room.                                        |
 | Mark of a Champion     | When played, your Champion gains +50% attack.                                                                    |
@@ -47,7 +46,7 @@ If you loved this or any of my other mods, feel free to [tip me a coffee.](https
 | Pyrewall               | Your Pyre starts each battle with Armor 15.                                                                      |
 | Rationing Scales       | Before each battle, set Pyre health to 50. If this reduces Pyre health, gain 3Gold for each health lost.         |
 | Refracting Lenses      | When a card with Consume is played, restore 5 Pyre health.                                                       |
-| Tempered Talisman      | +3 Magic Power.                                                                                                  |
+| Tempered Talisman      | +10 Magic Power.                                                                                                 |
 | The First Hellpact     | X Cost cards get +3 to their X value when played.                                                                |
 | Vapor Funnel           | Apply Dazed to enemy units when they enter the Pyre Room. Your Pyre gets -5Attack.                               |
 | Winged Indulgence      | Enemies get -1Attack.                                                                                            |
@@ -61,7 +60,7 @@ If you loved this or any of my other mods, feel free to [tip me a coffee.](https
 | Cracked Helmet       | Damage spells get Piercing.                                                   |
 | Dante's Cloak        | +2 Magic Power' for every Blight card in your deck.                           |
 | Ember Stasis         | Playing a Blight card deals 120 damage to the front enemy unit.               |
-| Frozen Nostalgia     | \-1Capacity on each floor. +15 Magic Power.                                   |
+| Frozen Nostalgia     | -1Capacity on each floor. +20 Magic Power.                                    |
 | Heaven's Gold        | Your Pyre gets +1Attack for every 10Gold you have.                            |
 | History of the World | +3Capacity on a random floor.                                                 |
 | Immortality Potion   | Friendly non-Morsel units get Endless.                                        |
