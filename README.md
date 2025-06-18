@@ -6,7 +6,7 @@ Brings back several of the artifacts from the original Monster Train to Monster 
 
 - Brings back 40 artifacts which were in the original Monster Train to Monster Train 2 (See the full list below)
 - Configuration file to pick and choose which artifacts will be added
-- Their stats remain the same, but some will be updated to keep in line with the new relics from Monster Train 2
+- Their stats remain the same, but some will be buffed to make them more competitive with other artifacts
 
 # Installation
 
