@@ -70,6 +70,7 @@
       "id": "IronDropcageEffect",
       "name": "RelicEffectAddStatusEffectOnUnitMoved",
       "source_team": "heroes",
+      "param_card_type": "spell",
       "param_status_effects": [
         {
           "status": "dazed",

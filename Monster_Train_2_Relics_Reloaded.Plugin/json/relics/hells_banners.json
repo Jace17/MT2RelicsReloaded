@@ -1,0 +1,74 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Monster-Train-2-Modding-Group/Trainworks-Reloaded/refs/heads/main/schemas/base.json",
+  "relics": [
+    {
+      "id": "HellsBanners",
+      "type": "collectable",
+      "names": {
+        "english": "Hell's Banners"
+      },
+      "descriptions": {
+        "english": "When you summon the second unit during a turn, gain [effect0.power][ember]."
+      },
+      "relic_activated_texts": {
+        "english": "+{0}[ember]"
+      },
+      "lore_tooltips": [
+        {
+          "english": "When I finally succeeded in uniting all nine Rings of Hell, we created a united army of Hell to fight back in the event of the Covenant breaking. I was surprised at the overwhelming support I received in this endeavor."
+        }
+      ],
+      "lore_style": "herzal",
+      "relic_effects": [
+        {
+          "id": "@HellsBannersEffect"
+        }
+      ],
+      "icon": "@HellsBannersIcon",
+      "icon_small": "@HellsBannersIconHUD",
+      "extensions": [
+        {
+          "collectable": {
+            "class": null,
+            "pools": [ "megapool" ],
+            "rarity": "common"
+          }
+        }
+      ]
+    }
+  ],
+  "sprites": [
+    {
+      "id": "HellsBannersIcon",
+      "path": "textures/BSG_HellsBanners.png"
+    },
+    {
+      "id": "HellsBannersIconHUD",
+      "path": "textures/HUD/BSG_HellsBanners.png"
+    }
+  ],
+  "relic_effects": [
+    {
+      "id": "HellsBannersEffect",
+      "name": "RelicEffectEnergyOnUnitSpawned",
+      "source_team": "monsters",
+      "param_int": 3,
+      "param_trigger": "on_spawn",
+      "param_card_type": "monster",
+      "conditions": [
+        "@HellsBannersEffectCondition"
+      ]
+    }
+  ],
+  "relic_effect_conditions": [
+    {
+      "id": "HellsBannersEffectCondition",
+      "param_tracked_value": "any_monster_spawned",
+      "param_card_type": "monster",
+      "param_entry_duration": "this_turn",
+      "param_comparator": "equal",
+      "param_int": 2,
+      "allow_multiple_triggers_per_duration": false
+    }
+  ]
+}
