@@ -1,5 +1,7 @@
 # Monster Train 2 Relics Reloaded
 
+Support language: English | [简体中文](https://github.com/Jace17/MT2RelicsReloaded/blob/main/README_zh.md)
+
 Brings back several of the artifacts from the original Monster Train to Monster Train 2.
 
 # Features
