@@ -5,14 +5,35 @@
       "id": "Pyrewall",
       "type": "collectable",
       "names": {
-        "english": "Pyrewall"
+        "english": "Pyrewall",
+        "french": "Pare-feu",
+        "german": "Höllenglutwall",
+        "russian": "Защита Пекла",
+        "portuguese": "Muro da Pira",
+        "chinese": "薪火护墙",
+        "chinese_traditional": "薪火護墻",
+        "korean": "불씨 방벽"
       },
       "descriptions": {
-        "english": "Your Pyre starts each battle with [armor] [effect0.status0.power]."
+        "english": "Your Pyre starts each battle with [armor] [effect0.status0.power].",
+        "french": "Votre Brasier commence chaque combat avec [armor] [effect0.status0.power].",
+        "german": "Deine Höllenglut beginnt jeden Kampf mit [effect0.status0.power] [armor].",
+        "russian": "Ваше Пекло получает [effect0.status0.power] [armor] в начале каждого боя.",
+        "portuguese": "Sua Pira começa cada batalha com [effect0.status0.power] de [armor].",
+        "chinese": "战斗开始时，你的薪火获得[armor] [effect0.status0.power]。",
+        "chinese_traditional": "戰鬥開始時，你的薪火穫得[armor] [effect0.status0.power]。",
+        "korean": "불씨가 [armor] [effect0.status0.power] $을$ 가지고 매 전투를 시작합니다."
       },
       "lore_tooltips": [
         {
-          "english": "As the Winged offensive grew more aggressive and building materials grew more scarce, I had to develop some protection with the tools at hand. These walls won’t withstand more than a couple blows, but that can still mean the difference between life and death."
+          "english": "As the Winged offensive grew more aggressive and building materials grew more scarce, I had to develop some protection with the tools at hand. These walls won’t withstand more than a couple blows, but that can still mean the difference between life and death.",
+          "french": "Alors que l'offensive angélique gagnait en intensité et que les matériaux de construction se raréfiaient, j'ai été contraint de fabriquer une protection avec ce que j'avais sous la main. Ces murs ne résisteront pas à plus de quelques coups, mais dans un combat, c'est ce qui peut faire la différence entre la vie et la mort.",
+          "german": "Als der Angriff der Geflügelten aggressiver wurde und es weniger Baumaterial gab, musste ich eine Verteidigung aus dem aufbauen, was ich zur Hand hatte. Diese Wälle halten nicht ewig, aber in manchen Situationen kann ein bisschen mehr Schutz den Unterschied zwischen Leben und Tod bedeuten.",
+          "russian": "Когда Крылатые начали теснить нас, а строительных материалов стало не хватать, мне пришлось использовать то, что было под рукой. Эти стены не выдержат больше пары ударов, но и они могут стать решающим аргументом в борьбе за жизнь.",
+          "portuguese": "Conforme a ofensiva dos Alados ficou mais agressiva e os materiais de construção ficaram mais escassos, eu precisei desenvolver uma proteção com as ferramentas que tinha em mãos. Estas paredes não suportam mais que alguns golpes, mas ainda pode ser a diferença entre a vida e a morte.",
+          "chinese": "随着翼族的攻势越来越猛烈，建筑材料越来越稀少，我不得不使用手头的工具开发一些保护措施。这些墙并不能承受住几次攻击，但有的时候，挡下来的这几次攻击就决定了是生存还是死亡。",
+          "chinese_traditional": "隨着翼族的攻勢越來越猛烈，建築材料越來越稀少，我不得不使用手頭的工具開發一些保護措施。這些墻并不能承受住幾次攻擊，但有的時候，擋下來的這幾次攻擊就決定瞭是生存還是死亡。",
+          "korean": "날개달린 자들의 공세는 갈수로 세졌고, 건축 자재도 점점 떨어져갔다. 난 내가 가진 도구만으로 어떻게든 방호수단을 개발해야 했다. 이 벽은 몇 방 정도밖에 막을 수 있겠지만, 그 정도도 사느냐 죽느냐를 가를지도 모른다."
         }
       ],
       "lore_style": "herzal",

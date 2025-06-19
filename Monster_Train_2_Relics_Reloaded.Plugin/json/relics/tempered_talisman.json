@@ -5,14 +5,35 @@
       "id": "TemperedTalisman",
       "type": "collectable",
       "names": {
-        "english": "Tempered Talisman"
+        "english": "Tempered Talisman",
+        "french": "Talisman trempé",
+        "german": "Polierter Talisman",
+        "russian": "Закаленный талисман",
+        "portuguese": "Talismã Temperado",
+        "chinese": "淬炼护符",
+        "chinese_traditional": "淬煉護符",
+        "korean": "담금질된 부적"
       },
       "descriptions": {
-        "english": "+[effect0.power] [magicpower]."
+        "english": "+[effect0.power] [magicpower].",
+        "french": "+[effect0.power] [magicpower].",
+        "german": "+[effect0.power] [magicpower].",
+        "russian": "+[effect0.power] к [magicpower].",
+        "portuguese": "+[effect0.power] [magicpower].",
+        "chinese": "+[effect0.power] [magicpower]。",
+        "chinese_traditional": "+[effect0.power] [magicpower]。",
+        "korean": "+[effect0.power] [magicpower]."
       },
       "lore_tooltips": [
         {
-          "english": "Never before have the nine Rings of Hell collaborated on something as monumental as the Rail of the Covenant. As a token of thanks, I created these amulets through my time in Hell, imbuing them with some basic power, and I gave them to each clan."
+          "english": "Never before have the nine Rings of Hell collaborated on something as monumental as the Rail of the Covenant. As a token of thanks, I created these amulets through my time in Hell, imbuing them with some basic power, and I gave them to each clan.",
+          "french": "Les neuf cercles de l'enfer n'avaient auparavant jamais collaboré à une entreprise aussi monumentale que la Voie de l'alliance. En gage de remerciement, j'ai créé ces amulettes lors de mon séjour en enfer, les ai imprégnées d'un pouvoir modeste et en ai offerte une à chaque clan.",
+          "german": "Die neun Kreise der Hölle haben noch nie zuvor an etwas so Monumentalem wie dem Paktgleis zusammengearbeitet. Als Zeichen meines Danks habe ich während meiner Reisen durch die Hölle diese Amulette gefertigt, mit einfachen Kräften erfüllt und den Stämmen überreicht.",
+          "russian": "Никогда в прошлом девять Кругов Ада не пытались объединиться и создать нечто вроде Путей Согласия. Чтобы продемонстрировать свою признательность, я смастерил в Аду эти амулеты, наделив их определенной силой, и вручил их каждому из кланов.",
+          "portuguese": "Os nove Círculos do Inferno nunca haviam colaborado em algo tão monumental quanto o Trilho do Pacto. Como forma de agradecimento, criei esses amuletos durante meu tempo no Inferno e dei um para cada clã. Eles foram infundidos com um tipo básico de poder.",
+          "chinese": "在铁道契约创立之前，地狱九界从来没有通力合作过如此有纪念意义的事情。为了表达谢意，我在地狱的这段时间里制作了这些护身符。我赋予了它们一些基本的力量，作为谢礼送给了每个氏族。",
+          "chinese_traditional": "在鐵道契約創立之前，地獄九界從來沒有通力合作過如此有紀念意義的事情。爲瞭錶達謝意，我在地獄的這段時間裏製作瞭這些護身符。我賦予瞭它們一些基本的力量，作爲謝禮送給瞭每個氏族。",
+          "korean": "지금까지 지옥의 아홉 영역이 맹약의 철길과 같은 기념비적인 일에 대규모로 협력한 적은 단 한번도 없었다. 이에 대한 감사의 증표로, 난 지옥에 머무는 동안 이 부적들을 만들고 기본적인 능력을 불어넣어 각 부족에게 나누어 주었다."
         }
       ],
       "lore_style": "herzal",

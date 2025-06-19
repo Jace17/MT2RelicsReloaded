@@ -5,14 +5,35 @@
       "id": "MarkOfAChampion",
       "type": "collectable",
       "names": {
-        "english": "Mark of a Champion"
+        "english": "Mark of a Champion",
+        "french": "Marque d'un Champion",
+        "german": "Zeichen eines Champions",
+        "russian": "Метка Героя",
+        "portuguese": "Marca de um Campeão",
+        "chinese": "勇者的印记",
+        "chinese_traditional": "勇者的印記",
+        "korean": "챔피언의 인장"
       },
       "descriptions": {
-        "english": "When played, your Champion gains +[effect0.power]% attack."
+        "english": "When played, your Champion gains +[effect0.power]% attack.",
+        "french": "Lorsque jouée, votre champion obtient +[effect0.power] % d'attaque.",
+        "german": "Dein Champion erhält +[effect0.power] % Angriff, wenn die Karte gespielt wird.",
+        "russian": "При активации ваш Герой получает +[effect0.power]% к атаке.",
+        "portuguese": "Ao ser jogado, seu Campeão recebe +[effect0.power]% de ataque.",
+        "chinese": "当你召唤勇者时，使其获得 +[effect0.power]% [attack]。",
+        "chinese_traditional": "當你召喚勇者時，使其穫得 +[effect0.power]% [attack]。",
+        "korean": "낼 때, 챔피언이 공격력을 +[effect0.power]% 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "The roles of the Champions of Hell were created as part of the Hellpact. They were to be representatives of each clan, chosen by their own clan. In hindsight, this was an ambitious idea that failed more often than it succeeded. It’s unfair to attribute our current situation to these failings, but that makes it no less accurate."
+          "english": "The roles of the Champions of Hell were created as part of the Hellpact. They were to be representatives of each clan, chosen by their own clan. In hindsight, this was an ambitious idea that failed more often than it succeeded. It’s unfair to attribute our current situation to these failings, but that makes it no less accurate.",
+          "french": "Les rôles des champions de l'enfer sont définis par le Pacte des enfers. Ils devaient représenter chaque clan, qui les choisissaient. Avec le recul, cette idée un peu trop ambitieuse a connu plus d'échecs que de réussites. Il serait malhonnête de dire que ces échecs sont la cause de notre situation actuelle, même si c'est assez juste.",
+          "german": "Die Champions der Hölle wurden im Rahmen des Höllenpaktes geschaffen. Sie wurden von jedem Stamm selbst auserkoren, um diesen zu repräsentieren. Im Nachhinein war dies eine viel zu ambitionierte Idee, die öfter fehlschlug, als dass sie von Erfolg gekrönt war. Es ist zwar nicht gerecht, unsere derzeitige Situation diesen Fehlschlägen zuzuschreiben, aber das macht es nicht weniger zutreffend.",
+          "russian": "Роли Героев Ада были созданы в рамках Пакта Ада. Они должны были стать представителями каждого клана, избранными. По прошествии времени стало ясно, что эта амбициозная идея чаще подводила нас, нежели наоборот. Будет неправильно приписывать нашу текущую ситуацию этим неудачам, но это не делает мое наблюдение менее точным.",
+          "portuguese": "As funções dos Campeões do Inferno foram criadas como parte do Pacto do Inferno. Eles deveriam ser representantes de cada clã, escolhidos internamente. Em retrospectiva, essa foi uma ideia ambiciosa que falhou mais do que teve sucesso. É injusto atribuir nossa situação atual a essas falhas, mas isso não torna a premissa menos precisa.",
+          "chinese": "地狱勇者的职责作为地狱契约的一部分被创造了出来。他们是各个氏族自行选出的代表。事后想来，这个主意很有野心，只是失败的多，成功的少。将我们目前的处境归咎于这些失败虽不公平，但并不错。",
+          "chinese_traditional": "地獄勇者的職責作爲地獄契約的一部分被創造瞭齣來。他們是各個氏族自行選齣的代錶。事後想來，這個主意很有野心，隻是失敗的多，成功的少。將我們目前的處境歸咎於這些失敗雖不公平，但并不錯。",
+          "korean": "지옥 서약에는 다음과 같이 지옥의 용사들이 규정되어 있다: 이들은 각 부족이 직접 선출한 부족의 대표자이다. 돌이켜 보면 이 방식은 분명 야심찬 생각이었지만, 또한 제대로 돌아가지 않을 가능성이 훨씬 높은 방식이었다. 물론 작금의 상황이 이 규정 때문에 일어났다고 할 수는 없겠지만, 제대로 작동하지 않았던 것은 분명한 사실이다."
         }
       ],
       "lore_style": "herzal",

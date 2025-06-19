@@ -5,14 +5,35 @@
       "id": "AdvancedPrototype",
       "type": "collectable",
       "names": {
-        "english": "Advanced Prototype"
+        "english": "Advanced Prototype",
+        "french": "Prototype avancé",
+        "german": "Verbesserter Prototyp",
+        "russian": "Улучшенный прототип",
+        "portuguese": "Protótipo Avançado",
+        "chinese": "进阶原型",
+        "chinese_traditional": "進階原型",
+        "korean": "개선된 시제품"
       },
       "descriptions": {
-        "english": "Steward units get +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power], and [multistrike] [effect0.upgrade.status1.power]."
+        "english": "Steward units get +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power], and [multistrike] [effect0.upgrade.status1.power].",
+        "french": "Les stewards gagnent +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power] et [multistrike] [effect0.upgrade.status1.power].",
+        "german": "Begleiter-Einheiten erhalten +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [effect0.upgrade.status0.power] [damageshield] und [effect0.upgrade.status1.power] [multistrike].",
+        "russian": "Стюарды получают +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [effect0.upgrade.status0.power] [damageshield] и [effect0.upgrade.status1.power] [multistrike].",
+        "portuguese": "As unidades de guarda recebem mais +[effect0.upgrade.bonusdamage] de [attack], +[effect0.upgrade.bonushp] de [health], [effect0.upgrade.status0.power] de [damageshield] e [effect0.upgrade.status1.power] de [multistrike].",
+        "chinese": "乘务员单位卡牌获得 +[effect0.upgrade.bonusdamage][attack]，+[effect0.upgrade.bonushp][health]，[damageshield] [effect0.upgrade.status0.power]，[multistrike] [effect0.upgrade.status1.power]。",
+        "chinese_traditional": "乘務員單位卡牌穫得 +[effect0.upgrade.bonusdamage][attack]，+[effect0.upgrade.bonushp][health]，[damageshield] [effect0.upgrade.status0.power]，[multistrike] [effect0.upgrade.status1.power]。",
+        "korean": "승무원 유닛들이 +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power] 및 [multistrike] [effect0.upgrade.status1.power] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Just before the Freeze, I was working on an upgraded version of the Train Stewards. The invasion of the Winged interrupted my research and prevented me from rolling out the upgrade to each Steward on the Boneshaker, but I’ve kept the prototype around in the hopes of eventually finishing what I started."
+          "english": "Just before the Freeze, I was working on an upgraded version of the Train Stewards. The invasion of the Winged interrupted my research and prevented me from rolling out the upgrade to each Steward on the Boneshaker, but I’ve kept the prototype around in the hopes of eventually finishing what I started.",
+          "french": "Juste avant la Glaciation, je travaillais sur une version améliorée de mes stewards. L'invasion des anges a interrompu mes recherches et m'a empêché d'appliquer cette amélioration à bord du Hurleflammes, cependant, j'ai conservé le prototype dans l'espoir de terminer un jour ce que j'avais commencé.",
+          "german": "Kurz bevor die Hölle einfror, arbeitete ich an einer verbesserten Version der Zugbegleiter. Der Überfall der Geflügelten unterbrach meine Forschungen und verhinderte, dass ich die Verbesserungen bei jedem Begleiter im Knochenrüttler anwenden konnte, aber ich habe den Prototyp in der Hoffnung behalten, das Projekt eines Tages zu vollenden.",
+          "russian": "Как раз перед тем, как Ад замерз, я работал над улучшенной версией стюардов. Вторжение Крылатых помешало моим исследованиям и внесению изменений в каждого из команды «Костолома», но мне удалось сохранить прототип, чтобы однажды завершить начатое.",
+          "portuguese": "Pouco antes do Congelamento, eu estava trabalhando em uma versão aprimorada dos Guardas do Trem. A invasão dos Alados interrompeu minha pesquisa e me impediu de lançar o aprimoramento para cada Guarda do Ossuário, mas mantive o protótipo na esperança de terminar o que comecei.",
+          "chinese": "大冻结到来之前，我正在试着对列车乘务员进行改良，但翼族的入侵打断了我的研究，让我没时间对老爷车号上的每一位乘务员进行升级。不过，我依然保留着这台原型机，希望以后有机会能重新开始我停下来的工作。",
+          "chinese_traditional": "大凍結到來之前，我正在試着對列車乘務員進行改良，但翼族的入侵打斷瞭我的研究，讓我沒時間對老爺車號上的每一位乘務員進行升級。不過，我依然保留着這枱原型機，希望以後有機會能重新開始我停下來的工作。",
+          "korean": "지옥이 얼어붙기 직전, 난 열차 승무원의 향상된 버전을 제작하고 있었다. 하지만 날개달린 자들의 침략으로 인해 내 연구는 방해받았고, 덕분에 본셰이커의 각 승무원들을 전부 향상시키는 작업만큼은 끝마치지 못했다. 하지만 시제품을 따로 보관해두었으니, 나중에라도 이 작업을 끝내고자 한다."
         }
       ],
       "lore_style": "herzal",

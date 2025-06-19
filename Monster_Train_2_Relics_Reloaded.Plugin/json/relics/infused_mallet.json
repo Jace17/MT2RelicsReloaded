@@ -5,14 +5,35 @@
       "id": "InfusedMallet",
       "type": "collectable",
       "names": {
-        "english": "Infused Mallet"
+        "english": "Infused Mallet",
+        "french": "Maillet imprégné",
+        "german": "Energiegeladener Hammer",
+        "russian": "Заряженная колотушка",
+        "portuguese": "Macete Infundido",
+        "chinese": "能量锻锤",
+        "chinese_traditional": "能量鍛錘",
+        "korean": "주입된 망치"
       },
       "descriptions": {
-        "english": "[effect0.power]% chance to deal [effect0.effect0.power] damage when an enemy unit enters your train."
+        "english": "[effect0.power]% chance to deal [effect0.effect0.power] damage when an enemy unit enters your train.",
+        "french": "[effect0.power] % de chances d'infliger [effect0.effect0.power] dégâts lorsqu'une unité ennemie entre dans le train.",
+        "german": "Chance von [effect0.power] %, dass einer gegnerischen Einheit [effect0.effect0.power] Schaden zugefügt wird, wenn sie deinen Zug betritt.",
+        "russian": "С вероятностью [effect0.power]% наносит [effect0.effect0.power] урона вражескому бойцу, проникающему в ваш поезд.",
+        "portuguese": "[effect0.power]% de chance de causar [effect0.effect0.power] de dano quando uma unidade inimiga adentra seu trem.",
+        "chinese": "当敌方单位进入火车时，有 [effect0.power]% 的几率对其造成 [effect0.effect0.power] 点伤害。",
+        "chinese_traditional": "當敵方單位進入火車時，有 [effect0.power]% 的幾率對其造成 [effect0.effect0.power] 點傷害。",
+        "korean": "적 유닛이 열차에 입장할 때, [effect0.power]% 의 확률로 피해를 [effect0.effect0.power] 줍니다."
       },
       "lore_tooltips": [
         {
-          "english": "The first to hammer the Rail of the Covenant. It served me well, but the time it spent with the Pyre filled it with an energy that is too powerful to contain."
+          "english": "The first to hammer the Rail of the Covenant. It served me well, but the time it spent with the Pyre filled it with an energy that is too powerful to contain.",
+          "french": "Le premier à avoir martelé les rails de la Voie de l'alliance. Il m'a beaucoup servi, mais le temps qu'il a passé à proximité du Brasier l'a empli d'une énergie si puissante qu'il est impossible de la contenir.",
+          "german": "Der erste Hammer, der das Paktgleis berührte. Er hat mir gute Dienste geleistet, aber da er so lange dem Einfluss der Höllenglut ausgesetzt war, ist er nun von einer unkontrollierbaren Energie erfüllt.",
+          "russian": "Тот самый молот, с которого начиналась Железная дорога Согласия. Он верно служил мне, но так часто соприкасался с Пеклом, что насытился энергией, которую я не могу контролировать.",
+          "portuguese": "O primeiro a martelar o Trilho do Pacto. Ele foi útil, mas o tempo que passou com a Pira o encheu com uma energia que é poderosa demais para conter.",
+          "chinese": "用来锻造第一段契约铁道的锻锤。这把锤子我曾经用得很顺手，但由于在薪火旁边放得太久，它如今已充满了无法控制的能量。",
+          "chinese_traditional": "用來鍛造第一段契約鐵道的鍛錘。這把錘子我曾經用得很順手，但由於在薪火旁邊放得太久，它如今已充滿瞭無法控製的能量。",
+          "korean": "맹약의 철길을 처음으로 망치질할 때 쓴 물건이다. 이 망치는 유용하게 쓰였지만, 불씨 근처에서 너무 오래 사용됐기 때문에 이제는 통제가 불가능할 정도로 강력한 에너지가 담겨 있다."
         }
       ],
       "lore_style": "herzal",

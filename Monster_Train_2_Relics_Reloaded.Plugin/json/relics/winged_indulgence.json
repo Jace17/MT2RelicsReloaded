@@ -5,14 +5,35 @@
       "id": "WingedIndulgence",
       "type": "collectable",
       "names": {
-        "english": "Winged Indulgence"
+        "english": "Winged Indulgence",
+        "french": "Petit plaisir angélique",
+        "german": "Schmaus der Geflügelten",
+        "russian": "Милость Крылатых",
+        "portuguese": "Indulgência Alada",
+        "chinese": "骄奢淫翼",
+        "chinese_traditional": "驕奢淫翼",
+        "korean": "날개달린 자들의 사치"
       },
       "descriptions": {
-        "english": "Enemy units get [effect0.power][attack]."
+        "english": "Enemy units get [effect0.power][attack].",
+        "french": "Les unités ennemies gagnent [effect0.power][attack].",
+        "german": "Gegnerische Einheiten erhalten [effect0.power][attack].",
+        "russian": "Вражеские бойцы получают [effect0.power][attack].",
+        "portuguese": "Unidades inimigas recebem [effect0.power] de [attack].",
+        "chinese": "使所有敌方单位获得 [effect0.power][attack]。",
+        "chinese_traditional": "使所有敵方單位穫得 [effect0.power][attack]。",
+        "korean": "적 유닛들이 [effect0.power][attack] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Their time in Hell has dulled the Winged’s ability to exert moderation in their consumption. They frequently binge on the bounty they’ve conquered, which is good for us, as it often leads to lethargy in battle."
+          "english": "Their time in Hell has dulled the Winged’s ability to exert moderation in their consumption. They frequently binge on the bounty they’ve conquered, which is good for us, as it often leads to lethargy in battle.",
+          "french": "À force de passer du temps en enfer, les anges ont perdu leur capacité à consommer avec modération. Ils se gavent souvent du butin dont ils s'emparent et souffrent de léthargie en combat, ce qui joue en notre faveur.",
+          "german": "Die Zeit in der Hölle hat die Fähigkeit der Geflügelten, sich zu zügeln und in Maßen zu genießen, beeinträchtigt. Sie schwelgen häufig in den Reichtümern und Leckerbissen, die sie erbeuten, was sie in machen Kämpfen ziemlich schwerfällig macht. Gut für uns.",
+          "russian": "Крылатые столь долго пробыли в Аду, что начали забывать об умеренности в еде. Победив, они часто устраивают пирушку. Нам же это только на руку: потом их охватывает дрема.",
+          "portuguese": "O tempo que passaram no Inferno diminuiu a capacidade dos Alados de exercer moderação em seu consumo. Eles frequentemente abusam da recompensa que conquistaram, o que é bom para nós, pois geralmente causa letargia na batalha.",
+          "chinese": "由于在地狱里呆了太长时间，翼族们适度消费的品行已经大不如前。每征服一片地域，他们便会拿着赏金大肆狂欢。结果就是，他们在战斗中经常会打瞌睡，这对我们很有好处。",
+          "chinese_traditional": "由於在地獄裏呆瞭太長時間，翼族們適度消費的品行已經大不如前。每徵服一片地域，他們便會拿着賞金大肆狂歡。結果就是，他們在戰鬥中經常會打瞌睡，這對我們很有好處。",
+          "korean": "날개달린 자들은 지옥에 머무르면서 음식에 대한 절제력을 서서히 잃어갔다. 그들은 노획한 전리품으로 자주 흥청망청 폭식하곤 했는데, 그 뒤 전투에서 무기력한 자들이 속출하던 걸 생각하면 우리에겐 좋은 일이었다."
         }
       ],
       "lore_style": "herzal",

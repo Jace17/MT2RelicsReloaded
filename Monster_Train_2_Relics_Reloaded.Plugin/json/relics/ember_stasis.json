@@ -5,14 +5,35 @@
       "id": "EmberStasis",
       "type": "collectable",
       "names": {
-        "english": "Ember Stasis"
+        "english": "Ember Stasis",
+        "french": "Braise en stase",
+        "german": "Glutasche-Stase",
+        "russian": "Угольный стазис",
+        "portuguese": "Estase das Brasas",
+        "chinese": "静态余烬",
+        "chinese_traditional": "靜態餘燼",
+        "korean": "정체된 잿불"
       },
       "descriptions": {
-        "english": "Playing a [blight] card deals [effect0.power] damage to the front enemy unit."
+        "english": "Playing a [blight] card deals [effect0.power] damage to the front enemy unit.",
+        "french": "Jouer une carte Fléau inflige [effect0.power] dégât à l'unité ennemie en première ligne.",
+        "german": "Das Spielen einer Fluch-Karte fügt der vordersten gegnerischen Einheit [effect0.power] Schaden zu.",
+        "russian": "Когда вы применяете карту-пагубник, боец врага получает [effect0.power] урона.",
+        "portuguese": "Usar uma carta de Praga causa [effect0.power] de dano à unidade inimiga na frente.",
+        "chinese": "每当打出一张[blight]牌时，都会对前排敌方单位造成 [effect0.power] 点伤害。",
+        "chinese_traditional": "每當打齣一張[blight]牌時，都會對前排敵方單位造成 [effect0.power] 點傷害。",
+        "korean": "[blight] 카드를 낼 때, 전방의 적 유닛에게 피해를 [effect0.power] 줍니다."
       },
       "lore_tooltips": [
         {
-          "english": "Ember is rarely observed in between states of living and dying, making it challenging to learn what destroys its lifeforce. The fragments are volatile things, guided entirely by how much they like their owner."
+          "english": "Ember is rarely observed in between states of living and dying, making it challenging to learn what destroys its lifeforce. The fragments are volatile things, guided entirely by how much they like their owner.",
+          "french": "Rares sont ceux qui peuvent observer une braise au moment de son extinction, ainsi, il est très difficile de savoir comment sa force vitale la quitte. Les fragments sont volatils, guidés uniquement par l'affection qu'ils portent à leur propriétaire.",
+          "german": "Glutasche wird nur selten beim Übergang zwischen Leben und Tod beobachtet. Es ist daher nicht einfach herauszufinden, was ihre Lebensenergie zerstört. Die Fragmente sind sehr unbeständig und hängen vollständig davon ab, wie sehr sie ihren Eigentümer mögen.",
+          "russian": "Наш уголь редко можно увидеть в переходном состоянии перед угасанием, что препятствует изучению причин, приводящих к этому. Поведение этих фрагментов-капризуль зависит исключительно от того, насколько им нравится их хозяин.",
+          "portuguese": "As Brasas raramente são observadas entre os estados de vida ou morte, tornando difícil saber o que destrói sua força vital. Os fragmentos são voláteis, guiados inteiramente pelo quanto gostam de seu dono.",
+          "chinese": "余烬除了活跃与熄灭两种状态之外，几乎不会有中间状态。这让我很难观察到底是什么力量破坏了它的生命力。碎片的状态非常易变，很大程度上取决于它对自己主人的喜欢程度。",
+          "chinese_traditional": "餘燼除瞭活躍與熄滅兩種狀態之外，幾乎不會有中間狀態。這讓我很難觀察到底是什麽力量破壞瞭它的生命力。碎片的狀態非常易變，很大程度上取決於它對自己主人的喜歡程度。",
+          "korean": "잿불이 살아있을 때와 죽어있을 때의 중간 과정을 관찰할 기회는 매우 드물다. 그 때문에 무엇이 잿불의 생명 에너지를 꺼트리는 건지 연구하기도 힘들다. 이 조각들은 불안정하고, 소유자를 얼마나 좋아하는지에 따라 그 반응이 달라진다."
         }
       ],
       "lore_style": "herzal",

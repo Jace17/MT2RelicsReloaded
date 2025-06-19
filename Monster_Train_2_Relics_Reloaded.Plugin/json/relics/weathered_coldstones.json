@@ -5,14 +5,35 @@
       "id": "WeatheredColdstones",
       "type": "collectable",
       "names": {
-        "english": "Weathered Coldstones"
+        "english": "Weathered Coldstones",
+        "french": "Pierres de froid érodées",
+        "german": "Verwitterte Froststeine",
+        "russian": "Обветренные ледышки",
+        "portuguese": "Pedras Frias Desgastadas",
+        "chinese": "风化冰晶石",
+        "chinese_traditional": "風化冰晶石",
+        "korean": "얼어붙은 냉기석"
       },
       "descriptions": {
-        "english": "When you play a [blight] card, restore [effect0.power] Pyre health."
+        "english": "When you play a [blight] card, restore [effect0.power] Pyre health.",
+        "french": "Lorsque vous jouez une carte <b>Fléau</b>, restaure [effect0.power] PV de Brasier.",
+        "german": "Wenn du eine <b>Fluch</b>-Karte ausspielst, stelle [effect0.power] Höllenglut-Gesundheit wieder her.",
+        "russian": "Когда вы разыгрываете <b>карту-пагубника</b>, восстанавливает [effect0.power] ед. здоровья Пеклу.",
+        "portuguese": "Quando você joga uma carta <b>Praga</b>, restaura [effect0.power] de vida da Pira.",
+        "chinese": "当你打出[blight]牌时，恢复 [effect0.power] 点薪火生命值。",
+        "chinese_traditional": "當你打齣[blight]牌時，恢複 [effect0.power] 點薪火生命值。",
+        "korean": "[blight] 카드를 낼 때, 불씨의 체력을 [effect0.power] 회복합니다."
       },
       "lore_tooltips": [
         {
-          "english": "Of the same ilk as the Pyre, these coldstones have been transformed by the freezing of Hell. They now emanate icy frost instead of Hellish heat."
+          "english": "Of the same ilk as the Pyre, these coldstones have been transformed by the freezing of Hell. They now emanate icy frost instead of Hellish heat.",
+          "french": "Ces pierres de froid, dont la structure est similaire à celle du Brasier, ont été transformées par la Glaciation. Elles exsudent désormais un froid givrant au lieu d'une chaleur infernale.",
+          "german": "Diese Froststeine sind ähnlichen Ursprungs wie die Höllenglut. Sie wurden verändert, als die Hölle einfror, sodass sie nun eisigen Frost statt höllischer Hitze verströmen.",
+          "russian": "Хоть они и схожи по своей сути с Пеклом, эти ледышки изменились, когда замерзал Ад. Теперь они источают холод, а не жар.",
+          "portuguese": "Da mesma natureza que a Pira, essas pedras frias foram transformadas pelo congelamento do Inferno. Agora, elas emanam gelo ao invés de calor infernal.",
+          "chinese": "这些冰晶石与地狱的薪火一样，都被地狱的寒气改变了样子。如今，它不再散发灼人的热气，而是发出冰冷的寒霜。",
+          "chinese_traditional": "這些冰晶石與地獄的薪火一樣，都被地獄的寒氣改變瞭樣子。如今，它不再散髮灼人的熱氣，而是髮齣冰冷的寒霜。",
+          "korean": "불씨와 동질의 물건이지만, 이 냉기석들은 지옥이 얼어붙으며 변성되었다. 이것들은 이제 지옥의 열기 대신 얼음장 같은 서리를 내뿜는다."
         }
       ],
       "lore_style": "herzal",

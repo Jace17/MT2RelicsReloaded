@@ -5,14 +5,35 @@
       "id": "BoonOfTheBlacksmith",
       "type": "collectable",
       "names": {
-        "english": "Boon of the Blacksmith"
+        "english": "Boon of the Blacksmith",
+        "french": "Bénédiction du forgeron",
+        "german": "Gunst des Schmiedes",
+        "russian": "Дар кузнеца",
+        "portuguese": "Benefício do Ferreiro",
+        "chinese": "铁匠祝福",
+        "chinese_traditional": "鐵匠祝福",
+        "korean": "대장장이의 보물"
       },
       "descriptions": {
-        "english": "Your Pyre gets +[effect0.power][attack]."
+        "english": "Your Pyre gets +[effect0.power][attack].",
+        "french": "Votre Brasier gagne +[effect0.power][attack].",
+        "german": "Deine Höllenglut erhält +[effect0.power][attack].",
+        "russian": "Ваше Пекло получает +[effect0.power][attack].",
+        "portuguese": "Sua Pira recebe +[effect0.power][attack].",
+        "chinese": "你的薪火 +[effect0.power][attack]。",
+        "chinese_traditional": "你的薪火 +[effect0.power][attack]。",
+        "korean": "불씨가 +[effect0.power][attack] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "These Pyre circlets were gifted by the Winged to commemorate the binding of the Covenant. Now that the Covenant has broken, it is only fair that I pass them on to the Champions of Hell."
+          "english": "These Pyre circlets were gifted by the Winged to commemorate the binding of the Covenant. Now that the Covenant has broken, it is only fair that I pass them on to the Champions of Hell.",
+          "french": "Ces diadèmes de Brasier nous ont été offerts par les anges pour commémorer la création de l'alliance. Maintenant qu'elle a été rompue, il n'est que justice de les remettre aux champions de l'enfer.",
+          "german": "Diese Höllenglut-Reife waren ein Geschenk der Geflügelten zur Vereinbarung des Pakts. Da er nun gebrochen ist, ist es nur richtig, dass die Champions der Hölle sie nun bekommen.",
+          "russian": "Подарок от Крылатых в честь провозглашения Согласия. Теперь союз разрушен, и будет справедливо, если я раздам эти штуковины героям Ада.",
+          "portuguese": "Estes colares de Pira foram um presente dos Alados para comemorar o acordo do Pacto. Agora que o Pacto foi quebrado, é justo que eu os repasse aos Campeões do Inferno.",
+          "chinese": "这些薪火饰环是翼族送给我的礼物，用来纪念契约的创立。如今契约已经被破坏，我只有把它们送给地狱的勇者们才算公道。",
+          "chinese_traditional": "這些薪火飾環是翼族送給我的禮物，用來紀念契約的創立。如今契約已經被破壞，我隻有把它們送給地獄的勇者們纔算公道。",
+          "korean": "이 불씨 서클릿은 날개달린 자들이 맹약의 성사를 기념하려고 선물해 준 것이다. 이제 맹약이 깨졌으니, 이 서클릿은 마땅히 내가 직접 지옥의 용사들에게 물려주어야 할 것이다."
         }
       ],
       "lore_style": "herzal",

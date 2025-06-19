@@ -5,14 +5,35 @@
       "id": "BloodForBlood",
       "type": "collectable",
       "names": {
-        "english": "Blood for Blood"
+        "english": "Blood for Blood",
+        "french": "Brasier vampire",
+        "german": "Blut für Blut",
+        "russian": "Кровь за кровь",
+        "portuguese": "Sangue por Sangue",
+        "chinese": "以血还血",
+        "chinese_traditional": "以血還血",
+        "korean": "피에는 피"
       },
       "descriptions": {
-        "english": "When your Pyre kills a unit, restore [effect0.power] Pyre health."
+        "english": "When your Pyre kills a unit, restore [effect0.power] Pyre health.",
+        "french": "Lorsque votre Brasier tue une unité, il regagne [effect0.power] PV.",
+        "german": "Wenn deine Höllenglut eine Einheit zerstört, stelle [effect0.power] Gesundheit der Höllenglut wieder her.",
+        "russian": "Ваше Пекло восстанавливает [effect0.power] здоровья, если убивает бойца.",
+        "portuguese": "Quando sua Pira mata uma unidade, ela restaura [effect0.power] de vida.",
+        "chinese": "当薪火消灭一个单位时，恢复 [effect0.power] 点生命值。",
+        "chinese_traditional": "當薪火消滅一個單位時，恢複 [effect0.power] 點生命值。",
+        "korean": "불씨가 유닛을 죽일 때, 불씨의 체력을 [effect0.power] 회복합니다."
       },
       "lore_tooltips": [
         {
-          "english": "Prior to the Covenant, the creation of these Pyre artifacts was commonplace, but dangerous. This led to widespread chaos and the eventual creation of the Covenant."
+          "english": "Prior to the Covenant, the creation of these Pyre artifacts was commonplace, but dangerous. This led to widespread chaos and the eventual creation of the Covenant.",
+          "french": "Avant l'alliance, la création de ces artéfacts de Brasier était chose commune, mais très dangereux. Cela a semé le chaos et mené à la création ultérieure de l'alliance.",
+          "german": "Vor dem Pakt wurden häufig Höllenglut-Artefakte erschaffen, obwohl es gefährlich war. Dadurch kam es zu immer mehr Chaos, was schließlich zur Schaffung des Pakts führte.",
+          "russian": "До заключения Согласия создание этих артефактов Пекла было обыденным, хотя и опасным, делом. Что и привело к повсеместному хаосу, а затем и к заключению договора.",
+          "portuguese": "Antes do Pacto, a criação destes artefatos da Pira era comum, mas perigosa. Isso causou um caos generalizado e a eventual criação do Pacto.",
+          "chinese": "早在契约诞生之前，使用薪火创造这些神器的现象很普遍，但也很危险。这导致了大面积的混乱，最终催生了契约的诞生。",
+          "chinese_traditional": "早在契約誕生之前，使用薪火創造這些神器的現象很普遍，但也很危險。這導緻瞭大面積的混亂，最終催生瞭契約的誕生。",
+          "korean": "맹약이 있기 전, 이런 종류의 불씨를 이용한 공예품은 흔했으나 위험했다. 이런 물건들은 곧 사회 전반에 혼돈을 불러 일으켰고, 결국 맹약의 탄생으로 이어졌다."
         }
       ],
       "lore_style": "herzal",

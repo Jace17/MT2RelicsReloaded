@@ -5,14 +5,35 @@
       "id": "AbandonedStave",
       "type": "collectable",
       "names": {
-        "english": "Abandoned Stave"
+        "english": "Abandoned Stave",
+        "french": "Bâton abandonné",
+        "german": "Zurückgelassener Stab",
+        "russian": "Оставленный посох",
+        "portuguese": "Cajado Abandonado",
+        "chinese": "遗弃锤棍",
+        "chinese_traditional": "遺棄錘棍",
+        "korean": "버려진 말뚝"
       },
       "descriptions": {
-        "english": "+1[ember] per turn for every [effect0.power] [blight] cards in your deck."
+        "english": "+1[ember] per turn for every [effect0.power] [blight] cards in your deck.",
+        "french": "+1[ember] par tour pour chaque tranche de [effect0.power] cartes Fléau dans votre deck.",
+        "german": "+1[ember] pro Zug für alle [effect0.power] Fluch-Karten in deinem Deck.",
+        "russian": "+1[ember] в ход за каждые [effect0.power] шт. карт-пагубников в вашей колоде.",
+        "portuguese": "+1[ember] por turno para cada carta de [effect0.power] Praga em seu deck.",
+        "chinese": "卡组里每有 [effect0.power] 张[blight]卡牌，每回合获得 +1[ember]。",
+        "chinese_traditional": "卡組裏每有 [effect0.power] 張[blight]卡牌，每迴合穫得 +1[ember]。",
+        "korean": "턴마다 내 덱의 [blight] 카드 [effect0.power] 장당 +1[ember] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "After Seraph invaded Hell, Fel left me to support his cause much more eagerly than I'd expected. Before she left, Fel gave me this stave to assist in the fights ahead. I never saw her again."
+          "english": "After Seraph invaded Hell, Fel left me to support his cause much more eagerly than I'd expected. Before she left, Fel gave me this stave to assist in the fights ahead. I never saw her again.",
+          "french": "Après l'invasion de l'enfer par Séraphin, Fel m'a quitté pour soutenir sa cause avec bien plus de dévotion que je n'aurais imaginé. Avant de partir, elle m'a donné ce bâton pour m'aider dans les combats à venir. Je ne l'ai plus jamais revue depuis.",
+          "german": "Nachdem Seraph die Hölle überfallen hatte, verließ Fel mich viel bereitwilliger, als ich gedacht hätte, um ihn zu unterstützen. Bevor sie ging, gab Fel mir diesen Stab, um mir im Kampf zu helfen. Ich sah sie nie wieder.",
+          "russian": "Когда Серафим вторгся в Ад, Фэл неожиданно быстро перешла на сторону врага. Но перед этим подарила мне этот посох, чтобы я мог отбиваться. С тех пор мы больше не виделись.",
+          "portuguese": "Depois que Serafim invadiu o Inferno, Fel me abandonou para apoiar a causa dele com muito mais anseio do que eu esperava. Antes de partir, Fel me deu este cajado para ajudar nas lutas que viriam. Eu nunca mais a vi.",
+          "chinese": "炽天使入侵地狱时，菲尔离开了我，带着我从未想过的劲头去支援炽天使的事业。离开之前，她送给了我这根锤棍，让我在未来的战斗中使用。在那之后，我再也没见过她。",
+          "chinese_traditional": "熾天使入侵地獄時，菲爾離開瞭我，帶着我從未想過的勁頭去支援熾天使的事業。離開之前，她送給瞭我這根錘棍，讓我在未來的戰鬥中使用。在那之後，我再也沒見過她。",
+          "korean": "세라프가 지옥을 침공하자, 펠은 내 예상보다 더 확고하게 그의 명분을 따르겠다고 하며 나를 떠났다. 그녀는 떠나기 전에, 앞으로 있을 싸움에 도움이 되라고 내게 이 말뚝을 주었다. 그 후 난 그녀를 다시 보지 못했다."
         }
       ],
       "lore_style": "herzal",

@@ -5,14 +5,35 @@
       "id": "LightsGift",
       "type": "collectable",
       "names": {
-        "english": "Light's Gift"
+        "english": "Light's Gift",
+        "french": "Présent de la Lumière",
+        "german": "Geschenk des Lichts",
+        "russian": "Дар Света",
+        "portuguese": "O Presente da Luz",
+        "chinese": "圣光之礼",
+        "chinese_traditional": "聖光之禮",
+        "korean": "빛의 선물"
       },
       "descriptions": {
-        "english": "Apply [dazed] [effect0.status0.power] to enemy units when they enter the floor below the Pyre Room."
+        "english": "Apply [dazed] [effect0.status0.power] to enemy units when they enter the floor below the Pyre Room.",
+        "french": "Inflige [dazed] [effect0.status0.power] aux unités ennemies lorsqu'elles entrent dans le niveau sous la salle du Brasier.",
+        "german": "Wende [effect0.status0.power] [dazed] auf gegnerische Einheiten an, wenn sie die Ebene unter der Höllenglut betreten.",
+        "russian": "акладывает [dazed] х[effect0.status0.power] на бойцов врага, проникающих в комнату под Пеклом.",
+        "portuguese": "Cause [dazed] [effect0.status0.power] a unidades inimigas quando elas entram no andar abaixo da Sala da Pira.",
+        "chinese": "当敌方单位进入薪火室下方的楼层时，对其施加[dazed] [effect0.status0.power]。",
+        "chinese_traditional": "當敵方單位進入薪火室下方的樓層時，對其施加[dazed] [effect0.status0.power]。",
+        "korean": "적 유닛들이 불씨 보관실의 아랫층에 입장할 때, 그들에게 [dazed] [effect0.status0.power] 을 부여합니다."
       },
       "lore_tooltips": [
         {
-          "english": "Our time together was brief, but our bond was unbreakable. However, when the Covenant was broken, my hope for what was unbreakable was shattered as well. I keep her gift close to my heart to remember what we had and what was lost."
+          "english": "Our time together was brief, but our bond was unbreakable. However, when the Covenant was broken, my hope for what was unbreakable was shattered as well. I keep her gift close to my heart to remember what we had and what was lost.",
+          "french": "Le temps que nous avons passé ensemble fut bref, mais le lien que nous avions tissé était plus fort que tout. Cependant, lorsque l'alliance a été rompue, ce lien aussi a été brisé. Je garde son présent près de mon cœur pour me rappeler ce que nous avions et ce que nous avons perdu.",
+          "german": "Wir hatten nur wenig Zeit zusammen, aber wir waren unzertrennlich. Als jedoch der Pakt gebrochen wurde, wurde auch mein Glaube an die Unzertrennlichkeit erschüttert. Ich trage ihr Geschenk immer bei mir, um mich an das zu erinnern, was wir hatten und was verloren gegangen ist.",
+          "russian": "Мы не так уж и долго были вместе, но нас связывали нерушимые узы. И все же Согласие было уничтожено, а вместе с ним и мои надежды на то, что мы всегда останемся парой. Я храню ее подарок как память о том, что мы имели и что потеряли.",
+          "portuguese": "Nosso tempo juntos foi breve, mas nosso vínculo era inquebrável. No entanto, quando o Pacto foi rompido, minha esperança pelo que era inquebrável também foi abalada. Eu guardo o presente dela com carinho para lembrar o que tínhamos e o que foi perdido.",
+          "chinese": "虽然我们在一起的时间很短暂，但我们之间的联系牢不可破。然而，随着契约的毁灭，我对“牢不可破”这个概念的希望也随之破灭了。我把她的礼物紧紧地贴在胸口上，以铭记我们曾经拥有的一切，以及失去的一切。",
+          "chinese_traditional": "雖然我們在一起的時間很短暫，但我們之間的聯繫牢不可破。然而，隨着契約的毁滅，我對“牢不可破”這個概念的希望也隨之破滅瞭。我把她的禮物緊緊地貼在胸口上，以銘記我們曾經擁有的一切，以及失去的一切。",
+          "korean": "우리가 함께한 시간은 짧았지만, 우리의 유대는 영원할 줄 알았다. 하지만 맹약이 깨질 때, 그 영원할 줄 알았던 유대도 깨지고 말았다. 난 그녀의 선물을 가슴 깊숙히 묻어두어, 우리의 옛 시절과 잃어버린 것들을 추억한다."
         }
       ],
       "lore_style": "herzal",

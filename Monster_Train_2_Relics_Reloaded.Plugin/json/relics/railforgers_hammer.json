@@ -5,14 +5,35 @@
       "id": "RailforgersHammer",
       "type": "collectable",
       "names": {
-        "english": "Railforger's Hammer"
+        "english": "Railforger's Hammer",
+        "french": "Marteau du Forgerail",
+        "german": "Hammer des Gleisschmieds",
+        "russian": "Молот Прокладчика путей",
+        "portuguese": "Martelo do Forjador do Trilho",
+        "chinese": "锻铁者之锤",
+        "chinese_traditional": "鍛鐵者之錘",
+        "korean": "철길 제작자의 망치"
       },
       "descriptions": {
-        "english": "+[effect0.power][capacity] on each floor."
+        "english": "+[effect0.power][capacity] on each floor.",
+        "french": "+[effect0.power][capacity] à chaque niveau.",
+        "german": "+[effect0.power][capacity] auf jeder Ebene.",
+        "russian": "+[effect0.power][capacity] на каждом этаже.",
+        "portuguese": "+[effect0.power][capacity] em cada andar.",
+        "chinese": "每层获得 +[effect0.power][capacity]。",
+        "chinese_traditional": "每層穫得 +[effect0.power][capacity]。",
+        "korean": "각 층에 +[effect0.power][capacity] $을$ 부여합니다."
       },
       "lore_tooltips": [
         {
-          "english": "My time has come to an end. Hell fades into the cold as the Covenant and Rail are no longer intact. The Boneshaker is ready to take Hell and its Champions through the wasteland and succeed where I have failed. May this hammer serve as a reminder of the peace that could exist and the promise that can be forged again."
+          "english": "My time has come to an end. Hell fades into the cold as the Covenant and Rail are no longer intact. The Boneshaker is ready to take Hell and its Champions through the wasteland and succeed where I have failed. May this hammer serve as a reminder of the peace that could exist and the promise that can be forged again.",
+          "french": "Mon heure est venue. Le froid envahit l'enfer, l'alliance et la Voie ne sont plus intactes. Le Hurleflammes est prêt à emmener les champions de l'enfer à travers ses terres désolées pour réussir là où j'ai échoué. Que ce marteau rappelle à tous que la paix est possible et qu'il servira à la rebâtir.",
+          "german": "Meine Zeit neigt sich dem Ende zu. Nun, da Pakt und Gleis zerstört wurden, wird die Hölle immer kälter. Der Knochenrüttler steht bereit, um die Hölle und ihre Champions durch die Einöde zu bringen und zu erreichen, was ich nicht vermochte. Möge dieser Hammer ein Mahnmal für den Frieden sein, der einmal war, und ein Versprechen, dass die Bande der Freundschaft in Zukunft wieder geschmiedet werden.",
+          "russian": "Мое время на исходе. Ад замерзает, а Согласие и Железная дорога разрушаются. «Костолом» и его герои способны преодолеть просторы Ада и преуспеть там, где не справился я. Пусть же этот молот служит напоминанием о том мире, который мог существовать и который еще можно выковать.",
+          "portuguese": "Meu tempo chegou ao fim. O Inferno é consumido pelo frio, pois o Pacto e o Trilho não estão mais intactos. O Ossuário está pronto para levar o Inferno e seus Campeões por terras desertas e ter sucesso onde eu falhei. Que este martelo sirva como um lembrete da paz que poderia existir e da promessa que pode ser forjada novamente.",
+          "chinese": "我的生命已经结束了。地狱变成了寒冷的冰窖，契约与铁道也已不再完整。老爷车号将会载着地狱的勇者们穿过荒野，在我失败的地方获得胜利。愿这把铁锤代表我们曾一度存在的和平时光，以及再次得以重铸的信念。",
+          "chinese_traditional": "我的生命已經結束瞭。地獄變成瞭寒冷的冰窖，契約與鐵道也已不再完整。老爺車號將會載着地獄的勇者們穿過荒野，在我失敗的地方穫得勝利。願這把鐵錘代錶我們曾一度存在的和平時光，以及再次得以重鑄的信念。",
+          "korean": "내 시간은 끝났다. 맹약과 철길은 끊어졌고, 지옥은 추위 속에 스러져간다. 본셰이커는 지옥의 남은 이들과 용사들을 태우고 황무지를 지날 준비가 되어 있다. 그들이 내가 실패한 걸 성공하길 빈다. 그리고 이 망치가 부디 상기시켜 주기를 바란다. 평화를 이룩할 수 있다는 것을, 그리고 새로운 약속이 탄생할 수 있다는 것을."
         }
       ],
       "lore_style": "herzal",

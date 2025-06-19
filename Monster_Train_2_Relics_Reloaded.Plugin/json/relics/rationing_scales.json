@@ -5,14 +5,35 @@
       "id": "RationingScales",
       "type": "collectable",
       "names": {
-        "english": "Rationing Scales"
+        "english": "Rationing Scales",
+        "french": "Balance de rationnement",
+        "german": "Rationierwaage",
+        "russian": "Нормированная чешуя",
+        "portuguese": "Balanças de racionamento",
+        "chinese": "定量配给",
+        "chinese_traditional": "定量配給",
+        "korean": "배급의 저울"
       },
       "descriptions": {
-        "english": "Before each battle, set Pyre health to [effect1.power]. If this reduces Pyre health, gain 3[coin] for each health lost."
+        "english": "Before each battle, set Pyre health to [effect1.power]. If this reduces Pyre health, gain 3[coin] for each health lost.",
+        "french": "Avant chaque combat, met les PV du Brasier à [effect1.power]. Si cela les réduit, octroie 3[coin] pour chaque PV perdu.",
+        "german": "Vor jedem Kampf: Ändere die Höllenglut-Gesundheit zu [effect1.power]. Wenn Höllenglut-Gesundheit dadurch reduziert wird, erhalte 3[coin] pro verlorene Gesundheit.",
+        "russian": "Перед каждым боем устанавливает здоровье Пекла на [effect1.power]. Если при этом здоровье Пекла будет снижено, дает 3[coin] за каждую единицу утерянного здоровья.",
+        "portuguese": "Antes de cada batalha, ajusta a vida da Pira para [effect1.power]. Se isso reduzir a vida da Pira, receba 3 [coin] por cada ponto de vida perdido.",
+        "chinese": "每次战斗开始前，将薪火生命值设为 [effect1.power] 点。如果这导致薪火失去生命值，则每失去 1 点生命值，获得 3[coin]。",
+        "chinese_traditional": "每次戰鬥開始前，將薪火生命值設爲 [effect1.power] 點。如果這導緻薪火失去生命值，則每失去 1 點生命值，穫得 3[coin]。",
+        "korean": "매 전투가 시작되기 전, 불씨의 체력이 [effect1.power] $이$ 됩니다. 만약 이 효과로 불씨의 체력이 감소하면, 감소된 체력 당 3[coin] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "By the time you read this, I hope that Hell, or what remains of it, remains a united front against their invaders. But this was not always the case. The destruction of Divinities had left souls to wander endlessly and the absence of Judgement meant that all realms felt the effects of overcrowding and resource shortages. In some ways, this time before the war was even more trying than the ensuing violence."
+          "english": "By the time you read this, I hope that Hell, or what remains of it, remains a united front against their invaders. But this was not always the case. The destruction of Divinities had left souls to wander endlessly and the absence of Judgement meant that all realms felt the effects of overcrowding and resource shortages. In some ways, this time before the war was even more trying than the ensuing violence.",
+          "french": "Quand vous lirez ceci, j'espère que l'enfer, ou du moins ce qu'il en reste, fait front commun contre ses envahisseurs. Mais cela n'a pas toujours été le cas. La destruction des divinités a laissé bien des âmes en peine, et l'absence du jugement signifiait que tous les royaumes ressentaient les effets de la surpopulation et des pénuries. D'une certaine façon, l'avant-guerre a été encore plus éprouvante que la violence qui a suivi.",
+          "german": "Ich hoffe, dass sich die Hölle – oder was von ihr übrig ist – weiterhin gemeinsam gegen die Invasoren stellt, wenn du dies liest. Diese Zusammenarbeit gab es jedoch nicht immer. Die Zerstörung, die von den Göttlichen verursacht wurde, ließ Seelen endlos umherwandern und die Abwesenheit jeglicher Urteilssprüche sorgte dafür, dass in allen Domänen Ressourcenknappheit und Überbevölkerung zu Problemen wurden. Auf gewisse Weise war die Zeit vor dem Krieg sogar noch aufreibender als die Gewalt, die ihr folgte.",
+          "russian": "Надеюсь, что, когда ты это прочтешь, Ад, или то, что от него останется, все еще будет единым фронтом сражаться против захватчиков. Но так было не всегда. Уничтожение Божеств обрекло души на вечные скитания, а отсутствие Суда привело к тому, что все миры столкнулись с перенаселением и дефицитом ресурсов. В каком-то смысле это предвоенное время было даже суровее, чем последующая война.",
+          "portuguese": "Quando você ler isto, espero que o Inferno, ou o que sobrar dele, permaneça como uma frente unida contra seus invasores. Mas este nem sempre foi o caso. A destruição das Divindades deixou almas vagando eternamente e a ausência do Julgamento indicava que todos os reinos sentiram os efeitos da superpopulação e escassez de recursos. De alguma forma, esse período antes da guerra era ainda mais difícil do que a violência posterior.",
+          "chinese": "你读到这段话时，我希望地狱，或是地狱的残部，仍是对抗入侵者的统一战线。但事情并非向来如此。神祇的殒灭导致无数灵魂漫无目的地游荡，而没有了审判，所有国度都体会到了什么叫过度拥挤以及资源短缺。从某种意义上说，战争之前的这段时光比战争爆发后更加艰苦。",
+          "chinese_traditional": "你讀到這段話時，我希望地獄，或是地獄的殘部，仍是對抗入侵者的統一戰綫。但事情并非嚮來如此。神祇的殞滅導緻無數靈魂漫無目的地游蕩，而沒有瞭審判，所有國度都體會到瞭什麽叫過度擁擠以及資源短缺。從某種意義上説，戰爭之前的這段時光比戰爭爆髮後更加艱苦。",
+          "korean": "당신이 이 것을 읽고 있을 때면, 지옥의 남은 이들이 아직 흩어지지 않고 연합 전선을 유지해 침략자에 대항하고 있길 바란다. 하지만 그럴 가능성이 높진 않을 것이다. 신성의 파멸로 인해 모든 영혼이 영원히 세상을 떠돌게 되었고, 심판이 부재하여 모든 영역이 인구 과잉과 자원 부족을 겪고 있으니 말이다. 어찌 보면 전쟁 전이 작금의 폭력의 시대보다 더 힘든 시절이었다."
         }
       ],
       "lore_style": "herzal",

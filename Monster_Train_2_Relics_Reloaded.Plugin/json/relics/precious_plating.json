@@ -5,14 +5,35 @@
       "id": "PreciousPlating",
       "type": "collectable",
       "names": {
-        "english": "Precious Plating"
+        "english": "Precious Plating",
+        "french": "Placage précieux",
+        "german": "Wertvolle Panzerung",
+        "russian": "Дорогие пластины",
+        "portuguese": "Proteção Preciosa",
+        "chinese": "贵重金属",
+        "chinese_traditional": "貴重金屬",
+        "korean": "귀중한 방판"
       },
       "descriptions": {
-        "english": "Your Pyre gets +[effect0.power][pyrehealth]."
+        "english": "Your Pyre gets +[effect0.power][pyrehealth].",
+        "french": "Votre Brasier gagne +[effect0.power][pyrehealth].",
+        "german": "Deine Höllenglut erhält +[effect0.power][pyrehealth].",
+        "russian": "Ваше Пекло получает +[effect0.power][pyrehealth].",
+        "portuguese": "Sua Pira recebe +[effect0.power][pyrehealth].",
+        "chinese": "你的薪火 +[effect0.power][pyrehealth]。",
+        "chinese_traditional": "你的薪火 +[effect0.power][pyrehealth]。",
+        "korean": "불씨가 +[effect0.power][pyrehealth] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "I can use this alloy to fortify the Pyre brace in the Boneshaker and make it stronger. But I need to remember to use this material economically, as it is hard to come by."
+          "english": "I can use this alloy to fortify the Pyre brace in the Boneshaker and make it stronger. But I need to remember to use this material economically, as it is hard to come by.",
+          "french": "Je peux utiliser cet alliage dans le Hurleflammes pour fortifier le support du Brasier et rendre ce dernier plus résistant. Je dois simplement veiller à utiliser ce matériau avec parcimonie, car il est très difficile à trouver.",
+          "german": "Ich kann diese Legierung verwenden, um die Panzerung der Höllenglut im Knochenrüttler zu verstärken. Ich sollte das Material aber sparsam verwenden, es ist ziemlich selten.",
+          "russian": "С помощью этого сплава я могу усилить Пекло «Костолома», сделав его мощнее. Но этот ресурс следует расходовать экономно, ведь его трудно добыть.",
+          "portuguese": "Eu posso usar essa liga para fortalecer o suporte da Pira no Ossuário e torná-lo mais forte. Mas preciso me lembrar de usar esse material com cautela, pois é difícil encontrá-lo.",
+          "chinese": "我可以使用这种合金来强化老爷车号上的薪火架，让它变得更加坚固。但我必须得省着点用，这种合金可相当不容易弄到手。",
+          "chinese_traditional": "我可以使用這種合金來強化老爺車號上的薪火架，讓它變得更加堅固。但我必鬚得省着點用，這種合金可相當不容易弄到手。",
+          "korean": "이 합금을 이용해 본셰이커의 불씨 지지대를 강화할 수 있었다. 하지만 이 금속은 얻기 어려우니, 아껴 쓸 것을 염두에 두어야겠다."
         }
       ],
       "lore_style": "herzal",

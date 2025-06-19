@@ -5,14 +5,35 @@
       "id": "VialOfTears",
       "type": "collectable",
       "names": {
-        "english": "Vial of Tears"
+        "english": "Vial of Tears",
+        "french": "Fiole de larmes",
+        "german": "Tränengefäß",
+        "russian": "Флакон слез",
+        "portuguese": "Frasco de Lágrimas",
+        "chinese": "泪水之瓶",
+        "chinese_traditional": "淚水之瓶",
+        "korean": "눈물 담긴 병"
       },
       "descriptions": {
-        "english": "At end of turn, restore [effect0.power] health to friendly units."
+        "english": "At end of turn, restore [effect0.power] health to friendly units.",
+        "french": "À la fin du tour, restaure [effect0.power] PV aux unités alliées.",
+        "german": "Stelle am Ende des Zuges bei verbündeten Einheiten [effect0.power] Gesundheit wieder her.",
+        "russian": "В конце хода восстанавливает союзникам [effect0.power] здоровья.",
+        "portuguese": "Restaura [effect0.power] de vida das unidades aliadas ao fim do turno.",
+        "chinese": "回合结束时，为所有友方单位恢复 [effect0.power] 点生命值。",
+        "chinese_traditional": "迴合結束時，爲所有友方單位恢複 [effect0.power] 點生命值。",
+        "korean": "턴이 끝날 때, 아군 유닛들의 체력을 [effect0.power] 회복합니다."
       },
       "lore_tooltips": [
         {
-          "english": "Herzal, my first friend. I can never forgive myself for what they did to you, nor for allowing it to happen. With all my remaining strength, I will never let harm fall upon Heph. I promise this to you, Herzal."
+          "english": "Herzal, my first friend. I can never forgive myself for what they did to you, nor for allowing it to happen. With all my remaining strength, I will never let harm fall upon Heph. I promise this to you, Herzal.",
+          "french": "Herzal, mon premier ami. Je ne me pardonnerai jamais de ce qu'ils t'ont fait, ni d'avoir laissé faire. J'utiliserai le peu de forces qu'il me reste pour garantir la sécurité d'Heph. Je t'en fais la promesse, Herzal.",
+          "german": "Herzal, mein erster Freund. Ich werde mir nie dafür vergeben, dass ich zuließ, was dir widerfahren ist. Mit meiner verbleibenden Kraft werde ich alles daran setzen, dass Heph kein Leid widerfährt. Das schwöre ich dir, Herzal.",
+          "russian": "Герцаль, мой первый друг. Я никогда не прощу тебя за то, что они с тобой сделали, и за то, что позволила этому произойти. Я использую все оставшиеся у меня силы, чтобы уберечь Геф от беды. Обещаю тебе, Герцаль.",
+          "portuguese": "Herzal, meu primeiro amigo. Nunca poderei me perguntar pelo que fizeram com você, nem por deixar isso acontecer. Com toda a força que me resta, jamais deixarei que machuquem Heph. Prometo a você, Herzal.",
+          "chinese": "赫扎尔是我的第一个朋友。我因他们对你的所作所为，自己又没有出手干预而永远无法原谅自己。我会用自己仅剩的全部力量确保赫芙不会受到伤害。赫扎尔，这是我对你的承诺。",
+          "chinese_traditional": "赫扎爾是我的第一個朋友。我因他們對你的所作所爲，自己又沒有齣手幹預而永遠無法原諒自己。我會用自己僅剩的全部力量確保赫芙不會受到傷害。赫扎爾，這是我對你的承諾。",
+          "korean": "헤르잘, 내 첫 번째 친구여. 그들이 네게 한 짓을, 그리고 그걸 막지 못한 나 자신을 결코 용서할 수 없을 것 같아. 내게 남아있는 힘으로, 헤프에게만큼는 어떤 해악도 닿지 못하게 하겠어. 이것만큼은 약속할게, 헤르잘."
         }
       ],
       "lore_style": "herzal",

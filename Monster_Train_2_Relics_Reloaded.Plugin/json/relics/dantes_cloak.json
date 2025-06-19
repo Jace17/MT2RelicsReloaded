@@ -5,14 +5,35 @@
       "id": "DantesCloak",
       "type": "collectable",
       "names": {
-        "english": "Dante's Cloak"
+        "english": "Dante's Cloak",
+        "french": "Cape de Dante",
+        "german": "Dantes Umhang",
+        "russian": "Накидка Данте",
+        "portuguese": "Capa do Dante",
+        "chinese": "但丁的斗篷",
+        "chinese_traditional": "但丁的鬥篷",
+        "korean": "단테의 망토"
       },
       "descriptions": {
-        "english": "+[effect0.power] [magicpower] for every [blight] card in your deck."
+        "english": "+[effect0.power] [magicpower] for every [blight] card in your deck.",
+        "french": "+[effect0.power] [magicpower] pour chaque carte Fléau dans votre deck.",
+        "german": "+ [effect0.power][magicpower] für jede Fluch-Karte in deinem Deck.",
+        "russian": "+[effect0.power] [magicpower] за каждую карту-пагубник в вашей колоде.",
+        "portuguese": "+[effect0.power] [magicpower] para cada carta de Praga em seu deck.",
+        "chinese": "卡组里每有一张[blight]卡牌，获得 +[effect0.power] [magicpower]。",
+        "chinese_traditional": "卡組裏每有一張[blight]卡牌，穫得 +[effect0.power] [magicpower]。",
+        "korean": "내 덱의 [blight] 카드 한 장당 +[effect0.power] [magicpower]을 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Truly an unusual fellow, this Dante, but he’s proven useful on so many occasions that his allegiance can hardly be questioned."
+          "english": "Truly an unusual fellow, this Dante, but he’s proven useful on so many occasions that his allegiance can hardly be questioned.",
+          "french": "Ce Dante est un individu vraiment curieux, mais il a prouvé son utilité à de nombreuses reprises, il est donc difficile de douter de sa loyauté.",
+          "german": "Dieser Dante ist wirklich ein komischer Vogel, aber er hat sich schon so oft bewährt, dass ich keinerlei Zweifel an seiner Treue hege.",
+          "russian": "Пусть Данте и правда тот еще тип, но он не раз приходил нам на помощь, так что в его верности сомнений нет.",
+          "portuguese": "Um sujeito nada comum, este Dante, mas provou ser útil em tantas ocasiões que é muito difícil questionar sua lealdade.",
+          "chinese": "这个叫但丁的家伙确实不同寻常，但在许多场合之下，他都证明了自己的价值。因此，我几乎不会质疑他的忠诚。",
+          "chinese_traditional": "這個叫但丁的傢夥確實不同尋常，但在許多場合之下，他都證明瞭自己的價值。因此，我幾乎不會質疑他的忠誠。",
+          "korean": "이 단테란 친구는 정말이지 기이한 자이다. 하지만 그는 우리에게 수없이 많은 도움을 주었기에, 그의 충성심은 의심할 수가 없다."
         }
       ],
       "lore_style": "herzal",

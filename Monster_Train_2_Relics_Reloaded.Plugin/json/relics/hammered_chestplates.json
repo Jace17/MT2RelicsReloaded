@@ -5,14 +5,35 @@
       "id": "HammeredChestplates",
       "type": "collectable",
       "names": {
-        "english": "Hammered Chestplates"
+        "english": "Hammered Chestplates",
+        "french": "Plastrons martelés",
+        "german": "Gehämmerter Brustpanzer",
+        "russian": "Кованые нагрудники",
+        "portuguese": "Peitorais Martelados",
+        "chinese": "锻造板甲",
+        "chinese_traditional": "鍛造闆甲",
+        "korean": "망치질한 흉갑"
       },
       "descriptions": {
-        "english": "Friendly units get +[effect0.power][health]."
+        "english": "Friendly units get +[effect0.power][health].",
+        "french": "Les unités alliées gagnent +[effect0.power][health].",
+        "german": "Verbündete Einheiten erhalten +[effect0.power][health].",
+        "russian": "Союзники получают +[effect0.power][health].",
+        "portuguese": "Unidades aliadas recebem +[effect0.power][health].",
+        "chinese": "友方单位获得 +[effect0.power][health]。",
+        "chinese_traditional": "友方單位穫得 +[effect0.power][health]。",
+        "korean": "아군 유닛들이 +[effect0.power][health] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Before the Covenant, Hell had become so dangerous that I made my living creating armor for its unlucky residents. Seraph and I pursued the Covenant to quell the unrest and the armor persisted across centuries. It has proven useful in this last fight."
+          "english": "Before the Covenant, Hell had become so dangerous that I made my living creating armor for its unlucky residents. Seraph and I pursued the Covenant to quell the unrest and the armor persisted across centuries. It has proven useful in this last fight.",
+          "french": "Avant l'alliance, l'enfer était devenu si dangereux que je gagnais ma vie en fabriquant des armures pour ceux qui avaient le malheur d'y résider. Séraphin et moi-même avons mis en place l'alliance pour apaiser les tensions, et les armures ont traversé les siècles. Elles se sont révélées très utiles dans cet ultime combat.",
+          "german": "Vor dem Pakt war die Hölle so gefährlich, dass ich davon leben konnte, Rüstung für ihre unglücklichen Bewohner herzustellen. Seraph und ich wollten den Pakt erschaffen, um die Unruhen zu beenden. Die Rüstung überdauerte die Jahrhunderte. In unserem letzten Kampf war sie wieder einmal sehr nützlich.",
+          "russian": "До Согласия в Аду было так опасно, что моя жизнь была посвящена созданию брони для тех, кого туда забросила судьба. Мы с Серафимом стремились к Согласию и надеялись усмирить беспокойных, а мои изделия держались веками. В последнем бою они пригодились.",
+          "portuguese": "Antes do Pacto, o Inferno tinha se tornado tão perigoso que eu ganhava a vida fazendo armaduras para os residentes azarados. Serafim e eu buscamos o Pacto para acalmar os agitados, e a armadura persistiu por séculos. Ela provou-se útil nesta última luta.",
+          "chinese": "在契约创立之前，地狱是个非常危险的地方，于是我为地狱里可怜的居民们锻造了盔甲，并以此谋生。在那之后，我和炽天使一直在努力推进契约以平息动荡，几百年间，这些盔甲一直保留了下来。在这场最后的战役之中，这些盔甲依然非常有效。",
+          "chinese_traditional": "在契約創立之前，地獄是個非常危險的地方，於是我爲地獄裏可憐的居民們鍛造瞭盔甲，并以此謀生。在那之後，我和熾天使一直在努力推進契約以平息動蕩，幾百年間，這些盔甲一直保留瞭下來。在這場最後的戰役之中，這些盔甲依然非常有效。",
+          "korean": "맹약이 있기 전에는 지옥은 굉장히 위험한 곳이었다. 때문에 나는 불운한 지옥의 거주자들을 위해 보호구를 만드는 일을 업으로 삼았다. 세라프와 나는 맹약을 통해 사회적 불안을 종결시켰고, 덕분에 이 보호구는 몇 세기 동안 보존되었다. 요전 전투에서 이 보호구들이 아직 유용하다는 것을 확인했다."
         }
       ],
       "lore_style": "herzal",

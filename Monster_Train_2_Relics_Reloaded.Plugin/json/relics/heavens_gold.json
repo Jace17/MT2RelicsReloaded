@@ -5,14 +5,35 @@
       "id": "HeavensGold",
       "type": "collectable",
       "names": {
-        "english": "Heaven's Gold"
+        "english": "Heaven's Gold",
+        "french": "Or du paradis",
+        "german": "Himmlisches Gold",
+        "russian": "Золото Рая",
+        "portuguese": "Ouro Divino",
+        "chinese": "天堂的金币",
+        "chinese_traditional": "天堂的金幣",
+        "korean": "천국의 금화"
       },
       "descriptions": {
-        "english": "Your Pyre gets +1[attack] for every [effect0.power][coin] you have."
+        "english": "Your Pyre gets +1[attack] for every [effect0.power][coin] you have.",
+        "french": "Votre Brasier gagne +1[attack] pour chaque tranche de [effect0.power][coin] que vous possédez.",
+        "german": "Deine Höllenglut erhält für alle [effect0.power][coin], die du besitzt, +1 [attack].",
+        "russian": "Ваше Пекло получает +1[attack] за каждые [effect0.power] шт.[coin] у вас.",
+        "portuguese": "Sua Pira recebe +1[attack] para cada [effect0.power][coin] que você possui.",
+        "chinese": "每拥有 [effect0.power][coin]，你的薪火就获得 +1[attack]。",
+        "chinese_traditional": "每擁有 [effect0.power][coin]，你的薪火就穫得 +1[attack]。",
+        "korean": "가지고 있는 [effect0.power][coin] 당, 불씨가 +1[attack] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Their coin has no value here. What better use is there than to pelt the Winged with it?"
+          "english": "Their coin has no value here. What better use is there than to pelt the Winged with it?",
+          "french": "La monnaie des anges n'a aucune valeur ici, alors autant la leur jeter à la figure !",
+          "german": "Ihr Geld hat hier keinen Wert. Es eignet sich aber gut dafür, die Geflügelten damit zu bombardieren.",
+          "russian": "Их монеты здесь не в ходу. Что еще остается делать, кроме как швыряться ими в Крылатых?",
+          "portuguese": "A moeda deles não tem valor aqui. Que tal usá-las para atacar os Alados?",
+          "chinese": "反正这些金币在这里也没有任何价值，用它们来砸那些翼族实在是再适合不过了。",
+          "chinese_traditional": "反正這些金幣在這裏也沒有任何價值，用它們來砸那些翼族實在是再適合不過瞭。",
+          "korean": "그들의 금화는 여기서는 전혀 가치가 없다. 날개달린 자들을 돌팔매질 할 때 쓰는 것보다 나은 사용처가 있겠는가?"
         }
       ],
       "lore_style": "herzal",

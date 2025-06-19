@@ -5,14 +5,30 @@
       "id": "ImprovedFirebox",
       "type": "collectable",
       "names": {
-        "english": "Improved Firebox"
+        "english": "Improved Firebox",
+        "french": "Chaufferie améliorée",
+        "german": "Verbesserte Feuerkammer",
+        "russian": "Улучшенная топка",
+        "portuguese": "Caixa de Fogo Aperfeiçoada",
+        "chinese": "强化炉膛",
+        "chinese_traditional": "強化爐膛",
+        "korean": "향상된 연소실"
       },
       "descriptions": {
-        "english": "On the turn after [deployphase], gain [effect0.power][ember]."
+        "english": "On the turn after [deployphase], gain [effect0.power][ember].",
+        "chinese": "在 [deployphase] 之后的回合，获得 [effect0.power][ember]。",
+        "chinese_traditional": "在 [deployphase] 之後的迴合，穫得 [effect0.power][ember]。"
       },
       "lore_tooltips": [
         {
-          "english": "I constructed the train with what I had at the time, with hopes to expand later on with what I’d scavenge on the way. To make sure the creatures of Hell would all fit, I had to sacrifice the size of the furnaces. No more!"
+          "english": "I constructed the train with what I had at the time, with hopes to expand later on with what I’d scavenge on the way. To make sure the creatures of Hell would all fit, I had to sacrifice the size of the furnaces. No more!",
+          "french": "J'ai construit le train avec ce que j'avais à l'époque, avec l'espoir de pouvoir l'agrandir plus tard avec ce que je trouverais en chemin. Pour m'assurer que toutes les créatures de l'enfer puissent rentrer, j'ai dû sacrifier la taille des chaudières, mais aujourd'hui, ce n'est plus le cas !",
+          "german": "Ich habe den Zug mit den Materialien gebaut, die ich damals hatte. Der Plan war, ihn später mit Teilen auszubauen und zu verbessern, die ich auf dem Weg finden würde. Um sicherzugehen, dass alle Kreaturen der Hölle Platz darin haben würden, musste ich die Heizkessel möglichst klein bauen. Das ist endlich nicht mehr nötig!",
+          "russian": "Я создавал поезд из того, что у меня тогда было под рукой, надеясь добыть дополнительные компоненты по пути. Чтобы вместить всех обитателей Ада, мне пришлось пожертвовать размерами топок. Глупая ошибка!",
+          "portuguese": "Eu construí o trem com o que tinha na época, com esperanças de expandi-lo mais tarde com o que achasse no caminho. Para garantir que todas as criaturas do Inferno coubessem, tive que sacrificar o tamanho das fornalhas. Não mais!",
+          "chinese": "那个时候，我用现有的一切物资建造了这辆火车。当时我打算用沿路收集到的物资不断拓展火车的空间。为了确保装得下地狱里的生物，我不得不牺牲了火炉的尺寸。这种事情可不能再干了！",
+          "chinese_traditional": "那個時候，我用現有的一切物資建造瞭這輛火車。當時我打算用沿路收集到的物資不斷拓展火車的空間。爲瞭確保裝得下地獄裏的生物，我不得不犧牲瞭火爐的尺寸。這種事情可不能再幹瞭！",
+          "korean": "난 당시 구할 수 있던 재료만으로 열차를 만들었다. 나중에 여행길에 주을 자재로 확장할 수 있길 바라면서 말이다. 지옥의 피조물들이 전부 입장할 수 있도록, 난 용광로의 크기를 희생해야 했다. 이젠 더 이상 그럴 필요가 없다!"
         }
       ],
       "lore_style": "herzal",

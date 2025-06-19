@@ -5,14 +5,35 @@
       "id": "FaultyLoader",
       "type": "collectable",
       "names": {
-        "english": "Faulty Loader"
+        "english": "Faulty Loader",
+        "french": "Palan défectueux",
+        "german": "Fehlerhafter Lader",
+        "russian": "Испорченный шкив",
+        "portuguese": "Carregador defeituoso",
+        "chinese": "粗心的装货工",
+        "chinese_traditional": "粗心的裝貨工",
+        "korean": "불완전한 적재 장치"
       },
       "descriptions": {
-        "english": "Apply [dazed] [effect0.status0.power] and [meleeweakness] [effect1.status0.power] to enemy units on the bottom floor in the first wave of combat."
+        "english": "Apply [dazed] [effect0.status0.power] and [meleeweakness] [effect1.status0.power] to enemy units on the bottom floor in the first wave of combat.",
+        "french": "Inflige [dazed] [effect0.status0.power] et [meleeweakness] [effect1.status0.power] aux unités ennemies au niveau inférieur dans la première vague du combat.",
+        "german": "Wende [effect0.status0.power] [dazed] und [effect1.status0.power] [meleeweakness] während der ersten Welle auf gegnerische Einheiten auf der unteren Ebene an.",
+        "russian": "В первую волну боя накладывает на вражеских бойцов в нижнем ряду [effect0.status0.power] [dazed] и [effect1.status0.power] [meleeweakness].",
+        "portuguese": "Aplica [dazed] [effect0.status0.power] e [meleeweakness] [effect1.status0.power] às unidades inimigas no andar de baixo na primeira onda de combate.",
+        "chinese": "对战斗中来袭的第一波位于底层的敌方单位施加 [dazed] [effect0.status0.power]，[meleeweakness] [effect1.status0.power]。",
+        "chinese_traditional": "對戰鬥中來襲的第一波位於底層的敵方單位施加 [dazed] [effect0.status0.power]，[meleeweakness] [effect1.status0.power]。",
+        "korean": "전투의 첫 웨이브 중, 바닥 층에 소환된 적들에게 [dazed] [effect0.status0.power] 및 [meleeweakness] [effect1.status0.power] $을$ 부여합니다."
       },
       "lore_tooltips": [
         {
-          "english": "The armies of Heaven were able to board our train today... while it was moving! I’d be astonished at the concept if I weren’t preoccupied with the implications of this feat. Our end may be nearing faster than I’d hoped."
+          "english": "The armies of Heaven were able to board our train today... while it was moving! I’d be astonished at the concept if I weren’t preoccupied with the implications of this feat. Our end may be nearing faster than I’d hoped.",
+          "french": "Les armées du paradis ont pu monter à bord de notre train, aujourd'hui... alors qu'il avançait ! Je serais totalement ébahi si je n'étais pas soucieux des conséquences que cet exploit engendre. Il se peut que notre fin soit plus proche que ce que j'avais espéré...",
+          "german": "Die Armeen des Himmels schafften es heute an Bord unseres Zuges, obwohl sich dieser in voller Fahrt befand! Ich würde diese Leistung ja bewundern, wenn sie nicht solch ein drastisches Problem für uns darstellen würde. Unser Ende naht vielleicht noch schneller, als ich befürchtet hatte.",
+          "russian": "Сегодня армиям Рая удалось сесть на поезд... во время движения! Я был бы впечатлен этим, если бы не задумался о последствиях. Наш конец может быть ближе, чем я надеялся.",
+          "portuguese": "Os exércitos do Céu conseguiram embarcar no nosso trem hoje... enquanto ele estava se movendo! O conceito me surpreenderia se as implicações desse feito não fossem preocupantes. Nosso fim pode estar se aproximando mais rápido do que eu esperava.",
+          "chinese": "天堂的大军今天登上了我们的火车……而且当时火车都没停！发生这种事我本该惊讶万分，但一想到这件事意味着什么，我就无暇想别的事了。我们末日的逼近速度也许比我想象得更快。",
+          "chinese_traditional": "天堂的大軍今天登上瞭我們的火車……而且當時火車都沒停！發生這種事我本該驚訝萬分，但一想到這件事意味着什麽，我就無暇想彆的事瞭。我們末日的逼近速度也許比我想象得更快。",
+          "korean": "오늘, 천국의 군대가 열차에 올라탔다... 열차가 이동하는 중에 말이다! 평상시라면 그냥 놀랐겠지만, 이 것이 의미하는 바는 그보다 훨씬 심각하다. 내가 바랬던 것보다 우리의 종말이 더 빠르게 다가오는 게 아닐까 싶다."
         }
       ],
       "lore_style": "herzal",

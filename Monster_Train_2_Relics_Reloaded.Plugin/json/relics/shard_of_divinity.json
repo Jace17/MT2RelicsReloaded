@@ -5,14 +5,35 @@
       "id": "ShardOfDivinity",
       "type": "collectable",
       "names": {
-        "english": "Shard of Divinity"
+        "english": "Shard of Divinity",
+        "french": "Éclat de divinité",
+        "german": "Göttlicher Splitter",
+        "russian": "Осколок Божества",
+        "portuguese": "Estilhaço de Divindade",
+        "chinese": "神祇碎片",
+        "chinese_traditional": "神祇碎片",
+        "korean": "신성의 조각"
       },
       "descriptions": {
-        "english": "Your Pyre starts each battle with [armor] [effect0.status0.power]."
+        "english": "Your Pyre starts each battle with [armor] [effect0.status0.power].",
+        "french": "Votre Brasier commence chaque combat avec [armor] [effect0.status0.power].",
+        "german": "Deine Höllenglut beginnt jeden Kampf mit [effect0.status0.power] [armor].",
+        "russian": "Ваше Пекло получает [effect0.status0.power] [armor] в начале каждого боя.",
+        "portuguese": "Sua Pira começa cada batalha com [effect0.status0.power] de [armor].",
+        "chinese": "战斗开始时，你的薪火获得[armor] [effect0.status0.power]。",
+        "chinese_traditional": "戰鬥開始時，你的薪火穫得[armor] [effect0.status0.power]。",
+        "korean": "불씨가 [armor] [effect0.status0.power] $을$ 가지고 매 전투를 시작합니다."
       },
       "lore_tooltips": [
         {
-          "english": "When the Divinities come back, and they will, you must accept the Pact they put forth. It will make things harder. It may make time act...strange. But each Shard given out of their gratitude is a piece of Divinity itself and will offer some protection. This will buy you time, and that’s all it seems I am fit to provide anymore. But, perhaps, that will be enough."
+          "english": "When the Divinities come back, and they will, you must accept the Pact they put forth. It will make things harder. It may make time act...strange. But each Shard given out of their gratitude is a piece of Divinity itself and will offer some protection. This will buy you time, and that’s all it seems I am fit to provide anymore. But, perhaps, that will be enough.",
+          "french": "Lorsque les divinités reviendront – et ce sera le cas – vous devrez accepter le Pacte qu'elles vous proposent. Cela compliquera les choses. Le temps en sera... perturbé. Mais chaque éclat qu'elles donnent en gage de leur gratitude est une part d'elles et confère une protection. Cela vous fera gagner du temps, et c'est tout ce que j'ai à vous offrir désormais, semble-t-il. Mais peut-être que cela suffira.",
+          "german": "Wenn die Göttlichen zurückkehren – und das werden sie, so viel ist gewiss – musst du den Pakt akzeptieren, den sie dir anbieten werden. Er wird Dinge erschweren. Er wird die Zeit ... verzerren. Doch jeder Splitter, den sie dir aus Dankbarkeit überreichen, ist der Bruchteil einer Gottheit und sollte dir ein wenig Schutz bieten. Das wird dir mehr Zeit verleihen, das einzige Gut, für das ich nun noch sorgen kann. Aber vielleicht wird es ausreichen.",
+          "russian": "Когда Божества вернутся, а они обязательно вернутся, вам придется принять Пакт, который они предложат. Жизнь станет сложнее. Возможно, ход времени... изменится. Но каждый осколок, подаренный ими в качестве благодарности, — это частица самого Божества, дарующая защиту. Это позволит выиграть время, и, похоже, это все, что я могу сейчас предложить. Но, возможно, этого будет достаточно.",
+          "portuguese": "Quando as Divindades voltarem, e elas voltarão, você deve aceitar o Pacto que propuserem. Ele dificultará as coisas. Pode fazer o tempo agir... estranhamente. Mas cada Estilhaço dado como gratidão é uma parte da Divindade em si e oferecerá alguma proteção. Isso lhe dará tempo, e isso parece ser tudo que posso fornecer. Mas, talvez isso seja suficiente.",
+          "chinese": "等神祇回来时（他们也一定会回来），你必须接受他们提出的协议。这会让一切变得更加艰难。也许会让时间变得……异常。但他们处于感激而提供的每一块碎片就是神祇本身的一块碎片，并能提供一定的防护力。这样可以为你争取时间，而我似乎也只能给你提供一些时间了。不过也许这样就足够了。",
+          "chinese_traditional": "等神祇迴來時（他們也一定會迴來），你必鬚接受他們提齣的協議。這會讓一切變得更加艱難。也許會讓時間變得……異常。但他們處於感激而提供的每一塊碎片就是神祇本身的一塊碎片，并能提供一定的防護力。這樣可以爲你爭取時間，而我似乎也隻能給你提供一些時間瞭。不過也許這樣就足夠瞭。",
+          "korean": "신성들은 돌아올 것이다. 그들이 돌아온다면, 그들이 만들어 둔 서약을 반드시 수용해라. 그 서약은 분명 일을 어렵게 만들 것이다. 시간 그 자체가... 이상하게 동작할지도 모른다. 하지만 그 서약에 대한 보답으로 받을 파편은 신성 그 자체의 일부이고, 따라서 어느 정도의 보호 능력을 부여할 것이다. 이를 이용하면 시간을 벌 수 있을지도 모른다. 불행히도 내가 설명할 수 있는 건 여기까지다. 이 정도면 충분하길 빈다."
         }
       ],
       "lore_style": "herzal",
