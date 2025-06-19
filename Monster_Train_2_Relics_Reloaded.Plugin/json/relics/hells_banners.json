@@ -5,17 +5,45 @@
       "id": "HellsBanners",
       "type": "collectable",
       "names": {
-        "english": "Hell's Banners"
+        "english": "Hell's Banners",
+        "french": "Bannières de l'enfer",
+        "german": "Höllenbanner",
+        "russian": "Адские знамена",
+        "portuguese": "Estandartes do Inferno",
+        "chinese": "地狱战旗",
+        "chinese_traditional": "地獄戰旗",
+        "korean": "지옥의 깃발"
       },
       "descriptions": {
-        "english": "When you summon the second unit during a turn, gain [effect0.power][ember]."
+        "english": "When you summon the second unit during a turn, gain [effect0.power][ember].",
+        "french": "Lorsque vous invoquez une deuxième unité pendant un tour, octroie [effect0.power][ember].",
+        "german": "Wenn du die zweite Einheit in einem Zug rufst, erhalte [effect0.power] [ember].",
+        "russian": "Призвав второго бойца за ход, получите [effect0.power][ember].",
+        "portuguese": "Ao invocar a segunda unidade em um turno, receba [effect0.power][ember].",
+        "chinese": "当你在同一回合内召唤第二个单位时，获得 [effect0.power][ember]。",
+        "chinese_traditional": "當你在同一迴合內召喚第二個單位時，穫得 [effect0.power][ember]。",
+        "korean": "매 턴마다 두 번째로 유닛을 소환할 때, [effect0.power][ember] $을$ 얻습니다."
       },
       "relic_activated_texts": {
-        "english": "+{0}[ember]"
+        "english": "+{0}[ember]",
+        "french": "+{0}[ember]",
+        "german": "+{0}[ember]",
+        "russian": "+{0}[ember]",
+        "portuguese": "+{0}[ember]",
+        "chinese": "+{0}[ember]",
+        "chinese_traditional": "+{0}[ember]",
+        "korean": "+{0}[ember]"
       },
       "lore_tooltips": [
         {
-          "english": "When I finally succeeded in uniting all nine Rings of Hell, we created a united army of Hell to fight back in the event of the Covenant breaking. I was surprised at the overwhelming support I received in this endeavor."
+          "english": "When I finally succeeded in uniting all nine Rings of Hell, we created a united army of Hell to fight back in the event of the Covenant breaking. I was surprised at the overwhelming support I received in this endeavor.",
+          "french": "Une fois les neuf cercles de l'enfer rassemblés sous une même bannière, nous avons créé une armée infernale unie pour nous défendre si l'alliance venait à être rompue. J'ai été surpris de la ferveur avec laquelle ma suggestion a été reçue.",
+          "german": "Als ich endlich alle neun Kreise der Hölle vereint hatte, rekrutierten wir eine gemeinsame Höllenarmee, um nach dem Bruch des Paktes zurückzuschlagen. Ich war überrascht über die unglaubliche Unterstützung bei diesem Vorhaben.",
+          "russian": "Когда мне наконец-то удалось объединить все девять Кругов Ада, мы создали общую армию, чтобы дать отпор врагам в том случае, если Согласие будет нарушено. Удивительно, какую поддержку получило мое предложение.",
+          "portuguese": "Quando finalmente consegui unir todos os nove Círculos do Inferno, criamos um exército unificado do Inferno para lutar em caso de quebra do Pacto. O apoio avassalador que recebi nessa iniciativa foi surpreendente.",
+          "chinese": "当我终于将地狱九界的所有生物联合起来时，我们成为了一支地狱联合部队，在契约遭到破坏的紧急时刻进行反抗。这项工作得到了压倒性的支持，我对此颇为意外。",
+          "chinese_traditional": "當我終於將地獄九界的所有生物聯合起來時，我們成爲瞭一支地獄聯合部隊，在契約遭到破壞的緊急時刻進行反抗。這項工作得到瞭壓倒性的支持，我對此頗爲意外。",
+          "korean": "결국 지옥의 아홉 영역을 단결시키는 데 성공하자, 우리는 맹약이 깨질 경우 맞서 싸울 지옥의 연합군을 창설했다. 난 이 과정에서 받은 압도적인 지원에 사뭇 놀랐다."
         }
       ],
       "lore_style": "herzal",
