@@ -5,14 +5,35 @@
       "id": "WornGrindstone",
       "type": "collectable",
       "names": {
-        "english": "Worn Grindstone"
+        "english": "Worn Grindstone",
+        "french": "Meule érodée",
+        "german": "Abgenutzter Wetzstein",
+        "russian": "Потертое точило",
+        "portuguese": "Mó Gasto",
+        "chinese": "磨损砂轮",
+        "chinese_traditional": "磨損砂輪",
+        "korean": "닳아버린 숫돌"
       },
       "descriptions": {
-        "english": "Friendly units get +[effect0.power][attack]."
+        "english": "Friendly units get +[effect0.power][attack].",
+        "french": "Les unités alliées gagnent +[effect0.power][attack].",
+        "german": "Verbündete Einhalten erhalten +[effect0.power][attack].",
+        "russian": "Союзники получают +[effect0.power][attack].",
+        "portuguese": "As unidades aliadas recebem +[effect0.power] de [attack].",
+        "chinese": "使所有友方单位获得 +[effect0.power][attack]。",
+        "chinese_traditional": "使所有友方單位穫得 +[effect0.power][attack]。",
+        "korean": "아군 유닛들이 +[effect0.power][attack] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "As much as it pained me to see the tools of my trade used for such barbaric purposes, the war effort for Hell was in dire need of support. The forges quickly devolved into needless bickering between clans, each one claiming to be the best. Like children, I had to separate them for their own safety and my sanity."
+          "english": "As much as it pained me to see the tools of my trade used for such barbaric purposes, the war effort for Hell was in dire need of support. The forges quickly devolved into needless bickering between clans, each one claiming to be the best. Like children, I had to separate them for their own safety and my sanity.",
+          "french": "Bien qu'il m'ait été douloureux de voir les outils de mon travail servir à commettre des barbaries, l'enfer a eu désespérément besoin de soutien lors de la guerre. Les forges ont commencé à se chamailler inutilement comme des enfants, chaque clan prétendant être le meilleur. J'ai dû les séparer pour leur sécurité et leur santé mentale.",
+          "german": "So sehr es mich auch schmerzte, die Werkzeuge meines Handwerks für solch barbarische Zwecke zu entfremden, so brauchte die Hölle dringend Unterstützung in ihrem Krieg. Die Schmiedewerke waren schnell von unnützen Streitigkeiten zwischen den Stämmen betroffen, die allesamt behaupteten, die besten Schmiede zu besitzen. Ich musste sie voneinander trennen, um sie – und meinen eigenen Verstand – zu beschützen.",
+          "russian": "Хотя мне и больно было смотреть, как инструменты моего ремесла используются для столь варварских целей, военной экономике Ада нужна была срочная помощь. Кузницы быстро скатились в ненужные споры между кланами, каждый из которых стремился показать свое превосходство. Они были подобны детям, и мне пришлось разнимать их ради их собственной безопасности и сохранения рассудка.",
+          "portuguese": "Por mais que me doesse ver as ferramentas do meu negócio usadas para fins tão bárbaros, o esforço de guerra pelo Inferno precisava urgentemente de apoio. As forjas rapidamente recaíram em brigas desnecessárias entre clãs, cada um afirmando ser o melhor. Como se fossem crianças, tive que separá-los pela sua própria segurança e minha sanidade.",
+          "chinese": "尽管看到我的谋生手段被用于这种野蛮的目的令我痛心不已，但地狱的战事急需援助。锻炉很快就陷入了氏族间无意义的争吵中，每个氏族都声称自己才是最优秀的。为了他们的安全，也为了不让我自己疯掉，我不得不像管束孩子一样把他们分开。",
+          "chinese_traditional": "儘管看到我的謀生手段被用於這種野蠻的目的令我痛心不已，但地獄的戰事急需援助。鍛爐很快就陷入瞭氏族間無意義的爭吵中，每個氏族都聲稱自己纔是最優秀的。爲瞭他們的安全，也爲瞭不讓我自己瘋掉，我不得不像管束孩子一樣把他們分開。",
+          "korean": "내 도구들이 야만적인 용도로 쓰이던 건 가슴 아팠지만, 그만큼 지옥은 전쟁을 위해 모든 지원을 필요로 하던 절박한 상황이었다. 대장간은 순식간에 서로 자기 부족이 잘났다고 다투는 오합지졸들로 가득 찼다. 난 마치 아이를 대하듯이 이들을 서로 다른 공간에 격리해야 했다. 그들의 안전을 위해서, 그리고 그러지 않으면 내가 미칠 것 같아서 말이다."
         }
       ],
       "lore_style": "herzal",

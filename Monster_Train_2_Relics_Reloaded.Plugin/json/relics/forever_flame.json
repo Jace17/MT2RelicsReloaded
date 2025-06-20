@@ -5,14 +5,35 @@
       "id": "ForeverFlame",
       "type": "collectable",
       "names": {
-        "english": "Forever Flame"
+        "english": "Forever Flame",
+        "french": "Flamme éternelle",
+        "german": "Ewige Flamme",
+        "russian": "Вечное пламя",
+        "portuguese": "Chama Eterna",
+        "chinese": "永恒之火",
+        "chinese_traditional": "永恆之火",
+        "korean": "영원한 불꽃"
       },
       "descriptions": {
-        "english": "Units cost [effect0.paramint][ember]."
+        "english": "Units cost [effect0.paramint][ember].",
+        "french": "Les unités coûtent [effect0.paramint][ember].",
+        "german": "Einheiten kosten [effect0.paramint][ember].",
+        "russian": "[effect0.paramint][ember] к стоимости бойцов.",
+        "portuguese": "Unidades custam [effect0.paramint][ember].",
+        "chinese": "所有单位费用 [effect0.paramint][ember]。",
+        "chinese_traditional": "所有單位費用 [effect0.paramint][ember]。",
+        "korean": "유닛들의 비용이 2[ember] 감소합니다."
       },
       "lore_tooltips": [
         {
-          "english": "I can no longer remember the specifics of when I first came to Hell or called it my home. The centuries have deteriorated my mind's ability to remember. Though, through the haze, I can still feel the complete and consuming warmth of the Pyre."
+          "english": "I can no longer remember the specifics of when I first came to Hell or called it my home. The centuries have deteriorated my mind's ability to remember. Though, through the haze, I can still feel the complete and consuming warmth of the Pyre.",
+          "french": "Je ne me souviens plus des détails de mon arrivée en enfer ni du moment où j'en ai fait mon foyer. Les siècles ont affaibli la capacité de mon esprit à se remémorer les événements. Mais dans le brouillard, je ressens toujours la chaleur suprême et dévorante du Brasier.",
+          "german": "Ich kann mich nicht mehr genau an die Einzelheiten meiner ersten Reise in die Hölle erinnern, oder an die Zeit, als ich hier sesshaft wurde. Die Jahrhunderte haben mein Gedächtnis getrübt. Doch ich fühle immer noch die allumfassende Wärme der Höllenglut von damals, als wäre es erst gestern gewesen.",
+          "russian": "Я уже и не помню, как очутился в Аду и стал считать его своим домом. Минувшие века стерли это из моей памяти. Но хоть и смутно, я еще припоминаю всепоглощающее тепло, исходящее от Пекла.",
+          "portuguese": "Não consigo mais me lembrar dos detalhes de quando cheguei ao Inferno ou o chamei de lar. Os séculos deterioraram a capacidade da minha mente de se lembrar. Embora eu ainda possa sentir o calor absoluto e consumidor da Pira por entre a névoa das lembranças.",
+          "chinese": "我已经不记得我刚开始来到地狱时的情形，也不记得从什么时候起把这里当成了自己的家。活了几个世纪之后，我的记忆力已经比以前差了不少。不过透过阴霾，我依然能感受到薪火那纯粹而炽热的暖意。",
+          "chinese_traditional": "我已經不記得我剛開始來到地獄時的情形，也不記得從什麽時候起把這裏當成瞭自己的傢。活瞭幾個世紀之後，我的記憶力已經比以前差瞭不少。不過透過陰霾，我依然能感受到薪火那純粹而熾熱的暖意。",
+          "korean": "내가 처음으로 지옥에 왔을 때, 혹은 지옥을 내 고향이라 칭했을 시절의 자세한 기억이 나지 않는다. 수 천년에 걸쳐 내 기억력에 문제가 생긴 것이 분명하다. 하지만 흐릿하게나마, 불씨의 완벽한 온기를 흡수하는 그 느낌만큼은 기억난다."
         }
       ],
       "lore_style": "herzal",

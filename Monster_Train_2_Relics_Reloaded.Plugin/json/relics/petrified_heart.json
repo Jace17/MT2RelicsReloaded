@@ -5,14 +5,35 @@
       "id": "PetrifiedHeart",
       "type": "collectable",
       "names": {
-        "english": "Petrified Heart"
+        "english": "Petrified Heart",
+        "french": "Cœur pétrifié",
+        "german": "Versteinertes Herz",
+        "russian": "Окаменелое сердце",
+        "portuguese": "Coração Petrificado",
+        "chinese": "石化之心",
+        "chinese_traditional": "石化之心",
+        "korean": "돌이 된 심장"
       },
       "descriptions": {
-        "english": "Friendly units get +[effect0.power][health] and [heal_immune]."
+        "english": "Friendly units get +[effect0.power][health] and [heal_immune].",
+        "french": "Les unités alliées gagnent +[effect0.power][health] et [heal_immune].",
+        "german": "Verbündete Einheiten erhalten +[effect0.power][health] und [heal_immune].",
+        "russian": "Союзники получают +[effect0.power][health] и [heal_immune].",
+        "portuguese": "Unidades aliadas recebem +[effect0.power][health] e [heal_immune].",
+        "chinese": "友方单位获得 +[effect0.power][health]，[heal_immune]。",
+        "chinese_traditional": "友方單位穫得 +[effect0.power][health]，[heal_immune]。",
+        "korean": "아군 유닛들이 +[effect0.power][health] 및 [heal_immune]을 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "An ancient heart, petrified in the woods of the Wildwood. It still beats coldly. Endlessly."
+          "english": "An ancient heart, petrified in the woods of the Wildwood. It still beats coldly. Endlessly.",
+          "french": "Un cœur antique, pétrifié dans la forêt de Boissauvage. Il bat encore froidement. Sans cesse.",
+          "german": "Ein uraltes, versteinertes Herz aus dem Wildholz. Es schlägt immer noch. Kalt. Unaufhörlich.",
+          "russian": "Древнее окаменелое сердце из глубин Диколесья. Оно все еще бьется. И будет биться вечно.",
+          "portuguese": "Um coração antigo, petrificado na floresta da Mata Selvagem. Gelado, ele ainda bate. Infindamente.",
+          "chinese": "这颗远古的石化之心是在野林中发现的，冰冷的心脏依然永不停息地跳动着。",
+          "chinese_traditional": "這顆遠古的石化之心是在野林中發現的，冰冷的心臟依然永不停息地跳動着。",
+          "korean": "야생숲의 나무 속에서 석화된 고대의 심장이다. 아직도 냉랭하게 뛰고 있다. 영원히."
         }
       ],
       "lore_style": "herzal",

@@ -5,17 +5,45 @@
       "id": "ConscriptionNotice",
       "type": "collectable",
       "names": {
-        "english": "Conscription Notice"
+        "english": "Conscription Notice",
+        "french": "Avis de conscription",
+        "german": "Brief der Einberufung",
+        "russian": "Повестка в армию",
+        "portuguese": "Aviso de conscrição",
+        "chinese": "征兵启事",
+        "chinese_traditional": "徵兵啓事",
+        "korean": "징병 통지서"
       },
       "descriptions": {
-        "english": "When you first summon your Champion, gain a random unit card with +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], -[effect0.upgrade.costreduction][ember], and [effect0.upgrade.bonussize][size]."
+        "english": "When you first summon your Champion, gain a random unit card with +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], -[effect0.upgrade.costreduction][ember], and [effect0.upgrade.bonussize][size].",
+        "french": "Lorsque vous invoquez votre champion pour la première fois, octroie une carte d'unité aléatoire avec +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], -[effect0.upgrade.costreduction][ember] et [effect0.upgrade.bonussize][size].",
+        "german": "Wenn du deinen Champion zum ersten Mal spielst, erhalte eine zufällige Einheitenkarte mit +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], und -[effect0.upgrade.costreduction][ember] und [effect0.upgrade.bonussize][size].",
+        "russian": "Когда вы впервые призываете Героя, дает случайную карту бойца с +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], -[effect0.upgrade.costreduction][ember] и [effect0.upgrade.bonussize][size].",
+        "portuguese": "Quando você invoca seu campeão pela primeira vez, recebe uma carta de unidade aleatória com +[effect0.upgrade.bonusdamage] de [attack], +[effect0.upgrade.bonushp] de [health], -[effect0.upgrade.costreduction] de [ember] e [effect0.upgrade.bonussize] de [size].",
+        "chinese": "当你首次召唤勇者时，随机获得一张单位牌，且该单位拥有 +[effect0.upgrade.bonusdamage][attack]， +[effect0.upgrade.bonushp][health]，-[effect0.upgrade.costreduction][ember]，[effect0.upgrade.bonussize][size]。",
+        "chinese_traditional": "當你首次召喚勇者時，隨機穫得一張單位牌，且該單位擁有 +[effect0.upgrade.bonusdamage][attack]， +[effect0.upgrade.bonushp][health]，-[effect0.upgrade.costreduction][ember]，[effect0.upgrade.bonussize][size]。",
+        "korean": "전투에서 처음으로 챔피언을 소환할 때, +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], -[effect0.upgrade.costreduction][ember] 및 [effect0.upgrade.bonussize][size] $이$ 부여된 무작위 유닛 카드를 얻습니다."
       },
       "relic_activated_texts": {
-        "english": "Conscription Notice"
+        "english": "Conscription Notice",
+        "french": "Avis de conscription",
+        "german": "Brief der Einberufung",
+        "russian": "Повестка в армию",
+        "portuguese": "Aviso de conscrição",
+        "chinese": "征兵启事",
+        "chinese_traditional": "徵兵啓事",
+        "korean": "징병 통지서"
       },
       "lore_tooltips": [
         {
-          "english": "Our initial calls for support were a little… wordy: “We, the 9 Rings of Hell and the residents therein, declare our sovereignty from the Heavenly invaders of our lands. As fellow Hellborne, we implore you to consider supporting our shared cause and ensure our survival lest we cease to exist entirely.” It is comforting to know that I've matured from needless description and flourish to a paragon of simplicity."
+          "english": "Our initial calls for support were a little… wordy: “We, the 9 Rings of Hell and the residents therein, declare our sovereignty from the Heavenly invaders of our lands. As fellow Hellborne, we implore you to consider supporting our shared cause and ensure our survival lest we cease to exist entirely.” It is comforting to know that I've matured from needless description and flourish to a paragon of simplicity.",
+          "french": "Nos demandes de soutien initiales étaient quelque peu... verbeuses : « Nous, les Neuf cercles de l'enfer et leurs habitants, affirmons notre souveraineté sur nos terres, hors du contrôle des envahisseurs du paradis. En tant que démons, nous vous implorons de bien vouloir soutenir notre cause commune, garantissant ainsi notre survie, ou nous cesserons d'exister ». C'est rassurant de savoir que je suis passé de descriptions inutiles à un modèle de simplicité.",
+          "german": "Unsere ersten Hilferufe waren ein wenig zu ... ausführlich. „Wir, die 9 Kreise der Hölle und ihre Bewohner, erklären hiermit unsere Unabhängigkeit von den himmlischen Invasoren unserer Heimat. Als gemeinsame Höllenbrut erbitten wir Unterstützung im Kampf um unser Überleben, bevor wir endgültig ausgelöscht werden.“ Es ist gut zu wissen, dass ich über unnötige Beschreibungen hinausgewachsen bin und nun den Nutzen von Schlichtheit erkenne.",
+          "russian": "Наши изначальные запросы помощи были немного... многословными: «Мы, девять Кругов Ада и их обитатели, провозглашаем независимость от Райских захватчиков наших земель. Вы — Адское отродье, и мы призываем вас поддержать наше общее дело и обеспечить наше выживание, дабы мы не перестали существовать». Приятно осознавать, что я перерос ненужный формализм и стал идеалом простоты.",
+          "portuguese": "Nossos pedidos de ajuda iniciais foram um pouco... prolixos: “Nós, os 9 Círculos do Inferno e seus residentes, declaramos soberania das nossas terras aos invasores do Céu. Como companheiros Infernais, imploramos que cogite apoiar nossa causa compartilhada e assegurar nossa sobrevivência, para que não deixemos de existir completamente”. É reconfortante saber que amadureci e fui de descrições e adornos desnecessários até um modelo de simplicidade.",
+          "chinese": "我们最初的求救语有些……啰嗦：“身为9层地狱居民的我们在此对闯入我们土地的天堂入侵者宣布主权。我们恳求广大地狱之子同胞们考虑支持我们共同的事业，以求共同的存续，否则我们都将彻底灭亡。” 令我宽慰的是，我已经逐渐成熟，摒弃了毫无必要的描述，成为了崇尚简约的楷模。",
+          "chinese_traditional": "我們最初的求救語有些……囉嗦：“身爲9層地獄居民的我們在此對闖入我們土地的天堂入侵者宣布主權。我們懇求廣大地獄之子同胞們考慮支持我們共同的事業，以求共同的存續，否則我們都將徹底滅亡。” 令我寬慰的是，我已經逐漸成熟，摒棄瞭毫無必要的描述，成爲瞭崇尚簡約的楷模。",
+          "korean": "우리의 첫 징집 요청문은 조금... 장황했다. “우리 지옥의 아홉 영역과 그 거주민들은, 우리의 땅을 침공한 천국의 침략자들을 향해 우리의 자주권을 천명하는 바이다. 지옥살이 동포들이여, 우리는 당신에게 우리의 공통된 목표를 지지하고, 우리가 완전히 멸종하기 전에 생존을 보장할 수 있도록 도움의 손길을 제공할 것을 고려하기를 촉구한다.” 이젠 딱히 불필요한 내용을 넣거나 과장하지 않고, 명료하게 적고 끝내는 내 자신의 발전된 모습을 보면 흐뭇하다."
         }
       ],
       "lore_style": "herzal",

@@ -5,14 +5,35 @@
       "id": "VaporFunnel",
       "type": "collectable",
       "names": {
-        "english": "Vapor Funnel"
+        "english": "Vapor Funnel",
+        "french": "Entonnoir à vapeur",
+        "german": "Dampfventil",
+        "russian": "Паровая труба",
+        "portuguese": "Funil de Vapor",
+        "chinese": "蒸汽漏斗",
+        "chinese_traditional": "蒸汽漏鬥",
+        "korean": "증기 깔때기"
       },
       "descriptions": {
-        "english": "Apply [dazed] [effect0.status0.power] to enemy units when they enter the Pyre Room. Your Pyre gets [effect1.power][attack]."
+        "english": "Apply [dazed] [effect0.status0.power] to enemy units when they enter the Pyre Room. Your Pyre gets [effect1.power][attack].",
+        "french": "Inflige [dazed] [effect0.status0.power] aux unités ennemies lorsqu'elles entrent dans la salle du Brasier. Votre Brasier a [effect1.power][attack].",
+        "german": "Wende [effect0.status0.power] [dazed] auf gegnerische Einheiten an, wenn sie den Höllenglutraum betreten. Deine Höllenglut erhält [effect1.power] [attack].",
+        "russian": "Накладывает [effect0.status0.power] [dazed] на врагов, проникающих в комнату с Пеклом. Ваше Пекло получает [effect1.power][attack].",
+        "portuguese": "Cause [dazed] [effect0.status0.power] a unidades inimigas quando elas entram na Sala da Pira. Sua Pira recebe [effect1.power][attack].",
+        "chinese": "当敌方单位进入薪火室时，对其施加[dazed] [effect0.status0.power]，你的薪火获得 [effect1.power][attack]。",
+        "chinese_traditional": "當敵方單位進入薪火室時，對其施加[dazed] [effect0.status0.power]，你的薪火穫得 [effect1.power][attack]。",
+        "korean": "적 유닛들이 불씨 보관실에 입장할 때, 그들이 [dazed] [effect0.status0.power] 을 얻습니다. 불씨가 [effect1.power][attack] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "While trying to improve the efficiency of energy transfer from the Pyre to the Boneshaker, I inadvertently created a way to convert the energy directly into steam. At the time it seemed like a failure, but it may well prove useful in these harsh times."
+          "english": "While trying to improve the efficiency of energy transfer from the Pyre to the Boneshaker, I inadvertently created a way to convert the energy directly into steam. At the time it seemed like a failure, but it may well prove useful in these harsh times.",
+          "french": "En essayant d'améliorer le transfert d'énergie du Brasier vers le Hurleflammes, j'ai créé par inadvertance un moyen de convertir l'énergie directement en vapeur. Sur le moment, cela ressemblait à un échec, mais en ces temps difficiles, cela risque de nous être utile.",
+          "german": "Als ich versuchte, die Effektivität der Energieübertragung von der Höllenglut zum Knochenrüttler zu verbessern, entdeckte ich zufällig eine Möglichkeit, die Energie direkt in Dampf umzuwandeln. Damals empfand ich das als Fehlschlag, aber in diesen unsicheren Zeiten könnte sich diese Möglichkeit als nützlich erweisen.",
+          "russian": "Пытаясь повысить эффективность передачи энергии «Костолому» от Пекла, я случайно научился преобразовывать ее непосредственно в пар. Поначалу это казалось мне неудачей, но в эти беспокойные времена данная технология оказалась полезной.",
+          "portuguese": "Enquanto tentava melhorar a eficiência da transferência de energia da Pira para o Ossuário, criei sem querer uma maneira de converter a energia diretamente em vapor. Na época, parecia um fracasso, mas pode ser útil nesses tempos difíceis.",
+          "chinese": "当我试着提高薪火对老爷车号的能量传输效率时，我无意间发现了一种方法，可以直接将能量转化为蒸气。这种技术那时看来似乎完全没用，不过在如今这种严峻的情况下，它说不定会派上用场。",
+          "chinese_traditional": "當我試着提高薪火對老爺車號的能量傳輸效率時，我無意間發現瞭一種方法，可以直接將能量轉化爲蒸氣。這種技術那時看來似乎完全沒用，不過在如今這種嚴峻的情況下，它説不定會派上用場。",
+          "korean": "불씨의 에너지를 본셰이커로 더 효율적으로 전송하려고 시도하던 중에, 우연히 에너지를 증기의 형태로 직접 변환하는 방법을 개발했다. 처음에는 그저 실패작에 불과하다고 생각했지만, 요즘같은 고난의 시기라면 이런 것도 쓸 데가 있을지도 모르겠다."
         }
       ],
       "lore_style": "herzal",

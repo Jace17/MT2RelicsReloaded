@@ -5,14 +5,35 @@
       "id": "ImmortalityPotion",
       "type": "collectable",
       "names": {
-        "english": "Immortality Potion"
+        "english": "Immortality Potion",
+        "french": "Potion d'immortalité",
+        "german": "Unsterblichkeitstrank",
+        "russian": "Зелье бессмертия",
+        "portuguese": "Poção da Imortalidade",
+        "chinese": "永生药剂",
+        "chinese_traditional": "永生藥劑",
+        "korean": "불멸 물약"
       },
       "descriptions": {
-        "english": "Friendly non-Morsel units get [endless]."
+        "english": "Friendly non-Morsel units get [endless].",
+        "french": "Les unités alliées hors sous-bistre gagnent [endless].",
+        "german": "Verbündete Nicht-Nugget-Einheiten erhalten [endless].",
+        "russian": "Союзники, кроме заморышей, получают [endless].",
+        "portuguese": "Unidades aliadas que não sejam Lanchos recebem [endless].",
+        "chinese": "友方非影裔单位获得[endless]。",
+        "chinese_traditional": "友方非影裔單位穫得[endless]。",
+        "korean": "먹꾼이 아닌 아군 유닛들이 [endless]을 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Picture this scenario: You die, go to the Afterlife, and live forevermore. Fantastic! Except now I’ve made it so you can die again. What even happens if you die twice? I have yet to die once!"
+          "english": "Picture this scenario: You die, go to the Afterlife, and live forevermore. Fantastic! Except now I’ve made it so you can die again. What even happens if you die twice? I have yet to die once!",
+          "french": "Imaginez un peu : vous mourez, vous allez dans l'au-delà et vous y demeurez pour toujours. Fantastique ! Sauf que j'ai fait en sorte que vous mouriez à nouveau. Que se passe-t-il lorsque l'on meurt deux fois ? Je ne suis encore même pas mort une fois !",
+          "german": "Man stelle sich vor: Man stirbt, geht ins nächste Leben über und ist fortan unsterblich. Fantastisch! Aber ich habe die Regeln ein wenig abgeändert, damit man nun erneut sterben kann. Was wohl passiert, wenn man zweimal stirbt? Ich habe bisher noch nicht einmal meinen ersten Tod erlebt!",
+          "russian": "Представьте себе такую картину: вы умираете, отправляетесь в загробный мир и проводите там вечность. Фантастика! Вот только недавно я сделала так, что вы вновь можете умереть. Что происходит, если вы умрете дважды? Я пока что не умерла даже единожды!",
+          "portuguese": "Imagine só: você morre, vai para a vida após a morte e vive para sempre. Fantástico! Exceto que agora eu fiz com que você possa morrer novamente. O que acontece se você morrer duas vezes? Eu ainda não morri nenhuma vez!",
+          "chinese": "想象一下这个场景：你死了，去了来生，然后一直活下去。妙哇！只不过现在由于我的缘故，你可以再死一次了。一个人死两次会怎样呢？我一次都没死过呢！",
+          "chinese_traditional": "想象一下這個場景：你死瞭，去瞭來生，然後一直活下去。妙哇！隻不過現在由於我的緣故，你可以再死一次瞭。一個人死兩次會怎樣呢？我一次都沒死過呢！",
+          "korean": "이런 거 어때? 죽고 사후세계로 가서 거기서 영원히 사는거야. 멋지지! 대신 거기서 또 죽을 수 있게 만들었어. 두 번 죽으면 어떻게 되냐고? 난 한 번도 죽은 적이 없어서 몰라!"
         }
       ],
       "lore_style": "herzal",

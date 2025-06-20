@@ -5,14 +5,35 @@
       "id": "IronDropcage",
       "type": "collectable",
       "names": {
-        "english": "Iron Dropcage"
+        "english": "Iron Dropcage",
+        "french": "Cage en fer",
+        "german": "Eiserner Fallkäfig",
+        "russian": "Железная клетка",
+        "portuguese": "Armadilha de Gaiola de Ferro",
+        "chinese": "铁质吊笼",
+        "chinese_traditional": "鐵質吊籠",
+        "korean": "떨어지는 쇠창살"
       },
       "descriptions": {
-        "english": "Whenever you play a spell that would [ascend] or [descend] an enemy unit, also apply [dazed] [effect0.status0.power]."
+        "english": "Whenever you play a spell that would [ascend] or [descend] an enemy unit, also apply [dazed] [effect0.status0.power].",
+        "french": "Quand vous jouez un sort qui fait [ascend] ou [descend] une unité, [dazed] [effect0.status0.power] est aussi appliqué.",
+        "german": "Immer, wenn du einen Zauber spielst, durch den eine gegnerische Einheit [ascend] oder [descend] würde, wende zusätzlich [effect0.status0.power] [dazed] an.",
+        "russian": "Когда вы применяете чары, которые [ascend] или [descend] вражеского бойца, вы также накладываете [effect0.status0.power] [dazed].",
+        "portuguese": "empre que você joga um feitiço capaz de [ascend] ou [descend] uma unidade aliada, causa também [dazed] [effect0.status0.power].",
+        "chinese": "当你用法术令敌方单位[ascend]或[descend]时，对其施加[dazed] [effect0.status0.power]。",
+        "chinese_traditional": "當你用法術令敵方單位[ascend]或[descend]時，對其施加[dazed] [effect0.status0.power]。",
+        "korean": "주문으로 적 유닛을 [ascend]시키거나 [descend]시킬 때마다, 추가로 [dazed] [effect0.status0.power] 을 부여합니다."
       },
       "lore_tooltips": [
         {
-          "english": "As invasions of the Boneshaker have become more frequent, I’ve devised a number of traps and devices to subdue any unwanted guests. These cages should hold them back temporarily when they board the train."
+          "english": "As invasions of the Boneshaker have become more frequent, I’ve devised a number of traps and devices to subdue any unwanted guests. These cages should hold them back temporarily when they board the train.",
+          "french": "Étant donné que les invasions du Hurleflammes sont de plus en plus fréquentes, j'ai inventé nombre de pièges et de dispositifs pour maîtriser les invités indésirables. Ces cages devraient retenir temporairement tous ceux qui essaient de monter dans le train.",
+          "german": "Da der Knochenrüttler immer häufiger überfallen wird, habe ich einige Fallen und Vorrichtungen entwickelt, mit denen ich unerwünschte Gäste fernhalten kann. Diese Käfige sollten sie zeitweise aufhalten, wenn sie den Zug betreten.",
+          "russian": "Поскольку на «Костолом» стали нападать все чаще, мне пришлось оборудовать его ловушками и устройствами, мешающими незваным гостям. Эти клетки должны временно удерживать их при попытке подняться на борт.",
+          "portuguese": "Conforme as invasões ao Ossuário se tornaram mais frequentes, criei várias armadilhas e dispositivos para subjugar qualquer hóspede indesejado. Essas gaiolas devem interrompê-los temporariamente quando embarcarem no trem.",
+          "chinese": "随着敌人侵入老爷车号的情况越发频繁，我设计出了一系列陷阱与诱捕装置，用来对付车上的不速之客。当敌人登上列车的时候，这些笼子应该可以暂时困住他们。",
+          "chinese_traditional": "隨着敵人侵入老爺車號的情況越髮頻繁，我設計齣瞭一係列陷阱與誘捕裝置，用來對付車上的不速之客。當敵人登上列車的時候，這些籠子應該可以暫時睏住他們。",
+          "korean": "본셰이커를 향한 침공이 잦아졌기 때문에, 난 불청객을 진압할 함정과 장치를 여러 개 만들었다. 그들이 열차에 올라탈 때, 이 철창이 그들을 잠시나마 저지할 수 있을 것이다."
         }
       ],
       "lore_style": "herzal",

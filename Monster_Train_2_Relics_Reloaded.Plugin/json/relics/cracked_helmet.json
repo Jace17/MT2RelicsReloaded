@@ -5,14 +5,35 @@
       "id": "CrackedHelmet",
       "type": "collectable",
       "names": {
-        "english": "Cracked Helmet"
+        "english": "Cracked Helmet",
+        "french": "Casque fissuré",
+        "german": "Brüchiger Helm",
+        "russian": "Расколотый шлем",
+        "portuguese": "Capacete Rachado",
+        "chinese": "裂纹头盔",
+        "chinese_traditional": "裂紋頭盔",
+        "korean": "부서진 투구"
       },
       "descriptions": {
-        "english": "Damage spells get [piercing]."
+        "english": "Damage spells get [piercing].",
+        "french": "Les sorts de dégâts gagnent [piercing].",
+        "german": "Schadenszauber erhalten [piercing].",
+        "russian": "Чары урона получают [piercing].",
+        "portuguese": "Feitiços de dano recebem [piercing].",
+        "chinese": "所有伤害性法术获得[piercing]。",
+        "chinese_traditional": "所有傷害性法術穫得[piercing]。",
+        "korean": "피해 주문이 [piercing]을 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "I once asked Herzal to craft me some invincible armor. After three months of nonstop work, he presented me with the most beautiful helmet I had ever seen. I then immediately broke it. So much for invincibility!"
+          "english": "I once asked Herzal to craft me some invincible armor. After three months of nonstop work, he presented me with the most beautiful helmet I had ever seen. I then immediately broke it. So much for invincibility!",
+          "french": "Une fois, j'ai demandé à Herzal de me fabriquer une armure invincible. Après trois mois de travail acharné, il m'a présenté le plus beau des casques. Je l'ai tout de suite cassé. Invincible, mon œil !",
+          "german": "Ich habe Herzal einmal darum gebeten, mir eine unzerstörbare Rüstung zu schmieden. Nachdem er drei Monate lang unermüdlich gearbeitet hatte, überreichte er mir den schönsten Helm, den ich jemals gesehen habe. Gleich darauf habe ich ihn versehentlich zerstört. So viel zu unzerstörbar!",
+          "russian": "Однажды я попросила Герцаля изготовить непробиваемые доспехи. После трех месяцев непрерывной работы он подарил мне самый красивый шлем из всех, что я когда-либо видела. И я сразу же его сломала. То же мне, непробиваемые доспехи!",
+          "portuguese": "Uma vez, pedi a Herzal para fabricar para mim uma armadura invencível. Após três meses de trabalho ininterrupto, ele me presenteou com o capacete mais lindo que eu já tinha visto. E então eu o quebrei imediatamente. Invencibilidade uma ova!",
+          "chinese": "我曾请赫扎尔替我打造刀枪不入的护甲。他不眠不休了三个月，最终给了我一顶我见过的最漂亮的头盔。然后一下子就被我搞坏了。这就是所谓的刀枪不入！",
+          "chinese_traditional": "我曾請赫扎爾替我打造刀槍不入的護甲。他不眠不休瞭三個月，最終給瞭我一頂我見過的最漂亮的頭盔。然後一下子就被我搞壞瞭。這就是所謂的刀槍不入！",
+          "korean": "한 번은 헤르잘한테 무적의 갑옷을 만들어 달라고 한 적 있어. 그러니까 세 달 동안 일만 하더라고. 그러더니 내가 지금까지 본 가장 이쁜 투구를 만들어줬지 뭐야. 그래서 그 자리에서 부숴버렸어. 그 정도 가지고 무적이라 하면 안 되지!"
         }
       ],
       "lore_style": "herzal",

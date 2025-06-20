@@ -5,14 +5,35 @@
       "id": "RefractingLenses",
       "type": "collectable",
       "names": {
-        "english": "Refracting Lenses"
+        "english": "Refracting Lenses",
+        "french": "Verres réfracteurs",
+        "german": "Refraktorlinsen",
+        "russian": "Отражающие линзы",
+        "portuguese": "Lentes Refratárias",
+        "chinese": "折射透镜",
+        "chinese_traditional": "摺射透鏡",
+        "korean": "굴절 렌즈"
       },
       "descriptions": {
-        "english": "When a card with [consume] is played, restore [effect0.power] Pyre health."
+        "english": "When a card with [consume] is played, restore [effect0.power] Pyre health.",
+        "french": "Lorsqu'une carte avec [consume] est jouée, restaure [effect0.power] PV à votre Brasier.",
+        "german": "Wenn eine Karte mit [consume] gespielt wird, stelle [effect0.power] Gesundheit der Höllenglut wieder her.",
+        "russian": "При активации карты с [consume] восстановите [effect0.power] здоровья пекла.",
+        "portuguese": "Quando uma carta com [consume] for jogada, restaura [effect0.power] de vida da Pira.",
+        "chinese": "每当打出具有[consume]的卡牌时，薪火恢复 [effect0.power] 点生命值。",
+        "chinese_traditional": "每當打齣具有[consume]的卡牌時，薪火恢複 [effect0.power] 點生命值。",
+        "korean": "[consume]되는 카드를 낼 때, 불씨의 체력을 [effect0.power] 회복합니다."
       },
       "lore_tooltips": [
         {
-          "english": "My failed attempt at refocusing the light of the Pyre to better fuel the Boneshaker. It wasn’t entirely a waste of time though, as the lens was able to refract that energy back onto the Pyre itself."
+          "english": "My failed attempt at refocusing the light of the Pyre to better fuel the Boneshaker. It wasn’t entirely a waste of time though, as the lens was able to refract that energy back onto the Pyre itself.",
+          "french": "Une tentative ratée de refocaliser la lumière du Brasier afin d'alimenter plus efficacement le Hurleflammes. Ceci dit, je n'ai pas complètement perdu mon temps dans la mesure où les verres permettent de réfracter l'énergie du Brasier vers lui-même.",
+          "german": "Mein gescheiterter Versuch, das Licht der Höllenglut so zu fokussieren, dass der Knochenrüttler effektiver angetrieben wird. Es war aber keine absolute Zeitverschwendung: Die Linsen können die überschüssige Energie direkt an die Höllenglut zurückleiten.",
+          "russian": "Мне не удалось перенаправить свет Пекла так, чтобы улучшить тягу «Костолома». Впрочем, это не стало и пустой тратой времени, ведь линзы смогли отразить энергию обратно в само Пекло.",
+          "portuguese": "Minha tentativa fracassada de reorientar a luz da Pira para abastecer melhor o Ossuário. Não foi uma total perda de tempo, já que as lentes refrataram a energia de volta à própria Pira.",
+          "chinese": "尝试过重新聚焦薪火发出来的光芒，从而为老爷车号更好地提供能量，但失败了。不过，这并不算是完全浪费时间，因为透镜将散发出来的能量重新折射回了薪火之中。",
+          "chinese_traditional": "嘗試過重新聚焦薪火髮齣來的光芒，從而爲老爺車號更好地提供能量，但失敗瞭。不過，這并不算是完全浪費時間，因爲透鏡將散髮齣來的能量重新摺射迴瞭薪火之中。",
+          "korean": "난 불씨의 빛을 재집중시키는 장치를 만들어 본셰이커의 연료 효율을 높이려고 했다. 불행히도 이 장치는 실패작으로 돌아갔으나, 완전히 시간 낭비였던 것은 아니었다. 렌즈가 에너지를 굴절시켜 불씨로 되먹여주었기 때문이다."
         }
       ],
       "lore_style": "herzal",

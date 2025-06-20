@@ -5,14 +5,35 @@
       "id": "FrozenNostalgia",
       "type": "collectable",
       "names": {
-        "english": "Frozen Nostalgia"
+        "english": "Frozen Nostalgia",
+        "french": "Nostalgie gelée",
+        "german": "Gefrorenes Erinnerungsstück",
+        "russian": "Холод ностальгии",
+        "portuguese": "Nostalgia Congelada",
+        "chinese": "冰凝旧日",
+        "chinese_traditional": "冰凝舊日",
+        "korean": "얼어붙은 그리움"
       },
       "descriptions": {
-        "english": "[effect0.power][capacity] on each floor. +[effect1.power] [magicpower]."
+        "english": "[effect0.power][capacity] on each floor. +[effect1.power] [magicpower].",
+        "french": "[effect0.power][capacity] à chaque niveau. +[effect1.power] [magicpower].",
+        "german": "[effect0.power] [capacity] auf jeder Ebene. +[effect1.power] [magicpower].",
+        "russian": "[effect0.power][capacity] на каждом этаже. +[effect1.power] к [magicpower].",
+        "portuguese": "[effect0.power][capacity] em cada andar. +[effect1.power] [magicpower].",
+        "chinese": "每层 [effect0.power][capacity]，+[effect1.power] [magicpower]。",
+        "chinese_traditional": "每層 [effect0.power][capacity]，+[effect1.power] [magicpower]。",
+        "korean": "각 층에 [effect0.power][capacity] $을$ 부여합니다. 대신 +[effect1.power] [magicpower]을 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "My heart and my life. I only hope that you can learn from an old man’s mistakes."
+          "english": "My heart and my life. I only hope that you can learn from an old man’s mistakes.",
+          "french": "Mon cœur et ma vie. J'espère vous apprendrez des erreurs du vieil homme que je suis.",
+          "german": "Mein Herz und mein Leben. Ich hoffe sehr, dass du von den Fehlern eines alten Mannes lernen kannst.",
+          "russian": "Мое сердце, моя жизнь. Остается надеяться, что вы сможете чему-то научиться на ошибках старика.",
+          "portuguese": "Meu coração e minha vida, só espero que você consiga aprender com os erros de um homem velho.",
+          "chinese": "我的心，我的生命。我只希望你能从某位老人的错误中吸取教训。",
+          "chinese_traditional": "我的心，我的生命。我隻希望你能從某位老人的錯誤中吸取教訓。",
+          "korean": "내 삶, 내 사랑. 오직 네가 이 늙은이의 잘못으로부터 교훈을 얻길 바란다."
         }
       ],
       "lore_style": "herzal",

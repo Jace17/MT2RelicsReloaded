@@ -5,14 +5,35 @@
       "id": "PenitentRemains",
       "type": "collectable",
       "names": {
-        "english": "Penitent Remains"
+        "english": "Penitent Remains",
+        "french": "Vestiges de pénitent",
+        "german": "Überreste der Reuigen",
+        "russian": "Останки раскаявшегося",
+        "portuguese": "Resquícios Penitentes",
+        "chinese": "忏悔遗骨",
+        "chinese_traditional": "懺悔遺骨",
+        "korean": "참회의 흔적"
       },
       "descriptions": {
-        "english": "When summoned, friendly units get +[effect0.power][attack] for every [blight] card in your deck."
+        "english": "When summoned, friendly units get +[effect0.power][attack] for every [blight] card in your deck.",
+        "french": "Lorsqu'invoquées, les unités alliées gagnent +[effect0.power][attack] pour chaque carte Fléau dans votre deck.",
+        "german": "Wenn sie gerufen werden, erhalten verbündete Einheiten +[effect0.power][attack] für jede Fluch-Karte in deinem Deck.",
+        "russian": "При призыве союзники получают +[effect0.power][attack] за каждую карту-пагубник в вашей колоде.",
+        "portuguese": "Quando invocadas, unidades aliadas recebem +[effect0.power][attack] para cada carta Praga em seu deck.",
+        "chinese": "召唤时，卡组里每有一张[blight]卡牌，友方单位获得 +[effect0.power][attack]。",
+        "chinese_traditional": "召喚時，卡組裏每有一張[blight]卡牌，友方單位穫得 +[effect0.power][attack]。",
+        "korean": "아군 유닛이 소환될 때, 내 덱의 [blight] 카드 한 장당 +[effect0.power][attack] $을$ 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "I have yet to hear of a sinner from Hell released from the confines of Penance. It seems that the Winged have a skewed sense of morality when it comes to those outside their kind."
+          "english": "I have yet to hear of a sinner from Hell released from the confines of Penance. It seems that the Winged have a skewed sense of morality when it comes to those outside their kind.",
+          "french": "Pour autant que je sache, jamais un pécheur des enfers n'a été libéré de sa pénitence. Il semblerait que les anges aient un sens de la morale biaisé lorsqu'il s'agit de ceux étrangers à leur peuple.",
+          "german": "Ich habe bisher von keinem Sünder aus der Hölle gehört, der mit seinen Bußen seine Unschuld erreichen konnte. Die Geflügelten haben offenbar etwas verzerrte Moralvorstellungen, wenn es um Wesen außerhalb ihrer eigenen Reihen geht.",
+          "russian": "Мне пока не доводилось слышать о грешниках, спасшихся из Ада посредством Воздаяния. Похоже, Крылатые не столь добродетельны, когда речь заходит о ком-то, кто не принадлежит к их виду.",
+          "portuguese": "Nunca ouvi falar de um pecador do Inferno que foi libertado da prisão da Penitência. Parece que os Alados têm um senso de moralidade distorcido quando se trata de seres de outras espécies.",
+          "chinese": "到目前为止，我从来没听说过翼族允许哪个来自地狱的罪人结束忏悔，刑满释放。看起来，对待那些非自己族类的生物时，翼族有种高高在上的道德感。",
+          "chinese_traditional": "到目前爲止，我從來沒聽説過翼族允許哪個來自地獄的罪人結束懺悔，刑滿釋放。看起來，對待那些非自己族類的生物時，翼族有種高高在上的道德感。",
+          "korean": "난 아직 지옥의 죄인이 회개의 구속구에서 풀려났다는 사례를 들어본 적이 없다. 날개달린 자들은 동족이 아닌 이들에게는 뒤틀린 도덕률을 적용하는 것이 분명하다."
         }
       ],
       "lore_style": "herzal",

@@ -5,17 +5,45 @@
       "id": "GoldenVault",
       "type": "collectable",
       "names": {
-        "english": "Golden Vault"
+        "english": "Golden Vault",
+        "french": "Chambre forte",
+        "german": "Goldener Tresor",
+        "russian": "Золотое хранилище",
+        "portuguese": "Cofre Dourado",
+        "chinese": "金色宝库",
+        "chinese_traditional": "金色寶庫",
+        "korean": "금화 보관소"
       },
       "descriptions": {
-        "english": "As long as you have at least [effect0.power][coin], lose [effect0.power][coin] when you take Pyre damage in combat instead of taking damage."
+        "english": "As long as you have at least [effect0.power][coin], lose [effect0.power][coin] when you take Pyre damage in combat instead of taking damage.",
+        "french": "Tant que vous avez au moins [effect0.power][coin], fait perdre [effect0.power][coin] lorsque vous subissez des dégâts de Brasier au combat au lieu d'en subir.",
+        "german": "Solange du mindestens [effect0.power][coin] besitzt: Verliere [effect0.power][coin] statt Höllenglut-Gesundheit, wenn deine Höllenglut im Kampf Schaden nimmt.",
+        "russian": "Пока у вас есть хотя бы [effect0.power][coin], вы теряете [effect0.power][coin] и игнорируете весь урон, когда Пекло получает урон.",
+        "portuguese": "Desde que você tenha pelo menos [effect0.power] [coin], perca [effect0.power][coin] quando sua Pira recebe dano em combate em vez de receber dano.",
+        "chinese": "只要你拥有至少 [effect0.power][coin]，当你的薪火在战斗中受到伤害时，不会损失生命值，改为损失 [effect0.power][coin]。",
+        "chinese_traditional": "隻要你擁有至少 [effect0.power][coin]，當你的薪火在戰鬥中受到傷害時，不會損失生命值，改爲損失 [effect0.power][coin]。",
+        "korean": "당신이 최소 [effect0.power][coin] $을$ 가지고 있다면, 불씨가 교전 중 피해를 입는 대신 [effect0.power][coin] $을$ 잃습니다."
       },
       "relic_activated_texts": {
-        "english": "-[effect0.power][coin]"
+        "english": "-[effect0.power][coin]",
+        "french": "-[effect0.power][coin]",
+        "german": "-[effect0.power][coin]",
+        "russian": "-[effect0.power][coin]",
+        "portuguese": "-[effect0.power] [coin]",
+        "chinese": "-[effect0.power][coin]",
+        "chinese_traditional": "-[effect0.power][coin]",
+        "korean": "-[effect0.power][coin]"
       },
       "lore_tooltips": [
         {
-          "english": "We amassed what small gold we had over time, all of it plundered from the rarely-defeated Heavenly forces in hopes of stifling their war funding. Given the great wealth of Heaven, however, I don’t imagine they even noticed. It’s funny how quickly the afraid will empty their pockets in the off chance of retaining some control of their sanity."
+          "english": "We amassed what small gold we had over time, all of it plundered from the rarely-defeated Heavenly forces in hopes of stifling their war funding. Given the great wealth of Heaven, however, I don’t imagine they even noticed. It’s funny how quickly the afraid will empty their pockets in the off chance of retaining some control of their sanity.",
+          "french": "Nous avons accumulé quelques pièces d'or au fil du temps, dérobées aux rares ennemis du paradis vaincus dans l'espoir d'empêcher le financement de leur guerre. Étant donné la fortune du paradis, cependant, je pense que nos actes sont passés inaperçus. C'est curieux comme ceux qui se sentent acculés vident leurs poches en espérant ne pas perdre la raison.",
+          "german": "Wir haben eine kleine Menge Gold angesammelt, die wir von den himmlischen Truppen plünderten, die wir in seltenen Fällen bezwingen konnten. Wir wollten damit die Finanzierung ihres Krieges einschränken, doch so reich, wie der Himmel ist, bemerkten sie unsere Raubzüge vermutlich nicht einmal. Es ist interessant, wie schnell Angst einige ihre Taschen leeren lässt, in der Hoffnung, den eigenen Verstand zu wahren.",
+          "russian": "Мы собрали немногочисленное золото, что нам удалось добыть у побежденных войск Рая, в надежде ослабить его военное финансирование. Но, учитывая богатство Рая, вряд ли он заметил наши жалкие потуги. Забавно, как быстро напуганные опустошают свои карманы, если это дает им хоть какой-то шанс сохранить рассудок.",
+          "portuguese": "Acumulamos o pouco de ouro que tínhamos ao longo do tempo, todo ele saqueado das forças celestiais raramente derrotadas, na esperança de reprimir seu financiamento de guerra. Dada a grande riqueza do Céu, no entanto, eu imagino que eles sequer tenham notado. É engraçado como os amedrontados esvaziam rapidamente os bolsos na remota chance de reter algum controle de sua sanidade.",
+          "chinese": "我们把慢慢积累的金币凑到了一块儿。这些钱都是从鲜有败绩的天堂部队手中抢来的，希望让他们的战争经费变得紧张。不过考虑到天堂财大气粗，我感觉我们的努力只是杯水车薪。担惊受怕者愿意毫不犹豫地掏空口袋里的钱以求保住自己理智的渺茫机会，想想就好笑。",
+          "chinese_traditional": "我們把慢慢積纍的金幣湊到瞭一塊兒。這些錢都是從有敗績的天堂部隊手中搶來的，希望讓他們的戰爭經費變得緊張。不過考慮到天堂財大氣粗，我感覺我們的努力隻是杯水車薪。擔驚受怕者願意毫不猶豫地掏空口袋裏的錢以求保住自己理智的渺茫機會，想想就好笑。",
+          "korean": "천국의 군대가 패배하는 일은 거의 없었지만, 우리는 패배자들로부터 금화를 몰수해 그들의 전쟁 자금에 차질을 빛게 하고자 했다. 하지만 그렇게 모은 금화의 양은 얼마 되지 않았다. 아마 천국의 거대한 부를 생각하면 그 놈들은 이 정도는 신경도 쓰지 않겠지. 그래도 놈들이 공포에 질리면서도 실낱같은 가능성에 매달려 호주머니에 있는 돈을 싸그리 내놓는 꼬락서니는 웃기긴 하다."
         }
       ],
       "lore_style": "herzal",

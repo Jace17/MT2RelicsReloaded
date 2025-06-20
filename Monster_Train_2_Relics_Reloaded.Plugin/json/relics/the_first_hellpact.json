@@ -5,14 +5,35 @@
       "id": "TheFirstHellpact",
       "type": "collectable",
       "names": {
-        "english": "The First Hellpact"
+        "english": "The First Hellpact",
+        "french": "Le premier pacte des enfers",
+        "german": "Der erste Höllenpakt",
+        "russian": "Первый пакт Ада",
+        "portuguese": "O Primeiro Pacto do Inferno",
+        "chinese": "最初的地狱契约",
+        "chinese_traditional": "最初的地獄契約",
+        "korean": "첫 번째 지옥 서약"
       },
       "descriptions": {
-        "english": "<b>X Cost</b> cards get +[effect0.power] to their X value when played."
+        "english": "<b>X Cost</b> cards get +[effect0.power] to their X value when played.",
+        "french": "Les cartes avec un <b>coût X</b> gagnent +[effect0.power] à leur valeur X lorsqu'elles sont jouées.",
+        "german": "Karten mit <b>X-Kosten</b> erhalten +[effect0.power] zum Wert von X, wenn sie gespielt werden.",
+        "russian": "Карты стоимостью <b>X</b> при использовании получают +[effect0.power] к своему значению X.",
+        "portuguese": "Cartas de <b>Custo X</b> recebem +[effect0.power] ao seu valor X quando jogadas.",
+        "chinese": "当打出<b>费用为 X</b> 的卡牌时，X 的值 +[effect0.power]。",
+        "chinese_traditional": "當打齣<b>費用爲 X</b> 的卡牌時，X 的值 +[effect0.power]。",
+        "korean": "비용이 <b>X</b> 인 카드를 낼 때, <b>X</b> 에 +[effect0.power] $을$ 추가합니다."
       },
       "lore_tooltips": [
         {
-          "english": "Uniting the Rings of Hell to construct the Rail was no easy task, but after years of work I was finally able to achieve what was once thought impossible by having the clans from each Ring all agree to this pact."
+          "english": "Uniting the Rings of Hell to construct the Rail was no easy task, but after years of work I was finally able to achieve what was once thought impossible by having the clans from each Ring all agree to this pact.",
+          "french": "Unifier les cercles de l'enfer pour construire la Voie n'a pas été chose facile. Mais après des années de dur labeur, je suis parvenu à réaliser ce que l'on pensait autrefois impossible en obtenant l'accord des clans de chaque cercle.",
+          "german": "Die Kreise der Hölle zu vereinen, um das Gleis zu erbauen, war nicht einfach, aber nach jahrelanger Arbeit hatte ich endlich erreicht, was mir einst unmöglich schien: Die Stämme der Ringe stimmten alle dem Pakt zu.",
+          "russian": "Было непросто объединить Круги Ада, чтобы начать строительство Железной дороги, но спустя несколько лет мне удалось добиться невозможного, и каждый из кланов подписался под соглашением.",
+          "portuguese": "Unir os Círculos do Inferno para construir o Trilho não foi uma tarefa fácil, mas depois de anos de trabalho, finalmente consegui alcançar o que antes era impossível: fazer com que os clãs de cada Círculo concordassem com esse pacto.",
+          "chinese": "将地狱九界团结在一起，共同建造铁道并不是件简单的工作。但经过这么多年的努力，我终于让所有的地狱氏族都同意遵守这一契约，成功地实现了这个看似不可能完成的目标。",
+          "chinese_traditional": "將地獄九界團結在一起，共同建造鐵道并不是件簡單的工作。但經過這麽多年的努力，我終於讓所有的地獄氏族都同意遵守這一契約，成功地實現瞭這個看似不可能完成的目標。",
+          "korean": "지옥의 각 영역을 연합시켜 철길을 건설하는 것은 전혀 쉬운 일이 아니었다. 하지만 몇 년간의 노력 끝에 난 불가능을 이룩했다. 각 영역의 부족들이 모두 이 서약에 동의하게 한 것이다."
         }
       ],
       "lore_style": "herzal",

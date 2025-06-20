@@ -5,14 +5,35 @@
       "id": "CheatersHand",
       "type": "collectable",
       "names": {
-        "english": "Cheater's Hand"
+        "english": "Cheater's Hand",
+        "french": "Main du Tricheur",
+        "german": "Hand des Betrügers",
+        "russian": "Рука мошенника",
+        "portuguese": "Mão do Trapaceiro",
+        "chinese": "老千的手牌",
+        "chinese_traditional": "老韆的手牌",
+        "korean": "사기꾼의 손"
       },
       "descriptions": {
-        "english": "Draw +[effect0.power] each turn, then return 1 card to the top of your draw pile."
+        "english": "Draw +[effect0.power] each turn, then return 1 card to the top of your draw pile.",
+        "french": "Piochez +[effect0.power] à chaque tour, puis retournez 1 carte au-dessus de votre pioche.",
+        "german": "Ziehe jeden Zug +[effect0.power] Karten, dann lege 1 Karte zurück auf deinen Ziehstapel.",
+        "russian": "Берите +[effect0.power] каждый ход, затем возвращайте 1 карту на верх вашей активной колоды.",
+        "portuguese": "Compre +[effect0.power] a cada turno, depois retorne 1 carta para o topo da sua pilha de compra.",
+        "chinese": "每回合抽 +[effect0.power] 张牌，然后将一张牌放回你的抽牌堆顶部。",
+        "chinese_traditional": "每迴合抽 +[effect0.power] 張牌，然後將一張牌放迴你的抽牌堆頂部。",
+        "korean": "매 턴마다 카드를 +[effect0.power] 장 더 뽑고, 손에서 한 장을 뽑을 카드 더미의 맨 위에 올려놓습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Rumblings of Seraph’s moral absolutism had become frequent in the time before Heaven’s invasion. Transgressions were rarely tolerated and often met with swift physical punishment. I can see now that his invasion of Hell was largely driven by some personal vendetta against me and my failings."
+          "english": "Rumblings of Seraph’s moral absolutism had become frequent in the time before Heaven’s invasion. Transgressions were rarely tolerated and often met with swift physical punishment. I can see now that his invasion of Hell was largely driven by some personal vendetta against me and my failings.",
+          "french": "Les conséquences de l'absolutisme moral de Séraphin étaient devenus fréquents avant l'invasion du paradis. Les transgressions étaient rarement tolérées et se soldaient souvent par un prompt châtiment physique. Je constate à présent que son invasion de l'enfer était surtout une vendetta personnelle contre moi et mes échecs.",
+          "german": "Berichte über Seraphs moralischen Absolutismus häuften sich in der Zeit, bevor der Himmel einfiel. Fehltritte wurden selten toleriert und oft mit sofortiger, physischer Strafe begegnet. Mir ist nun klar, dass seine Invasion der Hölle überwiegend durch Rache motiviert war, die er an mir wegen meiner Fehltritte üben wollte.",
+          "russian": "Возмущение моральным абсолютизмом Серафима заметно возросло перед вторжением Рая. На нарушения редко закрывали глаза, чаще отвечая на них быстрой физической расправой. Теперь я понимаю, что вторжение в Ад было обусловлено моими неудачами и личной местью мне.",
+          "portuguese": "Rumores sobre o absolutismo moral de Serafim tornaram-se frequentes antes da invasão do Céu. As transgressões raramente eram toleradas e eram frequentemente acompanhadas de punição física. Posso ver agora que sua invasão do Inferno foi em grande parte motivada por alguma vingança pessoal contra mim e minhas falhas.",
+          "chinese": "在天堂入侵之前的岁月里，就能经常听到炽天使道德绝对主义的传言。越界行为很少会得到容忍，往往会立刻招致体罚。现在我明白他入侵地狱很大程度上是为了找屡屡失败的我报私仇。",
+          "chinese_traditional": "在天堂入侵之前的歲月裏，就能經常聽到熾天使道德絕對主義的傳言。越界行爲很少會得到容忍，往往會立刻招緻體罰。現在我明白他入侵地獄很大程度上是爲瞭找屢屢失敗的我報私仇。",
+          "korean": "천국의 침략 전부터, 세라프의 도덕적 절대주의에 대한 소문이 점점 퍼지고 있었다. 죄에 대한 관용은 점차 사라졌고, 곧잘 신속한 육체적 형벌로 이어졌다. 그런 면에서 세라프가 지옥을 침략한 건 아마도 나, 나의 실패에 대한 개인적인 복수가 가장 큰 원인이었을 것이다. 이젠 알 것 같다."
         }
       ],
       "lore_style": "herzal",

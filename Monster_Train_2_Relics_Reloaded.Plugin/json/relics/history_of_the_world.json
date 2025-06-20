@@ -5,17 +5,45 @@
       "id": "HistoryOfTheWorld",
       "type": "collectable",
       "names": {
-        "english": "History of the World"
+        "english": "History of the World",
+        "french": "Histoire du monde",
+        "german": "Geschichte der Welt",
+        "russian": "История мира",
+        "portuguese": "História do Mundo",
+        "chinese": "世界史",
+        "chinese_traditional": "世界史",
+        "korean": "세계의 역사서"
       },
       "descriptions": {
-        "english": "+[effect0.power][capacity] on a random floor."
+        "english": "+[effect0.power][capacity] on a random floor.",
+        "french": "+[effect0.power][capacity] à un niveau aléatoire.",
+        "german": "+[effect0.power] [capacity] auf einer zufälligen Ebene.",
+        "russian": "+[effect0.power][capacity] на случайном этаже.",
+        "portuguese": "+[effect0.power][capacity] em um andar aleatório.",
+        "chinese": "随机一层 +[effect0.power][capacity]。",
+        "chinese_traditional": "隨機一層 +[effect0.power][capacity]。",
+        "korean": "무작위 층에 +[effect0.power][capacity] $을$ 부여합니다."
       },
       "relic_activated_texts": {
-        "english": "+{0}[capacity]"
+        "english": "+{0}[capacity]",
+        "french": "+{0}[capacity]",
+        "german": "+{0}[capacity].",
+        "russian": "+{0}[capacity]",
+        "portuguese": "+{0}[capacity]",
+        "chinese": "+{0}[capacity]",
+        "chinese_traditional": "+{0}[capacity]",
+        "korean": "+{0}[capacity]"
       },
       "lore_tooltips": [
         {
-          "english": "This book shall provide a detailed recollection of my time in Heaven and Hell in my pursuit of the Rail of the Covenant and the brokering of a lasting peace to save our two realms. Should I fail, look here to learn from those who’ve come before."
+          "english": "This book shall provide a detailed recollection of my time in Heaven and Hell in my pursuit of the Rail of the Covenant and the brokering of a lasting peace to save our two realms. Should I fail, look here to learn from those who’ve come before.",
+          "french": "Ce livre dresse le compte-rendu détaillé de mes séjours au paradis et en enfer, motivés par la création de la Voie de l'alliance et la négociation d'une paix durable pour sauver nos deux royaumes. Si je venais à échouer, j'espère que cet ouvrage sera utile à mon successeur.",
+          "german": "Dieses Buch enthält eine genaue Beschreibung meiner Zeit im Himmel und in der Hölle, um das Paktgleis zu erschaffen, einen dauerhaften Frieden zu vermitteln und unsere beiden Reiche zu retten. Falls ich scheitern sollte, wird dies eine Lehre für nachfolgende Generationen.",
+          "russian": "Эта книга расскажет вам о том, как я скитался по Раю и Аду, пытаясь создать Пути Согласия и заключить союз между двумя царствами. Если у меня не получится, прочтите эти строки, чтобы узнать об ошибках предшественника.",
+          "portuguese": "Este livro fornecerá uma narração detalhada de meu tempo no Céu e no Inferno na busca pelo Trilho do Pacto e minha mediação pela paz duradoura para salvar nossos dois reinos. Se eu falhar, leia este livro para aprender com aqueles que vieram antes.",
+          "chinese": "本书将会详细记录我在天堂与地狱中的旅程，介绍我是如何努力促进契约的签订，如何尝试达成长期和平，从而拯救天堂与地狱世界。如果我失败的话，我应该读一读这本书，从前人的失败中吸取教训。",
+          "chinese_traditional": "本書將會詳細記録我在天堂與地獄中的旅程，介紹我是如何努力促進契約的籤訂，如何嘗試達成長期和平，從而拯救天堂與地獄世界。如果我失敗的話，我應該讀一讀這本書，從前人的失敗中吸取教訓。",
+          "korean": "이 책에는 내가 천국과 지옥에 머무르며 알게 된 모든 것들이 적혀 있다. 맹약의 철길을 세우고, 지속적인 평화를 구축하며, 두 영역을 구원하려는 과정에서 배운 지식들이다. 혹시 내가 실패한다면, 그리고 당신이 옛 사람들의 지혜를 얻고자 한다면, 이 책을 보라."
         }
       ],
       "lore_style": "herzal",

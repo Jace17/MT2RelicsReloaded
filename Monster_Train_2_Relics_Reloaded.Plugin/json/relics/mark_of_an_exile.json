@@ -5,14 +5,35 @@
       "id": "MarkOfAnExile",
       "type": "collectable",
       "names": {
-        "english": "Mark of an Exile"
+        "english": "Mark of an Exile",
+        "french": "Marque d'un Exilé",
+        "german": "Zeichen eines Verstoßenen",
+        "russian": "Метка Изгнанника",
+        "portuguese": "Marca de um Exilado",
+        "chinese": "流亡者的印记",
+        "chinese_traditional": "流亡者的印記",
+        "korean": "추방자의 인장"
       },
       "descriptions": {
-        "english": "When played, your Champion gains +[effect0.power]% max health."
+        "english": "When played, your Champion gains +[effect0.power]% max health.",
+        "french": "Lorsque jouée, votre champion obtient +[effect0.power] % de PV max.",
+        "german": "Dein Champion erhält +[effect0.power] % maximale Gesundheit, wenn die Karte gespielt wird.",
+        "russian": "При активации ваш Герой получает +[effect0.power]% к макс. здоровью.",
+        "portuguese": "Ao ser jogado, seu Campeão recebe +[effect0.power]% de vida máxima.",
+        "chinese": "当你召唤勇者时，使其获得 +[effect0.power]% 最大生命值。",
+        "chinese_traditional": "當你召喚勇者時，使其穫得 +[effect0.power]% 最大生命值。",
+        "korean": "낼 때, 챔피언이 최대 체력을 +[effect0.power]% 얻습니다."
       },
       "lore_tooltips": [
         {
-          "english": "Despite the failings of the Roles of Champions, there was some small peace to be found in the knowledge that the Exiles had made an almost identical decision when defending themselves against greater powers. Though, their failing has only amplified ours."
+          "english": "Despite the failings of the Roles of Champions, there was some small peace to be found in the knowledge that the Exiles had made an almost identical decision when defending themselves against greater powers. Though, their failing has only amplified ours.",
+          "french": "Malgré les échecs des rôles des champions, savoir que les Exilés avaient pris une décision presque identique en se défendant contre des puissances plus grandes était une sorte de soulagement. Pour autant, leurs échecs n'ont fait qu'intensifier les nôtres.",
+          "german": "Trotz des Versagens der Champions lässt sich ein wenig Friede in dem Wissen finden, dass die Verstoßenen nahezu dieselbe Entscheidung trafen, als sie sich gegen wesentlich größere Mächte verteidigten. Allerdings verschlimmern ihre Fehlschläge letztlich nur die unseren.",
+          "russian": "Несмотря на неудачи Героев, мне было приятно узнать, что Изгнанники приняли практически такое же решение во время войны с великими силами. Однако их неудача лишь усугубила наши.",
+          "portuguese": "Apesar das falhas das Funções dos Campeões, houve certa paz no conhecimento de que os Exilados tomaram uma decisão quase idêntica quando se defenderam contra poderes maiores. Porém, a falha deles só aumentou a nossa.",
+          "chinese": "尽管勇者没能尽到自己的职责，但流亡者在面对更强大的力量而保护自己时也做了几乎完全相同的决定，知道这一点让人稍感宽慰。只不过，他们的失败让我们的失败更加彻底。",
+          "chinese_traditional": "儘管勇者沒能盡到自己的職責，但流亡者在面對更強大的力量而保護自己時也做瞭幾乎完全相同的決定，知道這一點讓人稍感寬慰。隻不過，他們的失敗讓我們的失敗更加徹底。",
+          "korean": "용사에 대한 규정은 분명 실패작이긴 했지만, 추방자들도 마찬가지로 거대한 힘에 맞서 똑같은 결정을 내렸었다는 사실이 약간이나마 위안이 되기도 한다. 어찌보면 그들의 실패가 결국 우리의 실패로 이어졌지만 말이다."
         }
       ],
       "lore_style": "herzal",

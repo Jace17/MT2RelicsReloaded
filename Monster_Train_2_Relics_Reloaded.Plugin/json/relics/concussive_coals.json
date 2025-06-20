@@ -5,14 +5,35 @@
       "id": "ConcussiveCoals",
       "type": "collectable",
       "names": {
-        "english": "Concussive Coals"
+        "english": "Concussive Coals",
+        "french": "Charbons éclatants",
+        "german": "Erschütternde Kohlen",
+        "russian": "Ошеломительный уголь",
+        "portuguese": "Carvões Instáveis",
+        "chinese": "震荡煤块",
+        "chinese_traditional": "震蕩煤塊",
+        "korean": "폭발성 석탄"
       },
       "descriptions": {
-        "english": "[effect0.power]% chance to apply <b>Dazed</b> when an enemy unit enters your train."
+        "english": "[effect0.power]% chance to apply [dazed] [effect0.effect0.status0.power] when an enemy unit enters your train.",
+        "french": "[effect0.power] % de chances d'infliger [dazed] [effect0.effect0.status0.power] lorsqu'une unité ennemie entre dans le train.",
+        "german": "Chance von [effect0.power] %, einer gegnerischen Einheit [effect0.effect0.status0.power] [dazed] zuzufügen, wenn sie deinen Zug betritt.",
+        "russian": "С вероятностью [effect0.power]% [dazed] [effect0.effect0.status0.power] вражеского бойца, проникающего в ваш поезд.",
+        "portuguese": "[effect0.power]% de chance de causar [dazed] [effect0.effect0.status0.power] quando uma unidade inimiga adentra seu trem.",
+        "chinese": "当敌方单位进入火车时，有 [effect0.power]% 的几率对其施加[dazed] [effect0.effect0.status0.power]。",
+        "chinese_traditional": "當敵方單位進入火車時，有 [effect0.power]% 的幾率對其施加[dazed] [effect0.effect0.status0.power]。",
+        "korean": "적 유닛이 열차에 입장할 때, [effect0.power]% 의 확률로 [dazed] [effect0.effect0.status0.power]을 부여합니다."
       },
       "lore_tooltips": [
         {
-          "english": "Too often, the seemingly extinguished coals of the Boneshaker still smolder, most likely powered by the Pyre. Unfortunately, this has led to many explosive accidents on my train."
+          "english": "Too often, the seemingly extinguished coals of the Boneshaker still smolder, most likely powered by the Pyre. Unfortunately, this has led to many explosive accidents on my train.",
+          "french": "Bien trop souvent, les charbons du Hurleflammes qui semblent éteints continuent de brûler, très probablement à cause du Brasier. Malheureusement, cela a causé de nombreux accidents explosifs à bord du train.",
+          "german": "Viel zu oft glimmen die scheinbar ausgebrannten Kohlen des Knochenrüttlers noch, wenn sie entsorgt werden sollen. Wahrscheinlich liegt das an der Energie der Höllenglut. Leider kam es deswegen immer wieder zu Explosionen im Zug.",
+          "russian": "Слишком часто выясняется, что вроде бы остывшие угольки на борту «Костолома» все еще сохраняют жар. Скорее всего, это влияние Пекла. К сожалению, из-за этого на моем поезде не раз происходили взрывы.",
+          "portuguese": "Com frequência, os carvões aparentemente extintos do Ossuário voltam a arder, provavelmente alimentados pela Pira. Infelizmente, isso causou muitos acidentes explosivos no trem.",
+          "chinese": "很多时候，老爷车号上看起来已经熄灭的煤块其实依然在闷烧，这多半是薪火的力量造成的。遗憾的是，这导致我的火车上发生了很多起爆炸事故。",
+          "chinese_traditional": "很多時候，老爺車號上看起來已經熄滅的煤塊其實依然在悶燒，這多半是薪火的力量造成的。遺憾的是，這導緻我的火車上發生瞭很多起爆炸事故。",
+          "korean": "본셰이커에서는 전소된 것처럼 보이는 석탄이 다시 타오르는 일이 일어나곤 한다. 아마 불씨가 에너지를 공급하는 것이겠지. 불행히도 이런 일은 너무 자주 일어났고, 열차 내 수많은 폭발사고로 이어졌다."
         }
       ],
       "lore_style": "herzal",
