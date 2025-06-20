@@ -16,8 +16,13 @@
       },
       "descriptions": {
         "english": "On your first turn, +[effect0.power][ember].",
+        "french": "À votre premier tour, +[effect0.power][ember].",
+        "german": "+[effect0.power][ember] bei deinem ersten Zug.",
+        "russian": "+[effect0.power][ember] в ваш первый ход.",
+        "portuguese": "Em seu primeiro turno, +[effect0.power][ember].",
         "chinese": "在 [deployphase] 之后的回合，获得 [effect0.power][ember]。",
-        "chinese_traditional": "在 [deployphase] 之後的迴合，穫得 [effect0.power][ember]。"
+        "chinese_traditional": "在 [deployphase] 之後的迴合，穫得 [effect0.power][ember]。",
+        "korean": "첫 턴에 +[effect0.power][ember]을 획득합니다."
       },
       "lore_tooltips": [
         {
