@@ -15,7 +15,7 @@
         "korean": "향상된 연소실"
       },
       "descriptions": {
-        "english": "On the turn after [deployphase], gain [effect0.power][ember].",
+        "english": "On your first turn, +[effect0.power][ember].",
         "chinese": "在 [deployphase] 之后的回合，获得 [effect0.power][ember]。",
         "chinese_traditional": "在 [deployphase] 之後的迴合，穫得 [effect0.power][ember]。"
       },
