@@ -15,14 +15,14 @@
         "korean": "폭발성 석탄"
       },
       "descriptions": {
-        "english": "[effect0.power]% chance to apply <b>Dazed</b> when an enemy unit enters your train.",
-        "french": "[effect0.power] % de chances d'infliger [dazed] lorsqu'une unité ennemie entre dans le train.",
-        "german": "Chance von [effect0.power] %, einer gegnerischen Einheit [dazed] zuzufügen, wenn sie deinen Zug betritt.",
-        "russian": "С вероятностью [effect0.power]% [dazed] вражеского бойца, проникающего в ваш поезд.",
-        "portuguese": "[effect0.power]% de chance de causar [dazed] quando uma unidade inimiga adentra seu trem.",
-        "chinese": "当敌方单位进入火车时，有 [effect0.power]% 的几率对其施加[dazed]。",
-        "chinese_traditional": "當敵方單位進入火車時，有 [effect0.power]% 的幾率對其施加[dazed]。",
-        "korean": "적 유닛이 열차에 입장할 때, [effect0.power]% 의 확률로 [dazed]을 부여합니다."
+        "english": "[effect0.power]% chance to apply [dazed] [effect0.effect0.status0.power] when an enemy unit enters your train.",
+        "french": "[effect0.power] % de chances d'infliger [dazed] [effect0.effect0.status0.power] lorsqu'une unité ennemie entre dans le train.",
+        "german": "Chance von [effect0.power] %, einer gegnerischen Einheit [effect0.effect0.status0.power] [dazed] zuzufügen, wenn sie deinen Zug betritt.",
+        "russian": "С вероятностью [effect0.power]% [dazed] [effect0.effect0.status0.power] вражеского бойца, проникающего в ваш поезд.",
+        "portuguese": "[effect0.power]% de chance de causar [dazed] [effect0.effect0.status0.power] quando uma unidade inimiga adentra seu trem.",
+        "chinese": "当敌方单位进入火车时，有 [effect0.power]% 的几率对其施加[dazed] [effect0.effect0.status0.power]。",
+        "chinese_traditional": "當敵方單位進入火車時，有 [effect0.power]% 的幾率對其施加[dazed] [effect0.effect0.status0.power]。",
+        "korean": "적 유닛이 열차에 입장할 때, [effect0.power]% 의 확률로 [dazed] [effect0.effect0.status0.power]을 부여합니다."
       },
       "lore_tooltips": [
         {
