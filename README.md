@@ -7,7 +7,7 @@ Brings back several of the artifacts from the original Monster Train to Monster 
 # Features
 
 - Brings back 40 artifacts which were in the original Monster Train to Monster Train 2 (See the full list below)
-- Configuration file to pick and choose which artifacts will be added
+- Configurable to disable any artifacts you don't want to see in-game (everything is enabled by default)
 - Their stats remain the same, but some will be buffed to make them more competitive with other artifacts
 
 # Installation
