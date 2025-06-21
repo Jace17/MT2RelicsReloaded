@@ -18,7 +18,7 @@
         "english": "Playing a [blight] card deals [effect0.power] damage to the front enemy unit.",
         "french": "Jouer une carte Fléau inflige [effect0.power] dégât à l'unité ennemie en première ligne.",
         "german": "Das Spielen einer Fluch-Karte fügt der vordersten gegnerischen Einheit [effect0.power] Schaden zu.",
-        "russian": "Когда вы применяете карту-пагубник, боец врага получает [effect0.power] урона.",
+        "russian": "При призыве союзники получают +[effect0.power][attack] за каждый [blight] в вашей колоде.",
         "portuguese": "Usar uma carta de Praga causa [effect0.power] de dano à unidade inimiga na frente.",
         "chinese": "每当打出一张[blight]牌时，都会对前排敌方单位造成 [effect0.power] 点伤害。",
         "chinese_traditional": "每當打齣一張[blight]牌時，都會對前排敵方單位造成 [effect0.power] 點傷害。",

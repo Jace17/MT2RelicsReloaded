@@ -18,7 +18,7 @@
         "english": "Your Pyre starts each battle with [armor] [effect0.status0.power].",
         "french": "Votre Brasier commence chaque combat avec [armor] [effect0.status0.power].",
         "german": "Deine Höllenglut beginnt jeden Kampf mit [effect0.status0.power] [armor].",
-        "russian": "Ваше Пекло получает [effect0.status0.power] [armor] в начале каждого боя.",
+        "russian": "Вашему Пеклу дается [armor] x[effect0.status0.power] в начале каждого боя.",
         "portuguese": "Sua Pira começa cada batalha com [effect0.status0.power] de [armor].",
         "chinese": "战斗开始时，你的薪火获得[armor] [effect0.status0.power]。",
         "chinese_traditional": "戰鬥開始時，你的薪火穫得[armor] [effect0.status0.power]。",

@@ -18,7 +18,7 @@
         "english": "As long as you have at least [effect0.power][coin], lose [effect0.power][coin] when you take Pyre damage in combat instead of taking damage.",
         "french": "Tant que vous avez au moins [effect0.power][coin], fait perdre [effect0.power][coin] lorsque vous subissez des dégâts de Brasier au combat au lieu d'en subir.",
         "german": "Solange du mindestens [effect0.power][coin] besitzt: Verliere [effect0.power][coin] statt Höllenglut-Gesundheit, wenn deine Höllenglut im Kampf Schaden nimmt.",
-        "russian": "Пока у вас есть хотя бы [effect0.power][coin], вы теряете [effect0.power][coin] и игнорируете весь урон, когда Пекло получает урон.",
+        "russian": "Пока у вас есть хотя бы [effect0.power][coin], вы теряете [effect0.power][coin] вместо получения урона Пеклом.",
         "portuguese": "Desde que você tenha pelo menos [effect0.power] [coin], perca [effect0.power][coin] quando sua Pira recebe dano em combate em vez de receber dano.",
         "chinese": "只要你拥有至少 [effect0.power][coin]，当你的薪火在战斗中受到伤害时，不会损失生命值，改为损失 [effect0.power][coin]。",
         "chinese_traditional": "隻要你擁有至少 [effect0.power][coin]，當你的薪火在戰鬥中受到傷害時，不會損失生命值，改爲損失 [effect0.power][coin]。",

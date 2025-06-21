@@ -18,7 +18,7 @@
         "english": "When summoned, friendly units get +[effect0.power][attack] for every [blight] card in your deck.",
         "french": "Lorsqu'invoquées, les unités alliées gagnent +[effect0.power][attack] pour chaque carte Fléau dans votre deck.",
         "german": "Wenn sie gerufen werden, erhalten verbündete Einheiten +[effect0.power][attack] für jede Fluch-Karte in deinem Deck.",
-        "russian": "При призыве союзники получают +[effect0.power][attack] за каждую карту-пагубник в вашей колоде.",
+        "russian": "При призыве союзники получают +[effect0.power][attack] за каждый [blight] в вашей колоде.",
         "portuguese": "Quando invocadas, unidades aliadas recebem +[effect0.power][attack] para cada carta Praga em seu deck.",
         "chinese": "召唤时，卡组里每有一张[blight]卡牌，友方单位获得 +[effect0.power][attack]。",
         "chinese_traditional": "召喚時，卡組裏每有一張[blight]卡牌，友方單位穫得 +[effect0.power][attack]。",
