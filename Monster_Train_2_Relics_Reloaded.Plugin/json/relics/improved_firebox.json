@@ -15,7 +15,7 @@
         "korean": "향상된 연소실"
       },
       "descriptions": {
-        "english": "On your first turn, +[effect0.power][ember].",
+        "english": "On the turn after [deployphase], gain [effect0.power][ember].",
         "french": "À votre premier tour, +[effect0.power][ember].",
         "german": "+[effect0.power][ember] bei deinem ersten Zug.",
         "russian": "+[effect0.power][ember] в ваш первый ход.",
