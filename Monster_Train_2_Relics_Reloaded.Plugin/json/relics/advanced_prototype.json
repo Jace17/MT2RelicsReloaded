@@ -18,7 +18,7 @@
         "english": "Steward units get +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power], and [multistrike] [effect0.upgrade.status1.power].",
         "french": "Les stewards gagnent +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] [effect0.upgrade.status0.power] et [multistrike] [effect0.upgrade.status1.power].",
         "german": "Begleiter-Einheiten erhalten +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [effect0.upgrade.status0.power] [damageshield] und [effect0.upgrade.status1.power] [multistrike].",
-        "russian": "Стюарды получают +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [effect0.upgrade.status0.power] [damageshield] и [effect0.upgrade.status1.power] [multistrike].",
+        "russian": "Стюарды получают +[effect0.upgrade.bonusdamage][attack], +[effect0.upgrade.bonushp][health], [damageshield] x[effect0.upgrade.status0.power] и [multistrike] x[effect0.upgrade.status1.power].",
         "portuguese": "As unidades de guarda recebem mais +[effect0.upgrade.bonusdamage] de [attack], +[effect0.upgrade.bonushp] de [health], [effect0.upgrade.status0.power] de [damageshield] e [effect0.upgrade.status1.power] de [multistrike].",
         "chinese": "乘务员单位卡牌获得 +[effect0.upgrade.bonusdamage][attack]，+[effect0.upgrade.bonushp][health]，[damageshield] [effect0.upgrade.status0.power]，[multistrike] [effect0.upgrade.status1.power]。",
         "chinese_traditional": "乘務員單位卡牌穫得 +[effect0.upgrade.bonusdamage][attack]，+[effect0.upgrade.bonushp][health]，[damageshield] [effect0.upgrade.status0.power]，[multistrike] [effect0.upgrade.status1.power]。",

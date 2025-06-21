@@ -18,7 +18,7 @@
         "english": "When you play a [blight] card, restore [effect0.power] Pyre health.",
         "french": "Lorsque vous jouez une carte <b>Fléau</b>, restaure [effect0.power] PV de Brasier.",
         "german": "Wenn du eine <b>Fluch</b>-Karte ausspielst, stelle [effect0.power] Höllenglut-Gesundheit wieder her.",
-        "russian": "Когда вы разыгрываете <b>карту-пагубника</b>, восстанавливает [effect0.power] ед. здоровья Пеклу.",
+        "russian": "Когда вы разыгрываете [blight], восстанавливает [effect0.power] здоровья Пеклу.",
         "portuguese": "Quando você joga uma carta <b>Praga</b>, restaura [effect0.power] de vida da Pira.",
         "chinese": "当你打出[blight]牌时，恢复 [effect0.power] 点薪火生命值。",
         "chinese_traditional": "當你打齣[blight]牌時，恢複 [effect0.power] 點薪火生命值。",

@@ -18,7 +18,7 @@
         "english": "When a card with [consume] is played, restore [effect0.power] Pyre health.",
         "french": "Lorsqu'une carte avec [consume] est jouée, restaure [effect0.power] PV à votre Brasier.",
         "german": "Wenn eine Karte mit [consume] gespielt wird, stelle [effect0.power] Gesundheit der Höllenglut wieder her.",
-        "russian": "При активации карты с [consume] восстановите [effect0.power] здоровья пекла.",
+        "russian": "При активации карты со свойством [consume] восстановите [effect0.power] здоровья Пекла.",
         "portuguese": "Quando uma carta com [consume] for jogada, restaura [effect0.power] de vida da Pira.",
         "chinese": "每当打出具有[consume]的卡牌时，薪火恢复 [effect0.power] 点生命值。",
         "chinese_traditional": "每當打齣具有[consume]的卡牌時，薪火恢複 [effect0.power] 點生命值。",
