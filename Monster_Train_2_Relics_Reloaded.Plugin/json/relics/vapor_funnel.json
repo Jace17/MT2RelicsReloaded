@@ -18,7 +18,7 @@
         "english": "Apply [dazed] [effect0.status0.power] to enemy units when they enter the Pyre Room. Your Pyre gets [effect1.power][attack].",
         "french": "Inflige [dazed] [effect0.status0.power] aux unités ennemies lorsqu'elles entrent dans la salle du Brasier. Votre Brasier a [effect1.power][attack].",
         "german": "Wende [effect0.status0.power] [dazed] auf gegnerische Einheiten an, wenn sie den Höllenglutraum betreten. Deine Höllenglut erhält [effect1.power] [attack].",
-        "russian": "Накладывает [effect0.status0.power] [dazed] на врагов, проникающих в комнату с Пеклом. Ваше Пекло получает [effect1.power][attack].",
+        "russian": "Накладывает [dazed] x[effect0.status0.power] на врагов, проникающих в комнату с Пеклом. Ваше Пекло получает [effect1.power][attack].",
         "portuguese": "Cause [dazed] [effect0.status0.power] a unidades inimigas quando elas entram na Sala da Pira. Sua Pira recebe [effect1.power][attack].",
         "chinese": "当敌方单位进入薪火室时，对其施加[dazed] [effect0.status0.power]，你的薪火获得 [effect1.power][attack]。",
         "chinese_traditional": "當敵方單位進入薪火室時，對其施加[dazed] [effect0.status0.power]，你的薪火穫得 [effect1.power][attack]。",

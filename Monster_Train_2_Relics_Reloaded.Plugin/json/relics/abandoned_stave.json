@@ -18,7 +18,7 @@
         "english": "+1[ember] per turn for every [effect0.power] [blight] cards in your deck.",
         "french": "+1[ember] par tour pour chaque tranche de [effect0.power] cartes Fléau dans votre deck.",
         "german": "+1[ember] pro Zug für alle [effect0.power] Fluch-Karten in deinem Deck.",
-        "russian": "+1[ember] в ход за каждые [effect0.power] шт. карт-пагубников в вашей колоде.",
+        "russian": "+1[ember] в ход за каждые [effect0.power] <b>Пагубника</b> в вашей колоде.",
         "portuguese": "+1[ember] por turno para cada carta de [effect0.power] Praga em seu deck.",
         "chinese": "卡组里每有 [effect0.power] 张[blight]卡牌，每回合获得 +1[ember]。",
         "chinese_traditional": "卡組裏每有 [effect0.power] 張[blight]卡牌，每迴合穫得 +1[ember]。",
