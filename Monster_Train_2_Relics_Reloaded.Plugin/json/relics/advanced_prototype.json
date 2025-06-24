@@ -76,6 +76,7 @@
   "upgrades": [
     {
       "id": "AdvancedPrototypeUpgrade",
+      "is_unique": true,
       "status_effect_upgrades": [
         {
           "status": "damage shield",

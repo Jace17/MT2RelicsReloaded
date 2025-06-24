@@ -112,6 +112,7 @@
   "upgrades": [
     {
       "id": "PetrifiedHeartUpgrade",
+      "is_unique": true,
       "status_effect_upgrades": [
         {
           "status": "heal immunity",

@@ -83,6 +83,7 @@
   "upgrades": [
     {
       "id": "ImmortalityPotionUpgrade",
+      "is_unique": true,
       "status_effect_upgrades": [
         {
           "status": "endless",
