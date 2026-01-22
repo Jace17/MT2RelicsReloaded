@@ -48,7 +48,7 @@
         {
           "collectable": {
             "class": null,
-            "pools": [ "megapool" ],
+            "pools": [ "MegaRelicPool" ],
             "rarity": "uncommon"
           }
         }
@@ -68,7 +68,7 @@
   "relic_effects": [
     {
       "id": "IronDropcageEffect",
-      "name": "RelicEffectAddStatusEffectOnUnitMoved",
+      "name": "@RelicEffectAddStatusEffectOnUnitMoved",
       "source_team": "heroes",
       "param_card_type": "spell",
       "param_status_effects": [
