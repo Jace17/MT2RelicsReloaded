@@ -58,7 +58,7 @@
         {
           "collectable": {
             "class": null,
-            "pools": [ "megapool" ],
+            "pools": [ "MegaRelicPool" ],
             "rarity": "uncommon"
           }
         }

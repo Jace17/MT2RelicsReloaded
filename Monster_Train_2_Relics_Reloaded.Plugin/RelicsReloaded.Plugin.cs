@@ -99,11 +99,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
             addVialofTears = Config.Bind("General", "VialofTears", true, "Enable Vial of Tears. (At end of turn, restore 5 health to friendly units.)\n启用泪水之瓶（回合结束时，为所有友方单位恢复 5 点生命值）。");
             addWeatheredColdstones = Config.Bind("General", "WeatheredColdstones", true, "Enable Weathered Coldstones. (When you play a Blight card, restore 5 Pyre health.)\n启用风化冰晶石（当你打出祸患牌时，恢复 5 点薪火生命值）。");
 
-            List<String> paths = new List<string>
-            {
-                "json/plugin.json",
-                "json/global.json",
-            };
+            List<String> paths = [];
 
             // Clanless Artifacts 
             if (addAdvancedPrototype.Value) paths.Add("json/relics/advanced_prototype.json");
@@ -154,18 +150,11 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
                 MyPluginInfo.PLUGIN_GUID,
                 c =>
                 {
-                    // Be sure to include all of your json files if you add more.
-                    // Be sure to update the project configuration if you include more folders
-                    //   the project only copies json files in the json folder and not in subdirectories.
                     c.AddMergedJsonFile(paths);
                 }
             );
 
             Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
-
-            // Uncomment if you need harmony patches, if you are writing your own custom effects.
-            //var harmony = new Harmony(MyPluginInfo.PLUGIN_GUID);
-            //harmony.PatchAll();
         }
     }
 }
