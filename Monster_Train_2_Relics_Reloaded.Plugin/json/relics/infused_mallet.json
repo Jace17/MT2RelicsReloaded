@@ -69,7 +69,7 @@
     {
       "id": "InfusedMalletEffect",
       "name": "RelicEffectChanceAddEffectOnSpawn",
-      "param_int": 50,
+      "param_int": 25,
       "source_team": "heroes",
       "param_effects": [
         "@InfusedMalletEffectDamage"

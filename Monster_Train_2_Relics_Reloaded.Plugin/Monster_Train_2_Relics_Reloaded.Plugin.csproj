@@ -15,7 +15,7 @@
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
-		<PackageReference Include="TrainworksReloaded.Base" Version="0.6.9" />
+		<PackageReference Include="TrainworksReloaded.Base" Version="0.7.8" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -28,6 +28,6 @@
 	</ItemGroup>
 
 	<!--<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="xcopy &quot;$(TargetDir)*.*&quot; &quot;C:\Program Files (x86)\Steam\steamapps\common\Monster Train 2\BepInEx\plugins\MT2RelicsReloaded&quot; /Y /I /E" />
+		<Exec Command="xcopy &quot;$(TargetDir)*.*&quot; &quot;C:\Users\jacel\AppData\Roaming\r2modmanPlus-local\MonsterTrain2\profiles\Default\BepInEx\plugins\GravitonGamer-Monster_Train_2_Relics_Reloaded&quot; /Y /I /E" />
 	</Target>-->
 </Project>

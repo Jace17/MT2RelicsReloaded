@@ -153,7 +153,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
                     c.AddMergedJsonFile(paths);
                 }
             );
-
+              
             Logger.LogInfo($"Plugin {MyPluginInfo.PLUGIN_GUID} is loaded!");
         }
     }
