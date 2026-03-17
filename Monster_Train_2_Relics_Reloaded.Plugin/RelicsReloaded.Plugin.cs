@@ -88,7 +88,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
             addCrackedHelmet = Config.Bind("General", "CrackedHelmet", true, "Enable Cracked Helmet. (Damage spells get Piercing.)\n启用裂纹头盔（所有伤害性法术获得穿刺）。");
             addDantesCloak = Config.Bind("General", "DantesCloak", true, "Enable Dante's Cloak. (+2 Magic Power' for every Blight card in your deck.)\n启用但丁的斗篷（卡组里每有一张祸患卡牌，获得 +2 魔法强度）。");
             addEmberStasis = Config.Bind("General", "EmberStasis", true, "Enable Ember Stasis. (Playing a Blight card deals 120 damage to the front enemy unit.)\n启用静态余烬（每当打出一张祸患牌时，都会对前排敌方单位造成 120 点伤害）。");
-            addFrozenNostalgia = Config.Bind("General", "FrozenNostalgia", true, "Enable Frozen Nostalgia. (-1Capacity on each floor. +15 Magic Power.)\n启用冰凝旧日（每层 -1 容量，+20 魔法强度）。");
+            addFrozenNostalgia = Config.Bind("General", "FrozenNostalgia", true, "Enable Frozen Nostalgia. (-1Capacity on each floor. +15 Magic Power.)\n启用冰凝旧日（每层 -1 容量，+15 魔法强度）。");
             addHeavensGold = Config.Bind("General", "HeavensGold", true, "Enable Heaven's Gold. (Your Pyre gets +1Attack for every 10Gold you have.)\n启用天堂的金币（每拥有 10 金币，你的薪火就获得 +1 攻击力）。");
             addHistoryoftheWorld = Config.Bind("General", "HistoryoftheWorld", true, "Enable History of the World. (+3Capacity on a random floor.)\n启用世界史（随机一层 +3 容量）。");
             addImmortalityPotion = Config.Bind("General", "ImmortalityPotion", true, "Enable Immortality Potion. (Friendly non-Morsel units get Endless.)\n启用永生药剂（友方非影裔单位获得复生）。");
