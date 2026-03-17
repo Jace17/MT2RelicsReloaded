@@ -68,7 +68,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
             addHammeredChestplates = Config.Bind("General", "HammeredChestplates", true, "Enable Hammered Chestplates. (Friendly units get +5Health.)\n启用锻造板甲（友方单位获得 +5 生命值）。");
             addHellsBanners = Config.Bind("General", "HellsBanners", true, "Enable Hell's Banners. (When you summon the second unit during a turn, gain 3Ember.)\n启用地狱战旗（当你在同一回合内召唤第二个单位时，获得 3 余烬）。");
             addImprovedFirebox = Config.Bind("General", "ImprovedFirebox", true, "Enable Improved Firebox. (Gain 7Ember on the first turn of battle.)\n启用强化炉膛（在部署阶段之后的回合，获得 7 余烬）。");
-            addInfusedMallet = Config.Bind("General", "InfusedMallet", true, "Enable Infused Mallet. (50% chance to deal 5 damage when an enemy unit enters your train.)\n启用能量锻锤（当敌方单位进入火车时，有 50% 的几率对其造成 5 点伤害）。");
+            addInfusedMallet = Config.Bind("General", "InfusedMallet", true, "Enable Infused Mallet. (25% chance to deal 5 damage when an enemy unit enters your train.)\n启用能量锻锤（当敌方单位进入火车时，有 25% 的几率对其造成 5 点伤害）。");
             addIronDropcage = Config.Bind("General", "IronDropcage", true, "Enable Iron Dropcage. (Whenever you play a spell that would Ascend or Descend an enemy unit, also apply Dazed 2.)\n启用铁质吊笼（当你用法术令敌方单位上升或下降时，对其施加眩晕 2）。");
             addLightsGift = Config.Bind("General", "LightsGift", true, "Enable Light's Gift. (Apply Dazed 2 to enemy units when they enter the floor below the Pyre Room.)\n启用圣光之礼（当敌方单位进入薪火室下方的楼层时，对其施加眩晕 2）。");
             addMarkofaChampion = Config.Bind("General", "MarkofaChampion", true, "Enable Mark of a Champion. (When played, your Champion gains +50% attack.)\n启用勇者的印记（当你召唤勇者时，使其获得 +50% 攻击力）。");
@@ -77,7 +77,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
             addPyrewall = Config.Bind("General", "Pyrewall", true, "Enable Pyrewall. (Your Pyre starts each battle with Armor 15.)\n启用薪火护墙（战斗开始时，你的薪火获得护甲 15）。");
             addRationingScales = Config.Bind("General", "RationingScales", true, "Enable Rationing Scales. (Before each battle, set Pyre health to 50. If this reduces Pyre health, gain 3Gold for each health lost.)\n启用定量配给（每次战斗开始前，将薪火生命值设为 50 点。如果这导致薪火失去生命值，则每失去 1 点生命值，获得 3 金币）。");
             addRefractingLenses = Config.Bind("General", "RefractingLenses", true, "Enable Refracting Lenses. (When a card with Consume is played, restore 5 Pyre health.)\n启用折射透镜（每当打出具有消耗的卡牌时，薪火恢复 5 点生命值）。");
-            addTemperedTalisman = Config.Bind("General", "TemperedTalisman", true, "Enable Tempered Talisman. (+10 Magic Power.)\n启用淬炼护符（+10 魔法强度）。");
+            addTemperedTalisman = Config.Bind("General", "TemperedTalisman", true, "Enable Tempered Talisman. (+3 Magic Power.)\n启用淬炼护符（+3 魔法强度）。");
             addTheFirstHellpact = Config.Bind("General", "TheFirstHellpact", true, "Enable The First Hellpact. (X Cost cards get +3 to their X value when played.)\n启用最初的地狱契约（当打出费用为 X 的卡牌时，X 的值 +3）。");
             addVaporFunnel = Config.Bind("General", "VaporFunnel", true, "Enable Vapor Funnel. (Apply Dazed 1 to enemy units when they enter the Pyre Room. Your Pyre gets -5Attack.)\n启用蒸汽漏斗（当敌方单位进入薪火室时，对其施加眩晕 1，你的薪火获得 -5 攻击力）。");
             addWingedIndulgence = Config.Bind("General", "WingedIndulgence", true, "Enable Winged Indulgence. (Enemies get -1Attack.)\n启用骄奢淫翼（使所有敌方单位获得 -1 攻击力）。");
@@ -88,7 +88,7 @@ namespace Monster_Train_2_Relics_Reloaded.Plugin
             addCrackedHelmet = Config.Bind("General", "CrackedHelmet", true, "Enable Cracked Helmet. (Damage spells get Piercing.)\n启用裂纹头盔（所有伤害性法术获得穿刺）。");
             addDantesCloak = Config.Bind("General", "DantesCloak", true, "Enable Dante's Cloak. (+2 Magic Power' for every Blight card in your deck.)\n启用但丁的斗篷（卡组里每有一张祸患卡牌，获得 +2 魔法强度）。");
             addEmberStasis = Config.Bind("General", "EmberStasis", true, "Enable Ember Stasis. (Playing a Blight card deals 120 damage to the front enemy unit.)\n启用静态余烬（每当打出一张祸患牌时，都会对前排敌方单位造成 120 点伤害）。");
-            addFrozenNostalgia = Config.Bind("General", "FrozenNostalgia", true, "Enable Frozen Nostalgia. (-1Capacity on each floor. +20 Magic Power.)\n启用冰凝旧日（每层 -1 容量，+20 魔法强度）。");
+            addFrozenNostalgia = Config.Bind("General", "FrozenNostalgia", true, "Enable Frozen Nostalgia. (-1Capacity on each floor. +15 Magic Power.)\n启用冰凝旧日（每层 -1 容量，+20 魔法强度）。");
             addHeavensGold = Config.Bind("General", "HeavensGold", true, "Enable Heaven's Gold. (Your Pyre gets +1Attack for every 10Gold you have.)\n启用天堂的金币（每拥有 10 金币，你的薪火就获得 +1 攻击力）。");
             addHistoryoftheWorld = Config.Bind("General", "HistoryoftheWorld", true, "Enable History of the World. (+3Capacity on a random floor.)\n启用世界史（随机一层 +3 容量）。");
             addImmortalityPotion = Config.Bind("General", "ImmortalityPotion", true, "Enable Immortality Potion. (Friendly non-Morsel units get Endless.)\n启用永生药剂（友方非影裔单位获得复生）。");
